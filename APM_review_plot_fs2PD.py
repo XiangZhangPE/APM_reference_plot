@@ -113,5 +113,5 @@ plt.xticks(fontproperties=font_prop, fontsize=10)
 plt.yticks(fontproperties=font_prop, fontsize=10)
 
 # 保存图像为高清 PNG 文件
-plt.savefig('Fs2PD.png', dpi=300, bbox_inches='tight')
+plt.savefig('outputs/Fs2PD.png', dpi=300, bbox_inches='tight')
 plt.show()

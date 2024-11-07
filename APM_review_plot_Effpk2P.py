@@ -119,6 +119,6 @@ plt.yticks(fontproperties=font_prop, fontsize=10)
 if texts:
     adjust_text(texts,arrowprops=dict(arrowstyle='->',color='grey',lw=0.5))
 
-plt.savefig('Eff_pk2P.png', dpi=300, bbox_inches='tight')
+plt.savefig('outputs/Eff_pk2P.png', dpi=300, bbox_inches='tight')
 
 plt.show()

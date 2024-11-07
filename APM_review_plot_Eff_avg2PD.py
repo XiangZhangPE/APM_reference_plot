@@ -122,7 +122,7 @@ if texts:
     # adjust_text(texts,arrowprops=dict(arrowstyle='->',color='grey',lw=1))
     adjust_text(texts,arrowprops=dict(arrowstyle='->',color='grey',lw=0.5))
 
-plt.savefig('Eff_avg2PD.png', dpi=300, bbox_inches='tight')
+plt.savefig('outputs/Eff_avg2PD.png', dpi=300, bbox_inches='tight')
 
 plt.show()
 
