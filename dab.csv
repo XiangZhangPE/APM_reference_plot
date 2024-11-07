@@ -1,0 +1,8 @@
+﻿"Key","Publication Year","Title","Rights","Archive","Archive Location"
+"4CXST3VN","2012","A Novel ZVZCS Full-Bridge DC/DC Converter Used for Electric Vehicles","Queen'sU","Vin=235-431V, Vo=11.5-15V, fs=220kHz","Power=3kW, Eff_pk=0.975,  Eff_avg=0.955, Eff_low=0.93"
+"4WBEVQ6M","2013","Enhanced modulation strategy for a three-phase dual active bridge—boosting efficiency of an electric vehicle converter","RWTH","Vin=100-170V, Vo=10-16V, fs = 100kHz","Power=2kW, PD=1kW/L, Eff_pk=0.943,  Eff_avg=0.928, Eff_low=0.928-0.945(500W)"
+"3LRAT3Z4","2016","Performance Evaluation of a Three-Phase Dual Active Bridge DC–DC Converter With Different Transformer Winding Configurations","TU/e","",""
+"K2PCKAIJ","2010","Accurate power loss model derivation of a high-current dual active bridge converter for an automotive application","ETH","Vin=240-450V, Vo=11-16V, fs = 100kHz","Power=2kW, PD=1.535kW/L(case), Eff_pk=0.956,  Eff_avg=0.92,"
+"XVMBM6K6","2017","Design and operation considerations of three-phase dual active bridge converters for low-power applications with wide voltage ranges","RWTH","Vin=260-450V, Vo=10-16V, fs = 100kHz","Power=3kW, PD=1kW/L, Eff_pk=0.956,  Eff_avg=0.921"
+"ZRTG4E9A","2013","Implementation of a novel digital active EMI technique in a DSP-based DC–DC digital controller used in electric vehicle (EV)","Queen'sU","Vin=235-431V, Vo=11.5-15V, fs=200kHz","Power=2kW,  Eff_pk=0.932,  Eff_avg=0.92, Eff_low=0.93"
+"WXGLWHQ9","2008","A three-phase bidirectional DC-DC converter for automotive applications","ORNL","Vin=250-400V, Vo=42V, fs=40kHz","Power=6kW, Eff_pk=0.959,  Eff_avg=0.948, Eff_low=0.95(1.5kW)"

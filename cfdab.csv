@@ -1,0 +1,4 @@
+﻿"Key","Publication Year","Title","Rights","Archive","Archive Location"
+"BYM6A8VT","2012","A soft switching three-phase current-fed bidirectional DC-DC converter with high efficiency over a wide input voltage range","FSU","Vin=24-48V, Vo=288V, fs = 40kHz","Power=6kW, Eff_pk=0.964,  Eff_avg=0.94, Eff_low=0.92(2.5kW)"
+"MFEBJ7W7","2024","Model and control of a current-fed dual active bridge based ultrawide-voltage-range auxiliary power module for 400 V/800 V electric vehicles","UTK","Vin=180-900V, Vo=6-16V, fs=80kHz","Power=3.2kW, Eff_pk=0.97,  Eff_avg=0.95"
+"CQXKLCRV","2023","An ultra-high gain current-fed universal auxiliary power module for 400V/800V electric vehicles","UTK","",""
