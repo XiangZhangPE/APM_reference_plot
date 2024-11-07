@@ -5,7 +5,7 @@ from adjustText import adjust_text
 import matplotlib.font_manager as fm
 
 # 读取 CSV 文件
-data = pd.read_csv('parsed_data.csv')
+data = pd.read_csv('data/parsed_data.csv')
 
 print(data.columns)
       
@@ -122,7 +122,7 @@ if texts:
     # adjust_text(texts,arrowprops=dict(arrowstyle='->',color='grey',lw=1))
     adjust_text(texts,arrowprops=dict(arrowstyle='->',color='grey',lw=0.5))
 
-plt.savefig('Eff_avg2PD.png', dpi=600, bbox_inches='tight')
+plt.savefig('Eff_avg2PD.png', dpi=300, bbox_inches='tight')
 
 plt.show()
 

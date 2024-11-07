@@ -9,7 +9,7 @@ import matplotlib.font_manager as fm
 ## 该文件运行结束后可以得到parsed_data.csv文件（用于画图的元数据）
 
 # 读取 CSV 文件
-data = pd.read_csv('APM_review_good_xiang.csv')
+data = pd.read_csv('data/APM_review_good_xiang.csv')
 
 print(data.columns)
       
@@ -134,7 +134,7 @@ parsed_data = pd.DataFrame({
 
 # 输出解析后的数据
 print(parsed_data)
-parsed_data.to_csv('parsed_data.csv', index=False)
+parsed_data.to_csv('data/parsed_data.csv', index=False)
 
 
 # # 数据清洗（如果需要）

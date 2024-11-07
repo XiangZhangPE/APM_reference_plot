@@ -13,7 +13,7 @@ import pandas as pd
 
 
 # 1. 读取 .bbl 文件并提取 citationKey 和 Number
-with open('output.bbl', 'r') as bbl_file:
+with open('data/output.bbl', 'r') as bbl_file:
     content = bbl_file.read()
 
 # 使用正则表达式匹配 citationKey 和编号
@@ -21,7 +21,7 @@ pattern = r'\\bibitem\{([^}]+)\}'  # 匹配 \bibitem{citekey}
 bbl_data = {match: i for i, match in enumerate(re.findall(pattern, content), start=1)}
 
 # 2. 读取 JSON 文件并提取 citationKey 和 itemKey
-json_file_path = 'APM_review_betterbib_xiang.json'
+json_file_path = 'data/APM_review_betterbib_xiang.json'
 with open(json_file_path, 'r', encoding='utf-8') as f:
     data = json.load(f)
 
@@ -31,7 +31,7 @@ json_data = {item.get("citationKey"): item.get("itemKey") for item in data.get("
 all_keys = set(bbl_data.keys()).union(json_data.keys())
 
 # 3. 创建融合后的 CSV 文件 (暂时文件)
-with open('APM_review_bib_temp.csv', 'w', newline='', encoding='utf-8') as f:
+with open('data/APM_review_bib_temp.csv', 'w', newline='', encoding='utf-8') as f:
     writer = csv.writer(f)
     writer.writerow(["citationKey", "itemKey", "Number"])  # 写入表头
     for key in all_keys:
@@ -42,8 +42,8 @@ with open('APM_review_bib_temp.csv', 'w', newline='', encoding='utf-8') as f:
 # 3. 再次处理
 
 # Load the two CSV files
-file1_path = 'APM_review_rawcsv_xiang.csv'
-file2_path = 'APM_review_bib_temp.csv'
+file1_path = 'data/APM_review_rawcsv_xiang.csv'
+file2_path = 'data/APM_review_bib_temp.csv'
 
 # Reading both CSV files
 df_xiang = pd.read_csv(file1_path)
@@ -61,4 +61,4 @@ merged_df.drop(columns=['itemKey'], inplace=True)
 print(merged_df.head())
 
 # Optionally, save the merged result to a new CSV file
-merged_df.to_csv('APM_review_good_xiang.csv', index=False)
+merged_df.to_csv('data/APM_review_good_xiang.csv', index=False)

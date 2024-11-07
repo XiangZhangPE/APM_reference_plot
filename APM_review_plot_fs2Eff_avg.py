@@ -5,11 +5,11 @@ from adjustText import adjust_text
 import matplotlib.font_manager as fm
 
 # 读取数据
-data = pd.read_csv('parsed_data.csv')
-data_fbps = pd.read_csv('fbps.csv', dtype=str)
-data_dab = pd.read_csv('dab.csv', dtype=str)
-data_llc = pd.read_csv('llc.csv', dtype=str)
-data_cfdab = pd.read_csv('cfdab.csv', dtype=str)
+data = pd.read_csv('data/parsed_data.csv')
+data_fbps = pd.read_csv('data/fbps.csv', dtype=str)
+data_dab = pd.read_csv('data/dab.csv', dtype=str)
+data_llc = pd.read_csv('data/llc.csv', dtype=str)
+data_cfdab = pd.read_csv('data/cfdab.csv', dtype=str)
 
 # 提取数据
 year = data['Year']
@@ -113,5 +113,5 @@ plt.xticks(fontproperties=font_prop, fontsize=10)
 plt.yticks(fontproperties=font_prop, fontsize=10)
 
 # 保存图像为高清 PNG 文件
-plt.savefig('Fs2Eff_avg.png', dpi=600, bbox_inches='tight')
+plt.savefig('Fs2Eff_avg.png', dpi=300, bbox_inches='tight')
 plt.show()
