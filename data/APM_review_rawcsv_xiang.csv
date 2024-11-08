@@ -65,7 +65,7 @@
 "4Y7UEVDT","2012","Design of a Highly efficient bidirectional isolated LLC resonant converter","ETH","Vin=450V, Vo=17-56V, fs=140kHz","Power=1.65kW, Eff_pk=0.976, Eff_avg = 0.96"
 "XPFQFC7Y","","Vitesco Technologies - High Voltage DC/DC Converter - 4th Generation","Industry Vitesco Technologies","Vin=245-450V, Vo=8-16V","Power=3.6kW, PD=1.5kW/L"
 "JD6ZEGEX","2018","PP30_Power supply_Passenger car solution_Products and Solutions_Suzhou Inovance Automotive Co., Ltd.","Industry Inovance Auomotive","Vin=180-480V, Vo=9-16V","Power=3kW, Eff_pk=0.975,  Eff_avg=0.955, Eff_low=0.93"
-"TW9UHIWR","2021","High-voltage DC/DC converter generation 3evo","","Vin=240-475V, Vo=10.5-15.5V","Power=3.6kW, Eff_pk=0.95, Eff_avg=0.922"
+"TW9UHIWR","2021","High-voltage DC/DC converter generation 3evo","Industry BOSCH","Vin=240-475V, Vo=10.5-15.5V","Power=3.6kW, Eff_pk=0.95, Eff_avg=0.922"
 "PT3PV3TK","","DC DC Converter 1500w | EMP EV MOBILITY","Industry ev mobility","Vin=200-420V, Vo=6-18V","Power=1.5kW, PD=0.251kW/L(case), Eff_pk=0.951, Eff_avg = 0.92"
 "GVWAASJU","","400V DC/DC Converter - Delta","Industry Delta","Vin=200-480V, Vo=9-16V","Power=2.5kW, PD=1.785kW/L(case),  Eff_pk=0.953,  Eff_avg=0.921"
 "MAKMQZP3","2023","High-voltage DC/DC converter","Industry Eaton","Vin=225-455V, Vo=12-16V","Power=3kW, PD=0.645kW/L(case), Eff_pk=0.941,  Eff_avg=0.927"
@@ -76,3 +76,4 @@
 "LSG4VF7S","","350DNC40-12 - 4000W, 12V, DC-DC HEV Down Converter | Bel Fuse","Industry Bel Fuse Inc","Vin=240-430V, Vo=9-16V","Power=4kW, PD=0.632kW/L, Eff_pk=0.93,  Eff_avg=0.91"
 "CEGEGETG","2023","700DNG40-24-8 - 4000W, 24V, DC-DC HEV Down Converter | Bel Fuse","Industry Bel Fuse Inc","Vin=450-900V, Vo=20-30V","Power=4kW, PD=0.776kW/L, Eff_pk=0.95,  Eff_avg=0.91"
 "IX2DTSW5","2023","bsc6xx, DC/DC Converter - 125 A, 220 - 450 V, 24 V","Industry BRUSA HyPower","Vin=220-450V, Vo=8-16V","Power=2.8kW, PD=0.889kW/L, Eff_pk=0.944,  Eff_avg=0.92"
+"IKQH37F2","2019","A High Step-down DC-DC Converter with Matrix-Transformer and Wide Voltage Gain for Vehicle Power Supply Applications","","",""

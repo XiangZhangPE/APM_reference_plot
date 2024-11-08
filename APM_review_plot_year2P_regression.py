@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 from adjustText import adjust_text
 import matplotlib.font_manager as fm
 
@@ -30,13 +31,14 @@ font_prop = fm.FontProperties(family='Cambria')
 # Define colors for different groups
 groupColors = {'industrial': '#d81159', 'oem': '#79902e', 'academia': '#30517c'}
 groupMarkers = {'industrial': '^', 'oem': 'D', 'academia': 'o'}
+
 alpha_dots = 0.3
 alpha_text = 0.9
 
 # Create empty lists to store data points for each group
-industrial_x, industrial_y = [], []
-oem_x, oem_y = [], []
-academia_x, academia_y = [], []
+industrial_y, industrial_x = [], []
+oem_y, oem_x = [], []
+academia_y, academia_x = [], []
 
 # List to store annotation texts
 texts = []
@@ -54,8 +56,8 @@ for i in range(len(data)):
     eff_avg_value = eff_avg.iloc[i]
 
     # Assign what to plot as x and y value
-    y_value = density_value
-    x_value = eff_avg_value
+    y_value = power_value
+    x_value = year_value
 
     # Classify the institution into a group
     if pd.notna(institution_value) and 'industry' in str(institution_value).lower():
@@ -104,7 +106,8 @@ for i in range(len(data)):
                             (x_value, y_value),
                             fontsize=9, alpha=alpha_text, ha='center', fontproperties=font_prop))
             
-
+# # 绘制回归线 regression analysis
+# sns.regplot(x=year, y=power, ci=99, scatter_kws={"s": 20, "color": "blue", "alpha": 0}, line_kws={"color": "red", "linestyle": "--", "linewidth": 1})
 
 # Scatter for different groups with semi-transparent points
 plt.scatter(industrial_x, industrial_y, color='#d81159', alpha=alpha_dots, marker='^', label='Industrial')
@@ -112,9 +115,9 @@ plt.scatter(oem_x, oem_y, color='#79902e', alpha=alpha_dots, marker='D', label='
 plt.scatter(academia_x, academia_y, color='#30517c', alpha=alpha_dots, marker='o', label='Academia')
 
 # Set title, labels, and legend with Times New Roman font
-plt.xlabel('Average Efficiency (%)', fontproperties=font_prop, fontsize=12)
-plt.ylabel('Power Density (kW/L)', fontproperties=font_prop, fontsize=12)
-plt.legend(prop=font_prop, fontsize=10)  # Removed title='Institution Group'
+plt.xlabel('year', fontproperties=font_prop, fontsize=12)
+plt.ylabel('Power (kW)', fontproperties=font_prop, fontsize=12)
+plt.legend(prop=font_prop, fontsize=10) 
 plt.grid(visible=True, linestyle='--',linewidth=0.5 )  # 设置虚线网格
 
 # Apply Times New Roman to axis ticks
@@ -122,15 +125,13 @@ plt.xticks(fontproperties=font_prop, fontsize=10)
 plt.yticks(fontproperties=font_prop, fontsize=10)
 
 # 设置 x 轴和 y 轴的范围
-plt.xlim(0.895, 0.97)  # 替换 x_min 和 x_max 为你希望的范围
+# plt.xlim(0.895, 0.97)  # 替换 x_min 和 x_max 为你希望的范围
 plt.ylim(0, 9)  # 替换 y_min 和 y_max 为你希望的范围
 
 # Adjust annotations to avoid overlap
 if texts:
-    # adjust_text(texts,arrowprops=dict(arrowstyle='->',color='grey',lw=1))
     adjust_text(texts,arrowprops=dict(arrowstyle='->',color='grey',lw=0.5))
 
-plt.savefig('outputs/Eff_avg2PD.png', dpi=300, bbox_inches='tight')
+plt.savefig('outputs/year2P_regression.png', dpi=300, bbox_inches='tight')
 
 plt.show()
-

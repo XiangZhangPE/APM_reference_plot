@@ -96,10 +96,10 @@
       "Normalize": false,
       "Preferences": true,
       "cache": true,
-      "exportDir": "C:\\Users\\xiang\\Desktop\\dataverse_xiang",
+      "exportDir": "C:\\Users\\xiang\\Desktop\\dataverse_xiang\\data",
       "exportFileData": false,
       "exportNotes": true,
-      "exportPath": "C:\\Users\\xiang\\Desktop\\dataverse_xiang\\APM_review_betterbib_xiang.json",
+      "exportPath": "C:\\Users\\xiang\\Desktop\\dataverse_xiang\\data\\APM_review_betterbib_xiang.json",
       "keepUpdated": false,
       "worker": true
     }
@@ -4113,7 +4113,7 @@
     },
     {
       "key": "CDDHE4IB",
-      "version": 32396,
+      "version": 33181,
       "itemType": "journalArticle",
       "title": "An integrated battery charger with high power density and efficiency for electric vehicles",
       "date": "2017-06",
@@ -4177,7 +4177,7 @@
     },
     {
       "key": "CEX76RM7",
-      "version": 32396,
+      "version": 33184,
       "itemType": "conferencePaper",
       "title": "Wide-input-voltage-range 3 kW DC-DC converter with hybrid LLC & boundary / discontinuous mode control",
       "date": "2020-03",
@@ -6481,41 +6481,6 @@
       ],
       "tags": [
         {
-          "tag": "_useful🤓"
-        },
-        {
-          "tag": "auxiliary power module (APM)",
-          "type": 1
-        },
-        {
-          "tag": "Density measurement",
-          "type": 1
-        },
-        {
-          "tag": "Electric potential",
-          "type": 1
-        },
-        {
-          "tag": "electric vehicles (EVs)",
-          "type": 1
-        },
-        {
-          "tag": "high efficiency",
-          "type": 1
-        },
-        {
-          "tag": "LLC resonant converter",
-          "type": 1
-        },
-        {
-          "tag": "Low voltage",
-          "type": 1
-        },
-        {
-          "tag": "Multichip modules",
-          "type": 1
-        },
-        {
           "tag": "Power system measurements",
           "type": 1
         },
@@ -6528,15 +6493,50 @@
           "type": 1
         },
         {
+          "tag": "Density measurement",
+          "type": 1
+        },
+        {
+          "tag": "LLC resonant converter",
+          "type": 1
+        },
+        {
+          "tag": "electric vehicles (EVs)",
+          "type": 1
+        },
+        {
+          "tag": "high efficiency",
+          "type": 1
+        },
+        {
+          "tag": "Electric potential",
+          "type": 1
+        },
+        {
+          "tag": "Low voltage",
+          "type": 1
+        },
+        {
+          "tag": "Multichip modules",
+          "type": 1
+        },
+        {
+          "tag": "wide range",
+          "type": 1
+        },
+        {
+          "tag": "_useful🤓"
+        },
+        {
+          "tag": "auxiliary power module (APM)",
+          "type": 1
+        },
+        {
           "tag": "two-stage cascaded dcdc converter",
           "type": 1
         },
         {
           "tag": "variable turn-ratio transformer",
-          "type": 1
-        },
-        {
-          "tag": "wide range",
           "type": 1
         }
       ],
@@ -6622,19 +6622,7 @@
       ],
       "tags": [
         {
-          "tag": "Dual bridge (DB)",
-          "type": 1
-        },
-        {
-          "tag": "fixed frequency",
-          "type": 1
-        },
-        {
-          "tag": "Inductors",
-          "type": 1
-        },
-        {
-          "tag": "LLC",
+          "tag": "Topology",
           "type": 1
         },
         {
@@ -6642,11 +6630,7 @@
           "type": 1
         },
         {
-          "tag": "Modulation",
-          "type": 1
-        },
-        {
-          "tag": "Topology",
+          "tag": "Zero voltage switching",
           "type": 1
         },
         {
@@ -6654,11 +6638,27 @@
           "type": 1
         },
         {
+          "tag": "Inductors",
+          "type": 1
+        },
+        {
+          "tag": "Modulation",
+          "type": 1
+        },
+        {
+          "tag": "LLC",
+          "type": 1
+        },
+        {
           "tag": "wide input voltage range",
           "type": 1
         },
         {
-          "tag": "Zero voltage switching",
+          "tag": "Dual bridge (DB)",
+          "type": 1
+        },
+        {
+          "tag": "fixed frequency",
           "type": 1
         }
       ],
@@ -6747,7 +6747,31 @@
       ],
       "tags": [
         {
-          "tag": "APM",
+          "tag": "Windings",
+          "type": 1
+        },
+        {
+          "tag": "Voltage",
+          "type": 1
+        },
+        {
+          "tag": "Power supplies",
+          "type": 1
+        },
+        {
+          "tag": "electric vehicles",
+          "type": 1
+        },
+        {
+          "tag": "Rails",
+          "type": 1
+        },
+        {
+          "tag": "Motor drives",
+          "type": 1
+        },
+        {
+          "tag": "Low voltage",
           "type": 1
         },
         {
@@ -6759,7 +6783,7 @@
           "type": 1
         },
         {
-          "tag": "electric vehicles",
+          "tag": "APM",
           "type": 1
         },
         {
@@ -6767,35 +6791,11 @@
           "type": 1
         },
         {
-          "tag": "Low voltage",
-          "type": 1
-        },
-        {
-          "tag": "Motor drives",
-          "type": 1
-        },
-        {
           "tag": "Open-end Winding",
           "type": 1
         },
         {
-          "tag": "Power supplies",
-          "type": 1
-        },
-        {
-          "tag": "Rails",
-          "type": 1
-        },
-        {
           "tag": "Surface mount technology",
-          "type": 1
-        },
-        {
-          "tag": "Voltage",
-          "type": 1
-        },
-        {
-          "tag": "Windings",
           "type": 1
         }
       ],
@@ -6884,19 +6884,19 @@
       ],
       "tags": [
         {
-          "tag": "CLLC converter",
+          "tag": "Power system measurements",
           "type": 1
         },
         {
-          "tag": "Cooling",
+          "tag": "Prototypes",
           "type": 1
         },
         {
-          "tag": "DC-DC power converters",
+          "tag": "Magnetic resonance",
           "type": 1
         },
         {
-          "tag": "dcdc converter",
+          "tag": "Windings",
           "type": 1
         },
         {
@@ -6904,23 +6904,15 @@
           "type": 1
         },
         {
-          "tag": "EV charging",
+          "tag": "resonant converter",
           "type": 1
         },
         {
-          "tag": "finite-element analysis (FEA)",
+          "tag": "DC-DC power converters",
           "type": 1
         },
         {
           "tag": "interleaving",
-          "type": 1
-        },
-        {
-          "tag": "magnetic components",
-          "type": 1
-        },
-        {
-          "tag": "Magnetic resonance",
           "type": 1
         },
         {
@@ -6932,19 +6924,27 @@
           "type": 1
         },
         {
-          "tag": "Power system measurements",
+          "tag": "finite-element analysis (FEA)",
           "type": 1
         },
         {
-          "tag": "Prototypes",
+          "tag": "magnetic components",
           "type": 1
         },
         {
-          "tag": "resonant converter",
+          "tag": "Cooling",
           "type": 1
         },
         {
-          "tag": "Windings",
+          "tag": "CLLC converter",
+          "type": 1
+        },
+        {
+          "tag": "dcdc converter",
+          "type": 1
+        },
+        {
+          "tag": "EV charging",
           "type": 1
         }
       ],
@@ -7020,7 +7020,31 @@
       ],
       "tags": [
         {
+          "tag": "Switching frequency",
+          "type": 1
+        },
+        {
+          "tag": "Switches",
+          "type": 1
+        },
+        {
+          "tag": "Zero voltage switching",
+          "type": 1
+        },
+        {
+          "tag": "Voltage control",
+          "type": 1
+        },
+        {
+          "tag": "Modulation",
+          "type": 1
+        },
+        {
           "tag": "Batteries",
+          "type": 1
+        },
+        {
+          "tag": "Turning",
           "type": 1
         },
         {
@@ -7033,30 +7057,6 @@
         },
         {
           "tag": "LLC series-parallel resonant converter",
-          "type": 1
-        },
-        {
-          "tag": "Modulation",
-          "type": 1
-        },
-        {
-          "tag": "Switches",
-          "type": 1
-        },
-        {
-          "tag": "Switching frequency",
-          "type": 1
-        },
-        {
-          "tag": "Turning",
-          "type": 1
-        },
-        {
-          "tag": "Voltage control",
-          "type": 1
-        },
-        {
-          "tag": "Zero voltage switching",
           "type": 1
         }
       ],
@@ -7174,7 +7174,7 @@
     },
     {
       "key": "TW9UHIWR",
-      "version": 33084,
+      "version": 33193,
       "itemType": "document",
       "title": "High-voltage DC/DC converter generation 3evo",
       "abstractNote": "The DC/DC converter delivers power to the 12 V vehicle boardnet by transforming power from a HV battery.",
@@ -7184,11 +7184,12 @@
       "archiveLocation": "Power=3.6kW, Eff_pk=0.95, Eff_avg=0.922",
       "url": "https://www.bosch-mobility.com/en/solutions/power-electronics/high-voltage-dc-dc-converter-generation-3evo/",
       "accessDate": "2024-11-06T22:28:49Z",
+      "rights": "Industry BOSCH",
       "creators": [],
       "tags": [],
       "relations": {},
       "dateAdded": "2024-11-06T22:28:49Z",
-      "dateModified": "2024-11-07T05:53:09Z",
+      "dateModified": "2024-11-08T02:23:43Z",
       "uri": "http://zotero.org/users/6632170/items/TW9UHIWR",
       "itemID": 5596,
       "attachments": [
@@ -7221,6 +7222,54 @@
       "itemKey": "TW9UHIWR",
       "libraryID": 1,
       "select": "zotero://select/library/items/TW9UHIWR"
+    },
+    {
+      "key": "GJPR83AA",
+      "version": 32839,
+      "itemType": "attachment",
+      "title": "Snapshot",
+      "url": "https://www.bosch-mobility.com/en/solutions/power-electronics/high-voltage-dc-dc-converter-generation-3evo/",
+      "accessDate": "2024-11-06T22:28:56Z",
+      "parentItem": "TW9UHIWR",
+      "linkMode": "imported_url",
+      "contentType": "text/html",
+      "charset": "utf-8",
+      "filename": "high-voltage-dc-dc-converter-generation-3evo.html",
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2024-11-06T22:28:56Z",
+      "dateModified": "2024-11-06T22:28:56Z",
+      "uri": "http://zotero.org/users/6632170/items/GJPR83AA",
+      "itemID": 5597,
+      "localPath": "C:\\Users\\xiang\\Zotero\\storage\\GJPR83AA\\high-voltage-dc-dc-converter-generation-3evo.html",
+      "defaultPath": "files/5597/high-voltage-dc-dc-converter-generation-3evo.html",
+      "itemKey": "GJPR83AA",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/GJPR83AA"
+    },
+    {
+      "key": "T59EEDZ8",
+      "version": 32839,
+      "itemType": "attachment",
+      "title": "ps_summary_high_voltage_dcdc_converter_gen3evo_en_rgb_150dpi_20211220.pdf",
+      "url": "https://www.bosch-mobility.com/media/global/solutions/passenger-cars-and-light-commercial-vehicles/powertrain-solutions/high-voltage-hybrid-systems/dcdc-converter/ps_summary_high_voltage_dcdc_converter_gen3evo_en_rgb_150dpi_20211220.pdf",
+      "accessDate": "2024-11-06T22:29:01Z",
+      "parentItem": "TW9UHIWR",
+      "linkMode": "imported_url",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "ps_summary_high_voltage_dcdc_converter_gen3evo_en_rgb_150dpi_20211220.pdf",
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2024-11-06T22:29:01Z",
+      "dateModified": "2024-11-06T22:29:05Z",
+      "uri": "http://zotero.org/users/6632170/items/T59EEDZ8",
+      "itemID": 5598,
+      "localPath": "C:\\Users\\xiang\\Zotero\\storage\\T59EEDZ8\\ps_summary_high_voltage_dcdc_converter_gen3evo_en_rgb_150dpi_20211220.pdf",
+      "defaultPath": "files/5598/ps_summary_high_voltage_dcdc_converter_gen3evo_en_rgb_150dpi_20211220.pdf",
+      "itemKey": "T59EEDZ8",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/T59EEDZ8"
     },
     {
       "key": "PT3PV3TK",
@@ -7514,7 +7563,6 @@
       "version": 33037,
       "itemType": "document",
       "title": "350DNC40-12 - 4000W, 12V, DC-DC HEV Down Converter | Bel Fuse",
-      "language": "en-US",
       "archive": "Vin=240-430V, Vo=9-16V",
       "archiveLocation": "Power=4kW, PD=0.632kW/L, Eff_pk=0.93,  Eff_avg=0.91",
       "url": "https://www.belfuse.com/product-detail/power-solutions-custom-value-added-solutions-emobility-350dnc40-down-converter",
@@ -7635,6 +7683,139 @@
       "itemKey": "IX2DTSW5",
       "libraryID": 1,
       "select": "zotero://select/library/items/IX2DTSW5"
+    },
+    {
+      "key": "IKQH37F2",
+      "version": 33131,
+      "itemType": "conferencePaper",
+      "title": "A High Step-down DC-DC Converter with Matrix-Transformer and Wide Voltage Gain for Vehicle Power Supply Applications",
+      "abstractNote": "A two-stage high step-down DC-DC converter with matrix-transformer is presented for vehicle power supply applications. Wide voltage gain is achieved by the front-end Boost converter and down-stream phase-shifted full-bridge converter. With the novel two-stage structure, the input voltage range of the down-stream full-bridge converter is narrowed significantly, which helps to reduce the current stress of primary switches and the voltage stress of the secondary switches. Devices with better performances can be chosen and high efficiency power conversion is achieved with the presented topology. Furthermore, the matrix-transformer is used in full-bridge converter to handle the large output current, which is beneficial for simplifying the design and processing of the transformer. Meanwhile, the current sharing of transformer windings will not be considered. Operation principles and characteristics of this converter are analyzed in detail. Experimental results are provided to evaluate the effectiveness of the presented solutions.",
+      "date": "2019-08",
+      "libraryCatalog": "IEEE Xplore",
+      "url": "https://ieeexplore.ieee.org/document/8922407/?arnumber=8922407",
+      "accessDate": "2024-11-07T06:51:27Z",
+      "extra": "ISSN: 2642-5513",
+      "pages": "1-6",
+      "proceedingsTitle": "2019 22nd International Conference on Electrical Machines and Systems (ICEMS)",
+      "conferenceName": "2019 22nd International Conference on Electrical Machines and Systems (ICEMS)",
+      "DOI": "10.1109/ICEMS.2019.8922407",
+      "creators": [
+        {
+          "firstName": "Xiaohui",
+          "lastName": "Xu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yinghui",
+          "lastName": "Zhang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Lei",
+          "lastName": "Zhu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Hu",
+          "lastName": "Yu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yanfeng",
+          "lastName": "Zhang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Hongfei",
+          "lastName": "Wu",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Matrix converters",
+          "type": 1
+        },
+        {
+          "tag": "Windings",
+          "type": 1
+        },
+        {
+          "tag": "Voltage control",
+          "type": 1
+        },
+        {
+          "tag": "Rectifiers",
+          "type": 1
+        },
+        {
+          "tag": "Stress",
+          "type": 1
+        },
+        {
+          "tag": "DC-DC power converters",
+          "type": 1
+        },
+        {
+          "tag": "Power supplies",
+          "type": 1
+        },
+        {
+          "tag": "high efficiency",
+          "type": 1
+        },
+        {
+          "tag": "matrix-transformer",
+          "type": 1
+        },
+        {
+          "tag": "high step-down",
+          "type": 1
+        },
+        {
+          "tag": "two-stage DC-DC converter",
+          "type": 1
+        },
+        {
+          "tag": "vehicle power supply applications",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-11-07T06:51:27Z",
+      "dateModified": "2024-11-07T06:51:27Z",
+      "uri": "http://zotero.org/users/6632170/items/IKQH37F2",
+      "itemID": 5654,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-11-07T06:51:43Z",
+          "dateModified": "2024-11-07T06:51:43Z",
+          "uri": "http://zotero.org/users/6632170/items/MU3CHYE7",
+          "path": "C:\\Users\\xiang\\Zotero\\storage\\MU3CHYE7\\Xu et al. - 2019 - A High Step-down DC-DC Converter with Matrix-Transformer and Wide Voltage Gain for Vehicle Power Sup.pdf",
+          "select": "zotero://select/library/items/MU3CHYE7"
+        },
+        {
+          "itemType": "attachment",
+          "title": "IEEE Xplore Abstract Record",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-11-07T06:51:41Z",
+          "dateModified": "2024-11-07T06:51:41Z",
+          "uri": "http://zotero.org/users/6632170/items/J6REDHSK",
+          "path": "C:\\Users\\xiang\\Zotero\\storage\\J6REDHSK\\8922407.html",
+          "select": "zotero://select/library/items/J6REDHSK"
+        }
+      ],
+      "notes": [],
+      "citationKey": "xu_high_2019",
+      "autoJournalAbbreviation": "2019 22nd Int. Conf. Electr. Mach. Syst. ICEMS",
+      "itemKey": "IKQH37F2",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/IKQH37F2"
     }
   ]
 }
