@@ -49,10 +49,14 @@ file2_path = 'data/APM_review_bib_temp.csv'
 df_xiang = pd.read_csv(file1_path)
 df_numbered_xiang = pd.read_csv(file2_path)
 
-# Perform the merge based on 'Key' in df_xiang and 'itemKey' in df_numbered_xiang
-# Adding 'citationKey' and 'Number' columns from df_numbered_xiang to df_xiang based on matching rows
+# Ensure the 'Key' column in df_xiang and 'itemKey' column in df_numbered_xiang are of the same type
+df_xiang['Key'] = df_xiang['Key'].fillna('').astype(str)
+df_numbered_xiang['itemKey'] = df_numbered_xiang['itemKey'].fillna('').astype(str)
+
+# Perform the merge
 merged_df = df_xiang.merge(df_numbered_xiang[['itemKey', 'citationKey', 'Number']], 
                            left_on='Key', right_on='itemKey', how='left')
+
 
 # Dropping the redundant 'itemKey' column after merge to keep the structure similar to df_xiang
 merged_df.drop(columns=['itemKey'], inplace=True)

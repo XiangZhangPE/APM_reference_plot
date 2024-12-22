@@ -109,8 +109,12 @@ adjust_text(texts, arrowprops=dict(arrowstyle='->', color='grey', lw=0.5))
 # 设置标签、标题和网格
 plt.xlabel('Nominal Switching Frequency (kHz)', fontproperties=font_prop, fontsize=12)
 plt.ylabel('Average Efficiency (%)', fontproperties=font_prop, fontsize=12)
-plt.legend(prop=font_prop, fontsize=10)
+plt.legend(prop=font_prop, fontsize=10, loc='center right')
 plt.grid(visible=True, linestyle='--',linewidth=0.5 )  # 设置虚线网格
+
+# 设置 x 轴和 y 轴的范围
+plt.xlim(0, 740)  # 替换 x_min 和 x_max 为你希望的范围
+plt.ylim(0.896, 0.966)  # 替换 y_min 和 y_max 为你希望的范围
 
 # 设置轴刻度字体
 plt.xticks(fontproperties=font_prop, fontsize=10)

@@ -118,7 +118,7 @@ plt.scatter(academia_x, academia_y, color='#30517c', alpha=alpha_dots, marker='o
 
 
 # Set title, labels, and legend with Times New Roman font
-plt.xlabel('year', fontproperties=font_prop, fontsize=12)
+plt.xlabel('Year', fontproperties=font_prop, fontsize=12)
 plt.ylabel('Peak Efficiency (%)', fontproperties=font_prop, fontsize=12)
 plt.legend(prop=font_prop, fontsize=10) 
 plt.grid(visible=True, linestyle='--',linewidth=0.5 )  # 设置虚线网格
