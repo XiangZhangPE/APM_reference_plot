@@ -1,4 +1,5 @@
 ﻿"Key","Publication Year","Title","Rights","Archive","Archive Location"
+"4CXST3VN","2012","A Novel ZVZCS Full-Bridge DC/DC Converter Used for Electric Vehicles","Queen'sU","Vin=235-431V, Vo=11.5-15V, fs=220kHz","Power=3kW, Eff_pk=0.975,  Eff_avg=0.955, Eff_low=0.93"
 "EXGB9V22","2023","New integrated DC–DC conversion system for electric vehicles","Yonsei Univ.","Vin=135-170V, Vo=12V, fs=90kHz","Power=1.2kW, Eff_pk=0.98, Eff_avg = 0.96"
 "DQGIR86L","2021","Power density optimization of 700 kHz GaN-based auxiliary power module for electric vehicles","Seoul Tech","Vin=200-310V, Vo=12.8-15.1V, fs=700kHz","Power=1.8kW, PD=8.1kW/L, Eff_pk=0.9187,  Eff_avg=0.9, Eff_low=0.9(800W)"
 "R3HTMEH3","2023","Development of phase-shift full-bridge converter with integrated winding planar two-transformer for LDC","Inha Univ.","Vin=400-800V, Vo=13-15V, fs=200kHz","Power=2.1kW, PD=5.2kW/L, Eff_pk=0.954,  Eff_avg=0.935, Eff_low=0.95(1kW)"

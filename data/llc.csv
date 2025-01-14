@@ -1,5 +1,7 @@
 ﻿"Key","Publication Year","Title","Rights","Archive","Archive Location"
 "QRAE92S3","2020","A high frequency CLLLC bi-directional series resonant converter DAB using an integrated PCB winding transformer","Industry Texas Instrument","Vin=380-600V, Vo=300-420V, fs=500kHz","Power=6.6kW, PD=4.64kW/L, Eff_pk=0.98, Eff_avg=0.965"
+"EI9I4GI7","2021","Interleaved Single-Stage LLC Converter Design Utilizing Half- and Full-Bridge Configurations for Wide Voltage Transfer Ratio Applications","","",""
+"UV25BGEU","2018","New PCB Winding ”Snake-Core” Matrix Transformer for Ultra-Compact Wide DC Input Voltage Range Hybrid B+DCM Resonant Server Power Supply","","",""
 "B3426XEB","2021","A high-efficiency high-power-density on-board low-voltage DC–DC converter for electric vehicles application","Queen'sU","Vin=250-430V, Vo=9-16V, fs = 260-400kHz","Power=3kW, PD=3kW/L, Eff_pk=0.969,  Eff_avg=0.95, Eff_low=0.961"
 "SXC5KYEI","2020","Two-stage vs one-stage design for a bidirectional 400V/12V 6kW auxiliary power module in electric vehicles","UTK","",""
 "D58RNFFM","2015","Double-phase high-efficiency, wide load range high- voltage/low-voltage LLC DC/DC converter for electric/hybrid vehicles","Supélec","Vin=330-410V, Vo=14V, fs=250kHz","Power=2.5kW, PD=1kW/L, Eff_pk=0.95,  Eff_avg=0.94, Eff_low=0.943(1kW)"

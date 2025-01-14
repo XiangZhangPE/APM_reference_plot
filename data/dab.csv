@@ -1,5 +1,4 @@
 ﻿"Key","Publication Year","Title","Rights","Archive","Archive Location"
-"4CXST3VN","2012","A Novel ZVZCS Full-Bridge DC/DC Converter Used for Electric Vehicles","Queen'sU","Vin=235-431V, Vo=11.5-15V, fs=220kHz","Power=3kW, Eff_pk=0.975,  Eff_avg=0.955, Eff_low=0.93"
 "4WBEVQ6M","2013","Enhanced modulation strategy for a three-phase dual active bridge—boosting efficiency of an electric vehicle converter","RWTH","Vin=100-170V, Vo=10-16V, fs = 100kHz","Power=2kW, PD=1kW/L, Eff_pk=0.943,  Eff_avg=0.928, Eff_low=0.928-0.945(500W)"
 "3LRAT3Z4","2016","Performance Evaluation of a Three-Phase Dual Active Bridge DC–DC Converter With Different Transformer Winding Configurations","TU/e","",""
 "8EJKU7WA","2017","Applied integrated active filter auxiliary power module for electrified vehicles with single-phase onboard chargers","McMaster","",""

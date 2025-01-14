@@ -18,6 +18,7 @@ refnumber = data['Refnumber']
 fs_min = pd.to_numeric(data['fs_min'], errors='coerce')
 density = pd.to_numeric(data['Density'], errors='coerce')
 eff_avg = pd.to_numeric(data['Eff_avg'], errors='coerce')
+eff_pk = pd.to_numeric(data['Eff_pk'], errors='coerce')
 
 
 mainVec = data['RealKey']
@@ -61,14 +62,14 @@ texts = []  # 用于存储注释对象，便于后面调整位置
 for g in range(len(topologyNames)):
     idx = topology_labels == str(g + 1)  # 将拓扑索引转换为字符串
     x_data = fs_min[idx]
-    y_data = density[idx]
+    y_data = eff_pk[idx]
     inst_data = institution[idx]
     year_data = year[idx]
     ref_data = refnumber[idx]
     
     # 去除 NaN 值以确保 x_data 和 y_data 大小一致
     valid_data = pd.concat([x_data, y_data, inst_data, year_data, ref_data], axis=1).dropna()
-    x_data, y_data = valid_data['fs_min'], valid_data['Density']
+    x_data, y_data = valid_data['fs_min'], valid_data['Eff_pk']
     inst_data = valid_data['Institution']
     year_data = valid_data['Year']
     ref_data = valid_data['Refnumber']
@@ -100,12 +101,12 @@ for g in range(len(topologyNames)):
         texts.append(plt.text(xi, yi, annotation_text, fontsize=9, ha='center', alpha=alpha_text, fontproperties=font_prop))
 
 # 调整文本以避免重叠
-adjust_text(texts, arrowprops=dict(arrowstyle='->', color='grey', lw=0.5))
+adjust_text(texts, arrowprops=dict(arrowstyle='<-', color='grey', lw=0.5))
 
 # 设置标签、标题和网格
 plt.xscale('log')  # X 轴为对数刻度
 plt.xlabel('Nominal Switching Frequency (kHz)', fontproperties=font_prop, fontsize=12)
-plt.ylabel('Power Density (kW/L)', fontproperties=font_prop, fontsize=12)
+plt.ylabel('Peak Efficiency (%)', fontproperties=font_prop, fontsize=12)
 plt.legend(prop=font_prop, fontsize=10)
 plt.grid(visible=True, linestyle='--',linewidth=0.5 )  # 设置虚线网格
 
@@ -114,5 +115,5 @@ plt.xticks(fontproperties=font_prop, fontsize=10)
 plt.yticks(fontproperties=font_prop, fontsize=10)
 
 # 保存图像为高清 PNG 文件
-plt.savefig('outputs/Fs2PD.png', dpi=300, bbox_inches='tight')
+plt.savefig('outputs/Fs2Eff_pk.png', dpi=300, bbox_inches='tight')
 plt.show()
