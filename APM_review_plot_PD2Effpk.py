@@ -38,8 +38,10 @@ industrial_x, industrial_y = [], []
 oem_x, oem_y = [], []
 academia_x, academia_y = [], []
 
-# List to store annotation texts
-texts = []
+# 设置图像的输出比例为16:9
+fig, ax = plt.subplots(figsize=(16, 9))
+plt.figure
+texts = []  # 用于存储注释对象，便于后面调整位置
 
 # Assume data is your DataFrame
 # Loop through data and classify points
@@ -98,11 +100,11 @@ for i in range(len(data)):
             refnumber_str = f"[{int(refnumber_value)}]"
             texts.append(plt.annotate(f"{institution_cleaned}\n{year_str} {refnumber_str}",
                             (x_value, y_value),
-                            fontsize=9, alpha=alpha_text, ha='center', fontproperties=font_prop))
+                            fontsize=12, alpha=alpha_text, ha='center', fontproperties=font_prop))
         else:
             texts.append(plt.annotate(f"{institution_cleaned}\n{year_str}",
                             (x_value, y_value),
-                            fontsize=9, alpha=alpha_text, ha='center', fontproperties=font_prop))
+                            fontsize=12, alpha=alpha_text, ha='center', fontproperties=font_prop))
             
 
 # Scatter for different groups with semi-transparent points
@@ -131,7 +133,7 @@ if texts:
     # adjust_text(texts,arrowprops=dict(arrowstyle='->',color='grey',lw=1))
     adjust_text(texts,arrowprops=dict(arrowstyle='->',color='grey',lw=0.5))
 
-plt.savefig('outputs/PD2Eff_pk.png', dpi=300, bbox_inches='tight')
+plt.savefig('outputs/PD2Eff_pk.png', dpi=1200, bbox_inches='tight')
 
 plt.show()
 

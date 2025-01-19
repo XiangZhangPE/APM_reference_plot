@@ -1,126 +1,173 @@
 Key,Publication Year,Title,Rights,Archive,Archive Location,citationKey,Number
-QRAE92S3,2020.0,A high frequency CLLLC bi-directional series resonant converter DAB using an integrated PCB winding transformer,Industry Texas Instrument,"Vin=380-600V, Vo=300-420V, fs=500kHz","Power=6.6kW, PD=4.64kW/L, Eff_pk=0.98, Eff_avg=0.965",yu_high_2020,1.0
-UV25BGEU,2018.0,New PCB Winding ”Snake-Core” Matrix Transformer for Ultra-Compact Wide DC Input Voltage Range Hybrid B+DCM Resonant Server Power Supply,,,,knabben_new_2018,
-B3426XEB,2021.0,A high-efficiency high-power-density on-board low-voltage DC–DC converter for electric vehicles application,Queen'sU,"Vin=250-430V, Vo=9-16V, fs = 260-400kHz","Power=3kW, PD=3kW/L, Eff_pk=0.969,  Eff_avg=0.95, Eff_low=0.961",zhou_high-efficiency_2021,2.0
-4CXST3VN,2012.0,A Novel ZVZCS Full-Bridge DC/DC Converter Used for Electric Vehicles,Queen'sU,"Vin=235-431V, Vo=11.5-15V, fs=220kHz","Power=3kW, Eff_pk=0.975,  Eff_avg=0.955, Eff_low=0.93",pahlevaninezhad_novel_2012,3.0
-4WBEVQ6M,2013.0,Enhanced modulation strategy for a three-phase dual active bridge—boosting efficiency of an electric vehicle converter,RWTH,"Vin=100-170V, Vo=10-16V, fs = 100kHz","Power=2kW, PD=1kW/L, Eff_pk=0.943,  Eff_avg=0.928, Eff_low=0.928-0.945(500W)",van_hoek_enhanced_2013,4.0
-BYM6A8VT,2012.0,A soft switching three-phase current-fed bidirectional DC-DC converter with high efficiency over a wide input voltage range,FSU,"Vin=24-48V, Vo=288V, fs = 40kHz","Power=6kW, Eff_pk=0.964,  Eff_avg=0.94, Eff_low=0.92(2.5kW)",wang_soft_2012,5.0
-3LRAT3Z4,2016.0,Performance Evaluation of a Three-Phase Dual Active Bridge DC–DC Converter With Different Transformer Winding Configurations,TU/e,,,baars_performance_2016,6.0
-Q4JUGPLB,2015.0,New interleaved current-fed resonant converter with significantly reduced high current side output filter for EV and HEV applications,,,,moon_new_2015,7.0
-EXGB9V22,2023.0,New integrated DC–DC conversion system for electric vehicles,Yonsei Univ.,"Vin=135-170V, Vo=12V, fs=90kHz","Power=1.2kW, Eff_pk=0.98, Eff_avg = 0.96",kim_new_2023,8.0
-QA6I2DZ6,2023.0,Fixed-frequency circulant phase-shift controlled current-fed resonant converter with wide voltage gain range,HIT Shenzhen,,,gu_fixed-frequency_2023,9.0
-MFEBJ7W7,2024.0,Model and control of a current-fed dual active bridge based ultrawide-voltage-range auxiliary power module for 400 V/800 V electric vehicles,UTK,"Vin=180-900V, Vo=6-16V, fs=80kHz","Power=3.2kW, Eff_pk=0.97,  Eff_avg=0.95",zhu_model_2024,10.0
-J6ZTSTD5,2012.0,Double-clamp ZVS converter interfaces high voltage traction batteries with 12V legacy system in hybrid and pure-electric vehicles,Industry Vicor,"Vin=160-420V, Vo=12.5-15.5V","Power=0.45kW, PD=54kW/L, Eff_pk=0.934, Eff_avg = 0.94",salato_double-clamp_2012,11.0
-DQGIR86L,2021.0,Power density optimization of 700 kHz GaN-based auxiliary power module for electric vehicles,Seoul Tech,"Vin=200-310V, Vo=12.8-15.1V, fs=700kHz","Power=1.8kW, PD=8.1kW/L, Eff_pk=0.9187,  Eff_avg=0.9, Eff_low=0.9(800W)",naradhipa_power_2021,12.0
-SXC5KYEI,2020.0,Two-stage vs one-stage design for a bidirectional 400V/12V 6kW auxiliary power module in electric vehicles,UTK,,,zhu_two-stage_2020,13.0
-EM88JF8J,2022.0,Auxiliary power module elimination in evs using dual inverter drivetrain,U of T,,,viana_auxiliary_2022,14.0
-Y9XYILBK,2015.0,Evaluation of integrated active filter auxiliary power modules in electrified vehicle applications,McMaster,,,hou_evaluation_2015,15.0
-8EJKU7WA,2017.0,Applied integrated active filter auxiliary power module for electrified vehicles with single-phase onboard chargers,McMaster,,,hou_applied_2017,16.0
-R3HTMEH3,2023.0,Development of phase-shift full-bridge converter with integrated winding planar two-transformer for LDC,Inha Univ.,"Vin=400-800V, Vo=13-15V, fs=200kHz","Power=2.1kW, PD=5.2kW/L, Eff_pk=0.954,  Eff_avg=0.935, Eff_low=0.95(1kW)",lee_development_2023,17.0
-7R47DTII,2021.0,Design of an isolated bidirectional DC–DC converter with built-in filters for high power density,Industry Toyota Central R&D Labs,,,inoue_design_2021,18.0
-D58RNFFM,2015.0,"Double-phase high-efficiency, wide load range high- voltage/low-voltage LLC DC/DC converter for electric/hybrid vehicles",Supélec,"Vin=330-410V, Vo=14V, fs=250kHz","Power=2.5kW, PD=1kW/L, Eff_pk=0.95,  Eff_avg=0.94, Eff_low=0.943(1kW)",yang_double-phase_2015,19.0
-CQXKLCRV,2023.0,An ultra-high gain current-fed universal auxiliary power module for 400V/800V electric vehicles,UTK,,,zhu_ultra-high_2023,20.0
-ZDEUF5YT,2017.0,A primary full-integrated active filter auxiliary power module in electrified vehicles with single-phase onboard chargers,McMaster,"Vin=100-320V, Vo=12V, fs = 100kHz","Power=0.72kW, PD=0.363kW/L, Eff_pk=0.977, Eff_avg = 0.935",hou_primary_2017,21.0
-K2PCKAIJ,2010.0,Accurate power loss model derivation of a high-current dual active bridge converter for an automotive application,ETH,"Vin=240-450V, Vo=11-16V, fs = 100kHz","Power=2kW, PD=1.535kW/L(case), Eff_pk=0.956,  Eff_avg=0.92,",krismer_accurate_2010,22.0
-V3CSN6NF,2012.0,A load adaptive control approach for a zero-voltage-switching DC/DC converter used for electric vehicles,Queen'sU,,,pahlevaninezhad_load_2012,23.0
-NP642NW3,2009.0,Accurate small-signal model for the digital control of an automotive bidirectional dual active bridge,ETH,,,krismer_accurate_2009,24.0
-CTWMB26L,2021.0,Design a 400 V–12 V 6 kW bidirectional auxiliary power module for electric or autonomous vehicles with fast precharge dynamics and zero DC-bias current,UTK,"Vin=250-450V, Vo=10-16V, fs = 200kHz","Power=6kW, PD=2.6 kW/L, Eff_pk=0.962,  Eff_avg=0.94, Eff_low=0.96(1kW)",zhu_design_2021,25.0
-F9S52GIS,2024.0,A spurious-free piezoelectric resonator based 3.2 kW DC–DC converter for EV on-board chargers,,,,stolt_spurious-free_2024,26.0
-XVMBM6K6,2017.0,Design and operation considerations of three-phase dual active bridge converters for low-power applications with wide voltage ranges,RWTH,"Vin=260-450V, Vo=10-16V, fs = 100kHz","Power=3kW, PD=1kW/L, Eff_pk=0.956,  Eff_avg=0.921",hoek_design_2017,27.0
-HF7QYUBU,2014.0,A wide bandgap device-based isolated quasi-switched-capacitor DC/DC converter,OSU,"Vin=300V, Vo=12V, fs=500-600kHz","Power=1kW, PD=0.957(case), Eff_pk=0.96, Eff_avg=0.91",zhang_wide_2014,28.0
-V7Z7Q83H,2021.0,Two-mode low-voltage DC/DC converter with high and wide input voltage range,Inha Univ.,"Vin=350-800V, Vo=13.9V, fs=70kHz","Power=0.6kW, Eff_pk=0.926, Eff_avg = 0.91",lee_two-mode_2021,29.0
-V8CX2XVU,2015.0,Design of a 2.5-kW 400/12-V high-efficiency DC/DC converter using a novel synchronous rectification control for electric vehicles,Kettering Univ.,"Vin=220-450V, Vo=6-16V, fs = 90-200kHz","Power=2.5kW,  Eff_pk=0.932,  Eff_avg=0.92, Eff_low=0.93(1kW)",duan_design_2015,30.0
-9DHSZ965,2014.0,Design and control of a bidirectional resonant DC–DC converter for automotive engine/battery hybrid power generators,Seoul Tech,"Vin=380-400V, Vo=24-28V, fs=48kHz","Power=5kW,  Eff_pk=0.9513,  Eff_avg=0.934, Eff_low=0.9508(1.5kW)",park_design_2014,31.0
-ZRTG4E9A,2013.0,Implementation of a novel digital active EMI technique in a DSP-based DC–DC digital controller used in electric vehicle (EV),Queen'sU,"Vin=235-431V, Vo=11.5-15V, fs=200kHz","Power=2kW,  Eff_pk=0.932,  Eff_avg=0.92, Eff_low=0.93",hamza_implementation_2013,32.0
-3ZWI3EBS,2017.0,Topology and control scheme of OBC–LDC integrated power unit for electric vehicles,SKKU,,,kim_topology_2017,33.0
-SGHAXNFW,2019.0,Zero‐voltage soft‐switching DC–DC converter‐based charger for LV battery in hybrid electric vehicles,http://onlinelibrary.wiley.com/termsAndConditions#vor,,,sayed_zerovoltage_2019,34.0
-Y66NNDSW,2019.0,Implement of high efficiency achievement algorithm of LDC for xEV based on GaN HEMT,Daejin Univ.,,,kim_implement_2019,35.0
-CDDHE4IB,2017.0,An integrated battery charger with high power density and efficiency for electric vehicles,https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html,,,kim_integrated_2017,36.0
-CEX76RM7,2020.0,Wide-input-voltage-range 3 kW DC-DC converter with hybrid LLC & boundary / discontinuous mode control,ETH,,,knabben_wide-input-voltage-range_2020,37.0
-PQYQ4RN5,2020.0,Integrated magnetics design for a full-bridge phase-shifted converter,National Ilan Univ.,"Vin=400V, Vo=12V, fs=80kHz","Power=1.7kW, PD=2.28kW/L(case), Eff_pk=0.967, Eff_avg = 0.955",liu_integrated_2020,38.0
-IPJK8ESY,2012.0,Transformer integrated with additional resonant inductor for phase-shift full-bridge converter with primary clamping diodes,KAIST,"Vin=320-400V, Vo=12V, fs = 86kHz","Power=1.2kW, Eff_pk=0.957, Eff_avg = 0.945",cho_transformer_2012,39.0
-3LPAZP55,2009.0,ZVS phase shift full bridge converter with separated primary winding,KAIST,"Vin=329-400V, Vo=12V, fs=86kHz","Power=1.2kW, Eff_pk=0.956, Eff_avg=0.945",young-do_kim_zvs_2009,40.0
-EKQTKXEX,2022.0,New combined OBC and LDC system for electric vehicles with 800 V battery,Inha Univ.,,,lee_new_2022,41.0
-XIJ2RVSH,2021.0,"DC-DC converters for transportation electrification: Topologies, control, and future challenges",,,,chen_dc-dc_2021,42.0
-JK7FYUB3,2024.0,Identifying suitable PSFB topology for HVLV auxiliary power supply (APS) application in evs,Industry Wolfspeed,,,gandluru_identifying_2024,43.0
-S8NBI4WD,2021.0,Self-adaptive synchronous rectifier control algorithm of phase-shifted full bridge current double rectifier converter,Zhejiang Univ.,"Vin=280-400V, Vo=14V, fs=100kHz","Power=1.5kW, Eff_pk=0.93, Eff_avg = 0.913",ding_self-adaptive_2021,44.0
-W5I2SP4V,2024.0,Multiport converter based auxiliary power supply for heavy duty fuel cell power train,ORNL,,,mukherjee_multiport_2024,45.0
-V4B9BFMH,2021.0,An effective integration of APM and OBC with simultaneous operation and entire ZVS range for electric vehicle,Seoul Tech,,,yu_effective_2021,46.0
-WALCI7AK,2023.0,Two-transformer phase-shift full-bridge converter with a new rectifier for reducing conduction loss,Inha Univ.,"Vin=300-400V, Vo=12V, fs=100kHz","Power=0.4kW, Eff_pk=0.937, Eff_avg = 0.91",jeong_two-transformer_2023,47.0
-3LTFIZNH,2023.0,Zero-voltage-switching high-step-down buck converter with continuous output current,IUT,,,montazerolghaem_zero-voltage-switching_2023,48.0
-S93ZWP5S,2012.0,Efficiency-optimized high-current dual active bridge converter for automotive applications,,,,krismer_efficiency-optimized_2012,49.0
-CFJEJ8DZ,2013.0,Wide-Range ZVS Phase-Shift Full-Bridge Converter With Reduced Conduction Loss Caused by Circulating Current,,,,kim_wide-range_2013,50.0
-WGEPS8VF,2014.0,Efficiency optimized single-stage reconfigurable DC/DC converter for hybrid and electric vehicles,Industry Infineon,"Vin=180-420V, Vo=10.6-16V, fs=100kHz","Power=1.05kW, Eff_pk=0.9",zeljkovic_efficiency_2014,51.0
-VI57WME3,2020.0,Unidirectional three phase dual active bridge DC-DC converter used in electrical vehicles,,,,aouiti_unidirectional_2020,52.0
-WXGLWHQ9,2008.0,A three-phase bidirectional DC-DC converter for automotive applications,ORNL,"Vin=250-400V, Vo=42V, fs=40kHz","Power=6kW, Eff_pk=0.959,  Eff_avg=0.948, Eff_low=0.95(1.5kW)",su_three-phase_2008,53.0
-MMLQNX9V,2019.0,Design and operation of a fail-operational 5kW 800V-12V DC-DC converter,,,,bertino_design_2019,54.0
-N9IIH8DE,,BCMs transform high-voltage batteries into SELV systems,,,,noauthor_bcms_nodate,55.0
-CVMCAMHB,2010.0,for the degree of doctor of sciences,,,,krismer_for_2010,56.0
-Z4L5ABDF,,ETH zurich power electronic systems laboratory physikstrasse 3 | ETL I12 8092 zurich | switzerland,,,,zhang_eth_nodate,57.0
-UMSK6GHW,2016.0,High-frequency DC-DC converter in electric vehicle based on GaN transistors,,,,pang_high-frequency_2016,58.0
-8U6NIID5,2015.0,Interleaved boost-integrated LLC resonant converter with fixed-frequency PWM control for renewable energy generation applications,,,,sun_interleaved_2015,59.0
-NEAW83WH,2012.0,High frequency bus converter with low loss integrated matrix transformer,,,,reusch_high_2012,60.0
-GZ83EA2X,2023.0,Variable Turns-Ratio Matrix Transformer based LLC Converter for Two-Stage Electric Vehicle Auxiliary Power Module Applications,,,,hou_variable_2023,61.0
-BS7QXB32,2017.0,Dual-Bridge LLC Resonant Converter With Fixed-Frequency PWM Control for Wide Input Applications,,,,sun_dual-bridge_2017-1,62.0
-JHPXTSUZ,2022.0,Implementation of an Auxiliary Low-Voltage DC Power Supply from an Electric Traction Open-Ended Motor Drive Configuration,,,,foti_implementation_2022,63.0
-5LRWRN5C,2024.0,Interleaved PCB Winding Planar Transformer for Electric Vehicle Charging CLLC Converters,,,,wouters_interleaved_2024,64.0
-4Y7UEVDT,2012.0,Design of a Highly efficient bidirectional isolated LLC resonant converter,ETH,"Vin=450V, Vo=17-56V, fs=140kHz","Power=1.65kW, Eff_pk=0.976, Eff_avg = 0.96",hillers_design_2012,65.0
-XPFQFC7Y,,Vitesco Technologies - High Voltage DC/DC Converter - 4th Generation,Industry Vitesco Technologies,"Vin=245-450V, Vo=8-16V","Power=3.6kW, PD=1.5kW/L",noauthor_vitesco_nodate,66.0
-TIUSW488,,Vitesco Technologies - High Voltage Power Electronics Inverter + DC/DC Converter,,,,noauthor_vitesco_nodate-3,67.0
-SQ9DMVJA,,"PC32_Power supply_Passenger car solution_Products and Solutions_Suzhou Inovance Automotive Co., Ltd.",Industry Inovance Auomotive,,,noauthor_pc32_power_nodate,68.0
-7YZ6IBGD,,"PC41_Power supply_Passenger car solution_Products and Solutions_Suzhou Inovance Automotive Co., Ltd.",Industry Inovance Auomotive,,,noauthor_pc41_power_nodate,69.0
-JD6ZEGEX,2018.0,"PP30_Power supply_Passenger car solution_Products and Solutions_Suzhou Inovance Automotive Co., Ltd.",Industry Inovance Auomotive,"Vin=180-480V, Vo=9-16V","Power=3kW, Eff_pk=0.975,  Eff_avg=0.955, Eff_low=0.93",noauthor_pp30_power_2018,70.0
-9GHGB9V5,,"PC36_Power supply_Passenger car solution_Products and Solutions_Suzhou Inovance Automotive Co., Ltd.",Industry Inovance Auomotive,,,noauthor_pc36_power_nodate,71.0
-J6B93Z94,,Charger-converter,,,,noauthor_charger-converter_nodate,72.0
-TW9UHIWR,2021.0,High-voltage DC/DC converter generation 3evo,Industry BOSCH,"Vin=240-475V, Vo=10.5-15.5V","Power=3.6kW, Eff_pk=0.95, Eff_avg=0.922",noauthor_high-voltage_2021,73.0
-TJUGTU74,,Integrate SiC power electronics into EV fast chargers | Wolfspeed,,,,noauthor_integrate_nodate,74.0
-QTTL4IRQ,,CRD-60DD12N-K 60 kW Discrete Interleaved LLC DC-DC Converter | Wolfspeed,,,,noauthor_crd-60dd12n-k_nodate,75.0
-PT3PV3TK,,DC DC Converter 1500w | EMP EV MOBILITY,Industry ev mobility,"Vin=200-420V, Vo=6-18V","Power=1.5kW, PD=0.251kW/L(case), Eff_pk=0.951, Eff_avg = 0.92",noauthor_dc_nodate,76.0
-7HDK2J6R,,"EV OBC DCD PDU 3 in 1 CDU Unit, Electric Drive Unit | EMP EV MOBILITY",,,,noauthor_ev_nodate,77.0
-GVWAASJU,2021.0,400V DC/DC Converter - Delta,Industry Delta,"Vin=200-480V, Vo=9-16V","Power=2.5kW, PD=1.785kW/L(case),  Eff_pk=0.953,  Eff_avg=0.921",noauthor_400v_2021,78.0
-D4ARSWJP,,48V DC/DC converter,,,,noauthor_48v_nodate,79.0
-MAKMQZP3,2023.0,High-voltage DC/DC converter,Industry Eaton,"Vin=225-455V, Vo=12-16V","Power=3kW, PD=0.645kW/L(case), Eff_pk=0.941,  Eff_avg=0.927",noauthor_high-voltage_2023,80.0
-ELZN8M3R,2022.0,800V DC/DC Converter - Delta,Industry Delta,"Vin=390-935V, Vo=9-16V","Power=3kW, PD=1.55kW/L(case) Eff_pk=0.943,  Eff_avg=0.955, Eff_low=0.92",noauthor_800v_2022,81.0
-BWUL3IEC,,Learn more about Technology Innovation for the Next Gen of EVs,,,,noauthor_learn_nodate,82.0
-B6AIILXE,2024.0,Unprecedented levels of  miniaturization in automotive  electronics,Industry Vicor,,,greg_unprecedented_2024,83.0
-P2FHZBZ2,2024.0,Power modules meet EV power demands that have increased by 20x,Industry Vicor,"Vin=400V, Vo=13.8V, fs=1300kHz","Power=4kW, PD=5.22kW/L, Eff_pk=0.95,  Eff_avg=0.95",noauthor_power_2024,84.0
-GN3Q6FPI,,"Automotive Innovation Day 2024 in Seoul, Korea",,,,noauthor_automotive_nodate,85.0
-QJZ8VFCI,,Optimize your vehicle power distribution network by integrating the DC-DC converter into the battery pack,,,,choi_optimize_nodate,86.0
-FE8YUYXZ,,"LSM4k0-400-2, 4kW LSM DC-DC - 400V in, 24V Out, Droop CS",Industry AstrodyneTDI,"Vin=290-430V, Vo=22-30V","Power=4kW, PD=1.16kW/L, Eff_pk=0.94,  Eff_avg=0.95",noauthor_lsm4k0-400-2_nodate,87.0
-9JQG5Z24,,Variable Ratio Matrix Transformer based LLC Converter for Two-Stage Low-Voltage DC-DC Converter Efficiency Improvement,Virginia Tech,,,hou_variable_nodate,88.0
-LSG4VF7S,,"350DNC40-12 - 4000W, 12V, DC-DC HEV Down Converter | Bel Fuse",Industry Bel Fuse Inc,"Vin=240-430V, Vo=9-16V","Power=4kW, PD=0.632kW/L, Eff_pk=0.93,  Eff_avg=0.91",noauthor_350dnc40-12_nodate,89.0
-CEGEGETG,2023.0,"700DNG40-24-8 - 4000W, 24V, DC-DC HEV Down Converter | Bel Fuse",Industry Bel Fuse Inc,"Vin=450-900V, Vo=20-30V","Power=4kW, PD=0.776kW/L, Eff_pk=0.95,  Eff_avg=0.91",noauthor_700dng40-24-8_2023,90.0
-IX2DTSW5,2023.0,"bsc6xx, DC/DC Converter - 125 A, 220 - 450 V, 24 V",Industry BRUSA HyPower,"Vin=220-450V, Vo=8-16V","Power=2.8kW, PD=0.889kW/L, Eff_pk=0.944,  Eff_avg=0.92",noauthor_bsc6xx_2023,91.0
-GYZNK83S,,"BSC7xx, DC/DC converter - 190 - 480 V / 350 - 890 V",,,,noauthor_bsc7xx_nodate,92.0
-GE2Z6K5P,,"DC/DC Converter - 3×400 VAC / 32 A, 700 VDC, 22 kW",Industry BRUSA HyPower,,,noauthor_dcdc_nodate-4,93.0
-YCHN2GMY,2021.0,Efficiency-Optimized Modulation Scheme for Three-Phase Dual-Active-Bridge DC–DC Converter,,,,cunico_efficiency-optimized_2021,94.0
-R84XQCCP,2019.0,Voltage-Fed Three-Phase Semi-Dual Active Bridge DC–DC Converter Utilizing Varying Operating Modes With High Conversion Efficiency,,,,sha_voltage-fed_2019,95.0
-XSEV2QY2,,Gen5 High Voltage DC/DC,Industry BorgWarner,"Vin=220-800V, Vo=12V","Power=1.2kW, PD=0.242kW/L(case), Eff_pk=0.93, Eff_avg = 0.92",noauthor_gen5_nodate,96.0
-IKQH37F2,2019.0,A High Step-down DC-DC Converter with Matrix-Transformer and Wide Voltage Gain for Vehicle Power Supply Applications,,,,xu_high_2019,97.0
-UI27D7B2,2015.0,Naturally Clamped Soft-Switching Current-Fed Three-Phase Bidirectional DC/DC Converter,,,,xuewei_naturally_2015,98.0
-6W6P8GCM,2011.0,Optimization of a 5-kW Telecom Phase-Shift DC–DC Converter With Magnetically Integrated Current Doubler,,,,badstuebner_optimization_2011,99.0
-TQHUQYIR,2019.0,Phase-Shifted Full-Bridge DC–DC Converter With High Efficiency and High Power Density Using Center-Tapped Clamp Circuit for Battery Charging in Electric Vehicles,,,,lim_phase-shifted_2019,100.0
-J5YUQQFU,2020.0,Half-Bridge Integrated Phase-Shifted Full-Bridge Converter With High Efficiency Using Center-Tapped Clamp Circuit for Battery Charging Systems in Electric Vehicles,,,,lim_half-bridge_2020,101.0
-Q27N9EE3,2022.0,Design Methodology Based on Dual Control of a Resonant Dual Active Bridge Converter for Electric Vehicle Battery Charging,,,,mirtchev_design_2022,102.0
-KUC9FYQ7,2022.0,Adaptive Modulation of Resonant DAB Converters for Wide Range ZVS Operation With Minimum Reactive Circulating Power,,,,james_adaptive_2022,103.0
-FEMNLBC3,2023.0,A GaN Variable-Frequency Series Resonant Dual-Active-Bridge Bidirectional AC-DC Converter for Battery Energy Storage System,,,,zou_gan_2023,104.0
-GWQ2UJFG,2021.0,Hybrid-PWM-Controlled Current-Fed Bidirectional Series Resonant Converter With Low Current Ripple and Wide Voltage Gain,,,,gu_hybrid-pwm-controlled_2021,105.0
-UKW2V2W6,2024.0,Phase-Shift Full-Bridge (PSFB) Converter Integrated Double-Inductor Rectifier With Separated Resonant Circuits (SRCs) for 800-V High-Power Electric Vehicles,,,,pei_phase-shift_2024,106.0
-VGBMSKV7,2022.0,Design and Implementation of a Two-Stage Resonant Converter for Wide Output Range Operation,,,,zanatta_design_2022,107.0
-7YRU3PER,2024.0,An Interleaved Current-Fed Integrated LLC Resonant Converter With Input Current Ripple Cancellation,,,,gu_interleaved_2024,108.0
-B2ZKLPK8,,Dynamic Optimization for Dual-Active-Bridge-Based DC-DC Converter Systems by,,,,hou_dynamic_nodate-1,109.0
-B8J43FAJ,,Analysis and design of a Series Resonant Current-Fed Dual Half-Bridge converter,,,,spiazzi_analysis_nodate-1,110.0
-ATET4KMW,2021.0,Highly Efficient Bidirectional Current-Fed Resonant Converter Over a Wide Voltage Gain Range,,,,kim_highly_2021,111.0
-92MV2RPZ,2021.0,PWM-Controlled Series Resonant Converter for Universal Electric Vehicle Charger,,,,kim_pwm-controlled_2021,112.0
-UZKFINRE,2019.0,A Structure-Reconfigurable Series Resonant DC–DC Converter With Wide-Input and Configurable-Output Voltages,,,,shen_structure-reconfigurable_2019,113.0
-J2H9K8GY,2012.0,Analysis and Design of a Three-Level LLC Series Resonant Converter for High- and Wide-Input-Voltage Applications,,,,lee_analysis_2012,114.0
-EA9SA6V9,2017.0,Interleaved LLC Resonant Converter With Hybrid Rectifier and Variable-Frequency Plus Phase-Shift Control for Wide Output Voltage Range Applications,,,,wu_interleaved_2017,115.0
-NVF6KPA8,,A Bidirectional Resonant DC–DC Converter Suitable for Wide Voltage Gain Range,,,,noauthor_bidirectional_nodate-2,116.0
-YDIR8WHU,,A Structure-Reconfigurable Series Resonant DC–DC Converter With Wide-Input and Configurable-Output Voltages,,,,noauthor_structure-reconfigurable_nodate,117.0
-VK53LW7W,2021.0,Bidirectional Current-Fed CLLC Resonant Converter Employing Asymmetric PWM,,,,park_bidirectional_2021,118.0
-T86NNX25,2024.0,DCDC LP Converters,Industry BrightLoop,"Vin=200-950V, Vo=9-56V","Power=9.6 kW, PD=3.2kW/L, Eff_pk=0.96, Eff_avg=0.94",noauthor_dcdc_2024-2,119.0
-4WDLXTQF,2024.0,BRIGHTLOOP | Automotive Application for GaN Semiconductors,,,,noauthor_brightloop_2024,120.0
-IM85GF8T,,VITESCO TECHNOLOGIES | Automotive Application for GaN Semiconductors,Industry Vitesco Technologies,"Vin=400-800V, Vo=12-48V","Power=4kW, PD=4.5kW/L",noauthor_vitesco_nodate-2,121.0
-IBVBCEV8,,HELLA | Automotive Application for GaN Semiconductors,,,,noauthor_hella_nodate,122.0
-PE86SFTA,2024.0,DCDC MP Converters,Industry BrightLoop,"Vin=200-950V, Vo=9-56V","Power=4.8 kW, PD=2.38kW/L, Eff_pk=0.96, Eff_avg=0.94",noauthor_dcdc_2024,123.0
-KGKHRV8S,2024.0,DCDC SP Converters,Industry BrightLoop,"Vin=200-950V, Vo=9-56V","Power=1.9kW, PD=3.366kW/L, Eff_pk=0.96, Eff_avg=0.94",noauthor_dcdc_2024-1,124.0
+QRAE92S3,2020.0,A high frequency CLLLC bi-directional series resonant converter DAB using an integrated PCB winding transformer,Industry Texas Instrument,"Vin=380-600V, Vo=300-420V, fs=500kHz","Power=6.6kW, PD=4.64kW/L, Eff_pk=0.98, Eff_avg=0.965",yu_high_2020,1
+KDS5WX3Z,2021.0,A Novel Three-level Phase-Shift Modulation for Serial Half Bridge LLC Resonant Converter,,,,zhang_novel_2021,2
+UV25BGEU,2018.0,New PCB Winding ”Snake-Core” Matrix Transformer for Ultra-Compact Wide DC Input Voltage Range Hybrid B+DCM Resonant Server Power Supply,,,,knabben_new_2018,3
+XV5LD2GK,2021.0,Dual Phase LLC Resonant Converter With Variable Frequency Zero Circulating Current Phase-Shift Modulation for Wide Input Voltage Range Applications,University of Malaya,,,mustafa_dual_2021,4
+B3426XEB,2021.0,A high-efficiency high-power-density on-board low-voltage DC–DC converter for electric vehicles application,Queen'sU,"Vin=250-430V, Vo=9-16V, fs = 260-400kHz","Power=3kW, PD=3kW/L, Eff_pk=0.969,  Eff_avg=0.95, Eff_low=0.961",zhou_high-efficiency_2021,5
+4CXST3VN,2012.0,A Novel ZVZCS Full-Bridge DC/DC Converter Used for Electric Vehicles,Queen'sU,"Vin=235-431V, Vo=11.5-15V, fs=220kHz","Power=3kW, Eff_pk=0.975,  Eff_avg=0.955, Eff_low=0.93",pahlevaninezhad_novel_2012,6
+4WBEVQ6M,2013.0,Enhanced modulation strategy for a three-phase dual active bridge—boosting efficiency of an electric vehicle converter,RWTH,"Vin=100-170V, Vo=10-16V, fs = 100kHz","Power=2kW, PD=1kW/L, Eff_pk=0.943,  Eff_avg=0.928, Eff_low=0.928-0.945(500W)",van_hoek_enhanced_2013,7
+BYM6A8VT,2012.0,A soft switching three-phase current-fed bidirectional DC-DC converter with high efficiency over a wide input voltage range,FSU,"Vin=24-48V, Vo=288V, fs = 40kHz","Power=6kW, Eff_pk=0.964,  Eff_avg=0.94, Eff_low=0.92(2.5kW)",wang_soft_2012,8
+3LRAT3Z4,2016.0,Performance Evaluation of a Three-Phase Dual Active Bridge DC–DC Converter With Different Transformer Winding Configurations,TU/e,,,baars_performance_2016,9
+Q4JUGPLB,2015.0,New interleaved current-fed resonant converter with significantly reduced high current side output filter for EV and HEV applications,,,,moon_new_2015,10
+EXGB9V22,2023.0,New integrated DC–DC conversion system for electric vehicles,Yonsei Univ.,"Vin=135-170V, Vo=12V, fs=90kHz","Power=1.2kW, Eff_pk=0.98, Eff_avg = 0.96",kim_new_2023,11
+QA6I2DZ6,2023.0,Fixed-frequency circulant phase-shift controlled current-fed resonant converter with wide voltage gain range,HIT Shenzhen,,,gu_fixed-frequency_2023,12
+5WIEMC4V,2023.0,Generalized Multiphase-Shift Transient Modulation for Dual-Active-Bridge Series-Resonant Converter,,,,sun_generalized_2023,13
+RJQHBXF5,2022.0,Modulation Transition Methods Based on Trajectory Control for LLC Resonant Converters Operating in Wide Input- and/or Output-Voltage Range,,,,zhang_modulation_2022,14
+MFEBJ7W7,2024.0,Model and control of a current-fed dual active bridge based ultrawide-voltage-range auxiliary power module for 400 V/800 V electric vehicles,UTK,"Vin=180-900V, Vo=6-16V, fs=80kHz","Power=3.2kW, PD=1.38kW/L, Eff_pk=0.97,  Eff_avg=0.95",zhu_model_2024,15
+J6ZTSTD5,2012.0,Double-clamp ZVS converter interfaces high voltage traction batteries with 12V legacy system in hybrid and pure-electric vehicles,Industry Vicor,"Vin=160-420V, Vo=12.5-15.5V","Power=0.45kW, PD=54kW/L, Eff_pk=0.934, Eff_avg = 0.94",salato_double-clamp_2012,16
+DQGIR86L,2021.0,Power density optimization of 700 kHz GaN-based auxiliary power module for electric vehicles,Seoul Tech,"Vin=200-310V, Vo=12.8-15.1V, fs=700kHz","Power=1.8kW, PD=8.1kW/L, Eff_pk=0.9187,  Eff_avg=0.9, Eff_low=0.9(800W)",naradhipa_power_2021,17
+SXC5KYEI,2020.0,Two-stage vs one-stage design for a bidirectional 400V/12V 6kW auxiliary power module in electric vehicles,UTK,,,zhu_two-stage_2020,18
+EM88JF8J,2022.0,Auxiliary power module elimination in evs using dual inverter drivetrain,U of T,,,viana_auxiliary_2022,19
+Y9XYILBK,2015.0,Evaluation of integrated active filter auxiliary power modules in electrified vehicle applications,McMaster,,,hou_evaluation_2015,20
+8EJKU7WA,2017.0,Applied integrated active filter auxiliary power module for electrified vehicles with single-phase onboard chargers,McMaster,,,hou_applied_2017,21
+R3HTMEH3,2023.0,Development of phase-shift full-bridge converter with integrated winding planar two-transformer for LDC,Inha Univ.,"Vin=400-800V, Vo=13-15V, fs=200kHz","Power=2.1kW, PD=5.2kW/L, Eff_pk=0.954,  Eff_avg=0.935, Eff_low=0.95(1kW)",lee_development_2023,22
+7R47DTII,2021.0,Design of an isolated bidirectional DC–DC converter with built-in filters for high power density,Industry Toyota Central R&D Labs,,,inoue_design_2021,23
+D58RNFFM,2015.0,"Double-phase high-efficiency, wide load range high- voltage/low-voltage LLC DC/DC converter for electric/hybrid vehicles",Supélec,"Vin=330-410V, Vo=14V, fs=250kHz","Power=2.5kW, PD=1kW/L, Eff_pk=0.95,  Eff_avg=0.94, Eff_low=0.943(1kW)",yang_double-phase_2015,24
+CQXKLCRV,2023.0,An ultra-high gain current-fed universal auxiliary power module for 400V/800V electric vehicles,UTK,,,zhu_ultra-high_2023,25
+ZDEUF5YT,2017.0,A primary full-integrated active filter auxiliary power module in electrified vehicles with single-phase onboard chargers,McMaster,"Vin=100-320V, Vo=12V, fs = 100kHz","Power=0.72kW, PD=0.363kW/L, Eff_pk=0.935, Eff_avg = 0.90",hou_primary_2017,26
+K2PCKAIJ,2010.0,Accurate power loss model derivation of a high-current dual active bridge converter for an automotive application,ETH,"Vin=240-450V, Vo=11-16V, fs = 100kHz","Power=2kW, PD=1.535kW/L(case), Eff_pk=0.956,  Eff_avg=0.92,",krismer_accurate_2010,27
+V3CSN6NF,2012.0,A load adaptive control approach for a zero-voltage-switching DC/DC converter used for electric vehicles,Queen'sU,,,pahlevaninezhad_load_2012,28
+NP642NW3,2009.0,Accurate small-signal model for the digital control of an automotive bidirectional dual active bridge,ETH,,,krismer_accurate_2009,29
+CTWMB26L,2021.0,Design a 400 V–12 V 6 kW bidirectional auxiliary power module for electric or autonomous vehicles with fast precharge dynamics and zero DC-bias current,UTK,"Vin=250-450V, Vo=10-16V, fs = 200kHz","Power=6kW, PD=2.22 kW/L, Eff_pk=0.962,  Eff_avg=0.94, Eff_low=0.96(1kW)",zhu_design_2021,30
+F9S52GIS,2024.0,A spurious-free piezoelectric resonator based 3.2 kW DC–DC converter for EV on-board chargers,,,,stolt_spurious-free_2024,31
+XVMBM6K6,2017.0,Design and operation considerations of three-phase dual active bridge converters for low-power applications with wide voltage ranges,RWTH,"Vin=260-450V, Vo=10-16V, fs = 100kHz","Power=3kW, PD=1kW/L, Eff_pk=0.956,  Eff_avg=0.921",hoek_design_2017,32
+HF7QYUBU,2014.0,A wide bandgap device-based isolated quasi-switched-capacitor DC/DC converter,OSU,"Vin=300V, Vo=12V, fs=500-600kHz","Power=1kW, PD=0.957(case), Eff_pk=0.96, Eff_avg=0.91",zhang_wide_2014,33
+V7Z7Q83H,2021.0,Two-mode low-voltage DC/DC converter with high and wide input voltage range,Inha Univ.,"Vin=350-800V, Vo=13.9V, fs=70kHz","Power=0.6kW, Eff_pk=0.926, Eff_avg = 0.91",lee_two-mode_2021,34
+V8CX2XVU,2015.0,Design of a 2.5-kW 400/12-V high-efficiency DC/DC converter using a novel synchronous rectification control for electric vehicles,Kettering Univ.,"Vin=220-450V, Vo=6-16V, fs = 90-200kHz","Power=2.5kW,  Eff_pk=0.932,  Eff_avg=0.92, Eff_low=0.93(1kW)",duan_design_2015,35
+9DHSZ965,2014.0,Design and control of a bidirectional resonant DC–DC converter for automotive engine/battery hybrid power generators,Seoul Tech,"Vin=380-400V, Vo=24-28V, fs=48kHz","Power=5kW,  Eff_pk=0.9513,  Eff_avg=0.934, Eff_low=0.9508(1.5kW)",park_design_2014,36
+ZRTG4E9A,2013.0,Implementation of a novel digital active EMI technique in a DSP-based DC–DC digital controller used in electric vehicle (EV),Queen'sU,"Vin=235-431V, Vo=11.5-15V, fs=200kHz","Power=2kW,  Eff_pk=0.932,  Eff_avg=0.92, Eff_low=0.93",hamza_implementation_2013,37
+3ZWI3EBS,2017.0,Topology and control scheme of OBC–LDC integrated power unit for electric vehicles,SKKU,,,kim_topology_2017,38
+SGHAXNFW,2019.0,Zero‐voltage soft‐switching DC–DC converter‐based charger for LV battery in hybrid electric vehicles,http://onlinelibrary.wiley.com/termsAndConditions#vor,,,sayed_zerovoltage_2019,39
+Y66NNDSW,2019.0,Implement of high efficiency achievement algorithm of LDC for xEV based on GaN HEMT,Daejin Univ.,,,kim_implement_2019,40
+CDDHE4IB,2017.0,An integrated battery charger with high power density and efficiency for electric vehicles,https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html,,,kim_integrated_2017,41
+CEX76RM7,2020.0,Wide-input-voltage-range 3 kW DC-DC converter with hybrid LLC & boundary / discontinuous mode control,ETH,,,knabben_wide-input-voltage-range_2020,42
+PQYQ4RN5,2020.0,Integrated magnetics design for a full-bridge phase-shifted converter,National Ilan Univ.,"Vin=400V, Vo=12V, fs=80kHz","Power=1.7kW, PD=2.28kW/L(case), Eff_pk=0.967, Eff_avg = 0.955",liu_integrated_2020,43
+IPJK8ESY,2012.0,Transformer integrated with additional resonant inductor for phase-shift full-bridge converter with primary clamping diodes,KAIST,"Vin=320-400V, Vo=12V, fs = 86kHz","Power=1.2kW, Eff_pk=0.957, Eff_avg = 0.945",cho_transformer_2012,44
+3LPAZP55,2009.0,ZVS phase shift full bridge converter with separated primary winding,KAIST,"Vin=329-400V, Vo=12V, fs=86kHz","Power=1.2kW, Eff_pk=0.956, Eff_avg=0.945",young-do_kim_zvs_2009,45
+EKQTKXEX,2022.0,New combined OBC and LDC system for electric vehicles with 800 V battery,Inha Univ.,,,lee_new_2022,46
+XIJ2RVSH,2021.0,"DC-DC converters for transportation electrification: Topologies, control, and future challenges",,,,chen_dc-dc_2021,47
+JK7FYUB3,2024.0,Identifying suitable PSFB topology for HVLV auxiliary power supply (APS) application in evs,Industry Wolfspeed,,,gandluru_identifying_2024,48
+S8NBI4WD,2021.0,Self-adaptive synchronous rectifier control algorithm of phase-shifted full bridge current double rectifier converter,Zhejiang Univ.,"Vin=280-400V, Vo=14V, fs=100kHz","Power=1.5kW, Eff_pk=0.93, Eff_avg = 0.913",ding_self-adaptive_2021,49
+W5I2SP4V,2024.0,Multiport converter based auxiliary power supply for heavy duty fuel cell power train,ORNL,,,mukherjee_multiport_2024,50
+V4B9BFMH,2021.0,An effective integration of APM and OBC with simultaneous operation and entire ZVS range for electric vehicle,Seoul Tech,,,yu_effective_2021,51
+WALCI7AK,2023.0,Two-transformer phase-shift full-bridge converter with a new rectifier for reducing conduction loss,Inha Univ.,"Vin=300-400V, Vo=12V, fs=100kHz","Power=0.4kW, Eff_pk=0.937, Eff_avg = 0.91",jeong_two-transformer_2023,52
+3LTFIZNH,2023.0,Zero-voltage-switching high-step-down buck converter with continuous output current,IUT,,,montazerolghaem_zero-voltage-switching_2023,53
+S93ZWP5S,2012.0,Efficiency-optimized high-current dual active bridge converter for automotive applications,ETH,"Vin=240-450V, Vo=11-16V, fs = 100kHz","Power=2kW, Eff_pk=0.95, Eff_avg = 0.935",krismer_efficiency-optimized_2012,54
+CFJEJ8DZ,2013.0,Wide-Range ZVS Phase-Shift Full-Bridge Converter With Reduced Conduction Loss Caused by Circulating Current,,,,kim_wide-range_2013,55
+WGEPS8VF,2014.0,Efficiency optimized single-stage reconfigurable DC/DC converter for hybrid and electric vehicles,Industry Infineon,"Vin=180-420V, Vo=10.6-16V, fs=100kHz","Power=1.05kW, Eff_pk=0.9",zeljkovic_efficiency_2014,56
+VI57WME3,2020.0,Unidirectional three phase dual active bridge DC-DC converter used in electrical vehicles,,,,aouiti_unidirectional_2020,57
+WXGLWHQ9,2008.0,A three-phase bidirectional DC-DC converter for automotive applications,ORNL,"Vin=250-400V, Vo=42V, fs=40kHz","Power=6kW, Eff_pk=0.959,  Eff_avg=0.948, Eff_low=0.95(1.5kW)",su_three-phase_2008,58
+MMLQNX9V,2019.0,Design and operation of a fail-operational 5kW 800V-12V DC-DC converter,,,,bertino_design_2019,59
+N9IIH8DE,,BCMs transform high-voltage batteries into SELV systems,,,,noauthor_bcms_nodate,60
+CVMCAMHB,2010.0,for the degree of doctor of sciences,,,,krismer_for_2010,61
+Z4L5ABDF,,ETH zurich power electronic systems laboratory physikstrasse 3 | ETL I12 8092 zurich | switzerland,,,,zhang_eth_nodate,62
+UMSK6GHW,2016.0,High-frequency DC-DC converter in electric vehicle based on GaN transistors,,,,pang_high-frequency_2016,63
+8U6NIID5,2015.0,Interleaved boost-integrated LLC resonant converter with fixed-frequency PWM control for renewable energy generation applications,,,,sun_interleaved_2015,64
+NEAW83WH,2012.0,High frequency bus converter with low loss integrated matrix transformer,,,,reusch_high_2012,65
+GZ83EA2X,2023.0,Variable Turns-Ratio Matrix Transformer based LLC Converter for Two-Stage Electric Vehicle Auxiliary Power Module Applications,,,,hou_variable_2023,66
+BS7QXB32,2017.0,Dual-Bridge LLC Resonant Converter With Fixed-Frequency PWM Control for Wide Input Applications,,,,sun_dual-bridge_2017-1,67
+JHPXTSUZ,2022.0,Implementation of an Auxiliary Low-Voltage DC Power Supply from an Electric Traction Open-Ended Motor Drive Configuration,,,,foti_implementation_2022,68
+5LRWRN5C,2024.0,Interleaved PCB Winding Planar Transformer for Electric Vehicle Charging CLLC Converters,,,,wouters_interleaved_2024,69
+4Y7UEVDT,2012.0,Design of a Highly efficient bidirectional isolated LLC resonant converter,ETH,"Vin=450V, Vo=17-56V, fs=140kHz","Power=1.65kW, Eff_pk=0.976, Eff_avg = 0.96",hillers_design_2012,70
+XPFQFC7Y,,Vitesco Technologies - High Voltage DC/DC Converter - 4th Generation,Industry Vitesco Technologies,"Vin=245-450V, Vo=8-16V","Power=3.6kW, PD=1.5kW/L",noauthor_vitesco_nodate,71
+TIUSW488,,Vitesco Technologies - High Voltage Power Electronics Inverter + DC/DC Converter,,,,noauthor_vitesco_nodate-3,72
+SQ9DMVJA,,"PC32_Power supply_Passenger car solution_Products and Solutions_Suzhou Inovance Automotive Co., Ltd.",Industry Inovance Auomotive,,,noauthor_pc32_power_nodate,73
+7YZ6IBGD,,"PC41_Power supply_Passenger car solution_Products and Solutions_Suzhou Inovance Automotive Co., Ltd.",Industry Inovance Auomotive,,,noauthor_pc41_power_nodate,74
+JD6ZEGEX,2018.0,"PP30_Power supply_Passenger car solution_Products and Solutions_Suzhou Inovance Automotive Co., Ltd.",Industry Inovance Auomotive,"Vin=180-480V, Vo=9-16V","Power=3kW, Eff_pk=0.975,  Eff_avg=0.955, Eff_low=0.93",noauthor_pp30_power_2018,75
+9GHGB9V5,,"PC36_Power supply_Passenger car solution_Products and Solutions_Suzhou Inovance Automotive Co., Ltd.",Industry Inovance Auomotive,,,noauthor_pc36_power_nodate,76
+J6B93Z94,,Charger-converter,,,,noauthor_charger-converter_nodate,77
+TW9UHIWR,2021.0,High-voltage DC/DC converter generation 3evo,Industry BOSCH,"Vin=240-475V, Vo=10.5-15.5V","Power=3.6kW, Eff_pk=0.95, Eff_avg=0.922",noauthor_high-voltage_2021,78
+TJUGTU74,,Integrate SiC power electronics into EV fast chargers | Wolfspeed,,,,noauthor_integrate_nodate,79
+QTTL4IRQ,,CRD-60DD12N-K 60 kW Discrete Interleaved LLC DC-DC Converter | Wolfspeed,,,,noauthor_crd-60dd12n-k_nodate,80
+PT3PV3TK,,DC DC Converter 1500w | EMP EV MOBILITY,Industry ev mobility,"Vin=200-420V, Vo=6-18V","Power=1.5kW, PD=0.251kW/L(case), Eff_pk=0.951, Eff_avg = 0.92",noauthor_dc_nodate,81
+7HDK2J6R,,"EV OBC DCD PDU 3 in 1 CDU Unit, Electric Drive Unit | EMP EV MOBILITY",,,,noauthor_ev_nodate,82
+GVWAASJU,2021.0,400V DC/DC Converter - Delta,Industry Delta,"Vin=200-480V, Vo=9-16V","Power=2.5kW, PD=1.785kW/L(case),  Eff_pk=0.953,  Eff_avg=0.921",noauthor_400v_2021,83
+D4ARSWJP,,48V DC/DC converter,,,,noauthor_48v_nodate,84
+MAKMQZP3,2023.0,High-voltage DC/DC converter,Industry Eaton,"Vin=225-455V, Vo=12-16V","Power=3kW, PD=0.645kW/L(case), Eff_pk=0.941,  Eff_avg=0.927",noauthor_high-voltage_2023,85
+ELZN8M3R,2022.0,800V DC/DC Converter - Delta,Industry Delta,"Vin=390-935V, Vo=9-16V","Power=3kW, PD=1.55kW/L(case) Eff_pk=0.943,  Eff_avg=0.955, Eff_low=0.92",noauthor_800v_2022,86
+BWUL3IEC,,Learn more about Technology Innovation for the Next Gen of EVs,,,,noauthor_learn_nodate,87
+B6AIILXE,2024.0,Unprecedented levels of  miniaturization in automotive  electronics,Industry Vicor,,,greg_unprecedented_2024,88
+P2FHZBZ2,2024.0,Power modules meet EV power demands that have increased by 20x,Industry Vicor,"Vin=400V, Vo=13.8V, fs=1300kHz","Power=4kW, PD=5.22kW/L, Eff_pk=0.95,  Eff_avg=0.95",noauthor_power_2024,89
+GN3Q6FPI,,"Automotive Innovation Day 2024 in Seoul, Korea",,,,noauthor_automotive_nodate,90
+QJZ8VFCI,,Optimize your vehicle power distribution network by integrating the DC-DC converter into the battery pack,,,,choi_optimize_nodate,91
+FE8YUYXZ,,"LSM4k0-400-2, 4kW LSM DC-DC - 400V in, 24V Out, Droop CS",Industry AstrodyneTDI,"Vin=290-430V, Vo=22-30V","Power=4kW, PD=1.16kW/L, Eff_pk=0.94,  Eff_avg=0.95",noauthor_lsm4k0-400-2_nodate,92
+9JQG5Z24,,Variable Ratio Matrix Transformer based LLC Converter for Two-Stage Low-Voltage DC-DC Converter Efficiency Improvement,Virginia Tech,,,hou_variable_nodate,93
+LSG4VF7S,,"350DNC40-12 - 4000W, 12V, DC-DC HEV Down Converter | Bel Fuse",Industry Bel Fuse Inc,"Vin=240-430V, Vo=9-16V","Power=4kW, PD=0.632kW/L, Eff_pk=0.93,  Eff_avg=0.91",noauthor_350dnc40-12_nodate,94
+CEGEGETG,2023.0,"700DNG40-24-8 - 4000W, 24V, DC-DC HEV Down Converter | Bel Fuse",Industry Bel Fuse Inc,"Vin=450-900V, Vo=20-30V","Power=4kW, PD=0.776kW/L, Eff_pk=0.95,  Eff_avg=0.91",noauthor_700dng40-24-8_2023,95
+IX2DTSW5,2023.0,"bsc6xx, DC/DC Converter - 125 A, 220 - 450 V, 24 V",Industry BRUSA HyPower,"Vin=220-450V, Vo=8-16V","Power=2.8kW, PD=0.889kW/L, Eff_pk=0.944,  Eff_avg=0.92",noauthor_bsc6xx_2023,96
+GYZNK83S,,"BSC7xx, DC/DC converter - 190 - 480 V / 350 - 890 V",,,,noauthor_bsc7xx_nodate,97
+GE2Z6K5P,,"DC/DC Converter - 3×400 VAC / 32 A, 700 VDC, 22 kW",Industry BRUSA HyPower,,,noauthor_dcdc_nodate-4,98
+YCHN2GMY,2021.0,Efficiency-Optimized Modulation Scheme for Three-Phase Dual-Active-Bridge DC–DC Converter,,,,cunico_efficiency-optimized_2021,99
+R84XQCCP,2019.0,Voltage-Fed Three-Phase Semi-Dual Active Bridge DC–DC Converter Utilizing Varying Operating Modes With High Conversion Efficiency,,,,sha_voltage-fed_2019,100
+XSEV2QY2,,Gen5 High Voltage DC/DC,Industry BorgWarner,"Vin=220-800V, Vo=12V","Power=1.2kW, PD=0.242kW/L(case), Eff_pk=0.93, Eff_avg = 0.92",noauthor_gen5_nodate,101
+IKQH37F2,2019.0,A High Step-down DC-DC Converter with Matrix-Transformer and Wide Voltage Gain for Vehicle Power Supply Applications,,,,xu_high_2019,102
+UI27D7B2,2015.0,Naturally Clamped Soft-Switching Current-Fed Three-Phase Bidirectional DC/DC Converter,,,,xuewei_naturally_2015,103
+6W6P8GCM,2011.0,Optimization of a 5-kW Telecom Phase-Shift DC–DC Converter With Magnetically Integrated Current Doubler,,,,badstuebner_optimization_2011,104
+TQHUQYIR,2019.0,Phase-Shifted Full-Bridge DC–DC Converter With High Efficiency and High Power Density Using Center-Tapped Clamp Circuit for Battery Charging in Electric Vehicles,,,,lim_phase-shifted_2019,105
+J5YUQQFU,2020.0,Half-Bridge Integrated Phase-Shifted Full-Bridge Converter With High Efficiency Using Center-Tapped Clamp Circuit for Battery Charging Systems in Electric Vehicles,,,,lim_half-bridge_2020,106
+Q27N9EE3,2022.0,Design Methodology Based on Dual Control of a Resonant Dual Active Bridge Converter for Electric Vehicle Battery Charging,,,,mirtchev_design_2022,107
+KUC9FYQ7,2022.0,Adaptive Modulation of Resonant DAB Converters for Wide Range ZVS Operation With Minimum Reactive Circulating Power,,,,james_adaptive_2022,108
+FEMNLBC3,2023.0,A GaN Variable-Frequency Series Resonant Dual-Active-Bridge Bidirectional AC-DC Converter for Battery Energy Storage System,,,,zou_gan_2023,109
+HT24DA6K,2021.0,Design Considerations for a 50 kW Dual Bridge Series Resonant DC/DC Converter with Wide-Input Voltage Range for Solid-State Transformers,,,,apte_design_2021,110
+CNENCE9U,2022.0,Total Suppression of High-Frequency Transient Oscillations in Dual-Active-Bridge Series-Resonant Converter by Trajectory-Switching Modulation,,,,sun_total_2022,111
+82Z6T75S,2022.0,GaN-based High Frequency 6.6kW Bi-directional DC/DC Converter for OBC Application,,,,minli_gan-based_2022,112
+QSETZB6W,2023.0,"GaN-based High-Frequency, High-Power-Density, 2-in-1 Bi-directional OBC Design for EV Applications",,,,jia_gan-based_2023,113
+YHWQFHYP,2024.0,GaN and SiC Based 500kHz Resonant Bidirectional DC/DC Design for 800V OBCM Application,,,,jia_gan_2024,114
+MDG46CGQ,2024.0,Comparative Evaluation of a DAB Converter and SRC for DC Buildings Application,,,,carvalho_comparative_2024,115
+8WMSPWW3,2019.0,Operation of a Bidirectional Series-Resonant Converter With Minimized Tank Current and Wide ZVS Range,,,,hu_operation_2019,116
+EEMPKKQ3,2023.0,A Family of Bidirectional Series Resonant Converter With Sine-Wave Modulation in Wide Voltage Range,,,,xu_family_2023,117
+GWQ2UJFG,2021.0,Hybrid-PWM-Controlled Current-Fed Bidirectional Series Resonant Converter With Low Current Ripple and Wide Voltage Gain,,,,gu_hybrid-pwm-controlled_2021,118
+HNA78TM4,2019.0,Investigation of Zero Voltage Switching Capability for Bidirectional Series Resonant Converter Using Phase-Shift Modulation,https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html,,,park_investigation_2019,119
+KV933MIQ,2010.0,Analysis and Design of High-Frequency Isolated Dual-Bridge Series Resonant DC/DC Converter,https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html,,,xiaodong_li_analysis_2010,120
+P6WH3P4K,2016.0,LLC Resonant Converter With Semiactive Variable-Structure Rectifier (SA-VSR) for Wide Output Voltage Range Application,https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html,,,wu_llc_2016,121
+SGQ7XAHQ,2024.0,A Simple Variable Frequency and Single Phase Shifted Control for the Dual Active Bridge Series Resonant Converter,,,,jia_simple_2024,122
+GN94U9AA,2022.0,Nonlinear Implementable Control of a Dual Active Bridge Series Resonant Converter,,,,sebastian_nonlinear_2022,123
+FWW2KC2Q,2023.0,A Bidirectional Isolated Dual-Phase-Shift Variable-Frequency Series Resonant Dual-Active-Bridge GaN AC–DC Converter,,,,chen_bidirectional_2023-1,124
+UKW2V2W6,2024.0,Phase-Shift Full-Bridge (PSFB) Converter Integrated Double-Inductor Rectifier With Separated Resonant Circuits (SRCs) for 800-V High-Power Electric Vehicles,,,,pei_phase-shift_2024,125
+RFBW2VFB,2023.0,Dynamic Response Optimization of a DABSRC Based on Feedforward Control,,,,qiu_dynamic_2023,126
+Q3R9ISTP,2020.0,Highly Efficient Bidirectional Series-Resonant DC/DC Converter Over Wide Range of Battery Voltages,Pohang University of Science and Technology,"Vin=250-415V, Vo=400V, fs=50kHz","Power=3.3kW, Eff_pk=0.978,  Eff_avg=0.955",bai_highly_2020,127
+E47BY7P8,2017.0,A Frequency Adaptive Phase Shift Modulation Control Based LLC Series Resonant Converter for Wide Input Voltage Applications,,,,shakib_frequency_2017,128
+VGBMSKV7,2022.0,Design and Implementation of a Two-Stage Resonant Converter for Wide Output Range Operation,,,,zanatta_design_2022,129
+7YRU3PER,2024.0,An Interleaved Current-Fed Integrated LLC Resonant Converter With Input Current Ripple Cancellation,,,,gu_interleaved_2024,130
+TMG7P8P6,2020.0,Burst-Mode and Phase-Shift Hybrid Control Method of LLC Converters for Wide Output Range Applications,,,,shi_burst-mode_2020,131
+HS89YXY5,2021.0,A Dual-Bridge DC–DC Resonant Converter Using Extended PWM and Phase-Shift Control,,,,hu_dual-bridge_2021-1,132
+66TPIRQU,2017.0,ZVS Soft Switching Boundaries for Dual Active Bridge DC–DC Converters Using Frequency Domain Analysis,,,,riedel_zvs_2017,133
+P2LUIBFV,2019.0,General Closed-Form ZVS Analysis of Dual-Bridge Series Resonant DC–DC Converters,,,,han_general_2019,134
+74E3N7FG,2019.0,Wide-Range ZVS Control Technique for Bidirectional Dual-Bridge Series-Resonant DC–DC Converters,,,,han_wide-range_2019,135
+2SM5XESI,2022.0,An Asymmetrical DAB Converter Modulation and Control Systems to Extend the ZVS Range and Improve Efficiency,,,,mahdavifard_asymmetrical_2022,136
+ZVD3CMH8,2024.0,ZVS Boundary Assessment for T-type-based Dual Active Bridge Series Resonant Converters using State-Plane Analysis,,,,gurudiwan_zvs_2024,137
+ULAXW4BN,2020.0,Time-Domain Efficiency Optimization Evaluation for Series Resonant Converter with Variable Frequency plus Shift Phase Control,,,,yang_time-domain_2020,138
+EEUYAH45,2018.0,Control Technique for Wide-Range ZVS of Bidirectional Dual-bridge Series Resonant dc-dc Converters,,,,han_control_2018,139
+SDVYZKLF,2018.0,A Low-Complexity Trajectory Controller for Reduced Conduction Losses in Series-Resonant Dual Half-Bridge Converters,,,,bez_low-complexity_2018,140
+F8GGVP6A,2017.0,Accurate ZVS boundary analysis for bidirectional dual-bridge series resonant dc-dc converters,,,,han_accurate_2017,141
+NJE4Q6JC,2012.0,Minimum Current Operation of Bidirectional Dual-Bridge Series Resonant DC/DC Converters,,,,corradini_minimum_2012,142
+H9NBVZ42,2024.0,Low-Side-Extended-Phase-Shift-Under-Resonant Modulation Scheme for Dual-Bridge-Series-Resonant Converter,,,,gao_low-side-extended-phase-shift-under-resonant_2024,143
+A8N56FJ5,2024.0,Underresonant Modulation Scheme for Dual-Bridge Series-Resonant Converter,,,,gao_underresonant_2024,144
+BATBQPRG,2023.0,Hybrid-Level Modulation Scheme for Dual-Bridge Series-Resonant Converter,,,,gao_hybrid-level_2023,145
+G6A55KQB,2019.0,A Four-Degrees-of-Freedom Modulation Strategy for Dual-Active-Bridge Series-Resonant Converter Designed for Total Loss Minimization,,,,yaqoob_four-degrees--freedom_2019,146
+B2ZKLPK8,,Dynamic Optimization for Dual-Active-Bridge-Based DC-DC Converter Systems by,,,,hou_dynamic_nodate-1,147
+B8J43FAJ,,Analysis and design of a Series Resonant Current-Fed Dual Half-Bridge converter,,,,spiazzi_analysis_nodate-1,148
+ATET4KMW,2021.0,Highly Efficient Bidirectional Current-Fed Resonant Converter Over a Wide Voltage Gain Range,,,,kim_highly_2021,149
+VIZRV5X9,2023.0,A Bidirectional Isolated Dual-Phase-Shift Variable-Frequency Series Resonant Dual-Active-Bridge GaN AC–DC Converter,,,,chen_bidirectional_2023,150
+92MV2RPZ,2021.0,PWM-Controlled Series Resonant Converter for Universal Electric Vehicle Charger,Industry Delta,"Vin=800V, Vo=200-950V, fs=60kHz","Power=3kW, Eff_pk=0.9854,  Eff_avg=0.95",kim_pwm-controlled_2021,151
+UZKFINRE,2019.0,A Structure-Reconfigurable Series Resonant DC–DC Converter With Wide-Input and Configurable-Output Voltages,,,,shen_structure-reconfigurable_2019,152
+J2H9K8GY,2012.0,Analysis and Design of a Three-Level LLC Series Resonant Converter for High- and Wide-Input-Voltage Applications,,,,lee_analysis_2012,153
+EA9SA6V9,2017.0,Interleaved LLC Resonant Converter With Hybrid Rectifier and Variable-Frequency Plus Phase-Shift Control for Wide Output Voltage Range Applications,,,,wu_interleaved_2017,154
+NVF6KPA8,,A Bidirectional Resonant DC–DC Converter Suitable for Wide Voltage Gain Range,,,,noauthor_bidirectional_nodate-2,155
+YDIR8WHU,,A Structure-Reconfigurable Series Resonant DC–DC Converter With Wide-Input and Configurable-Output Voltages,,,,noauthor_structure-reconfigurable_nodate,156
+VK53LW7W,2021.0,Bidirectional Current-Fed CLLC Resonant Converter Employing Asymmetric PWM,,,,park_bidirectional_2021,157
+T86NNX25,2024.0,DCDC LP Converters,Industry BrightLoop,"Vin=200-950V, Vo=9-56V","Power=9.6 kW, PD=3.2kW/L, Eff_pk=0.96, Eff_avg=0.94",noauthor_dcdc_2024-2,158
+4WDLXTQF,2024.0,BRIGHTLOOP | Automotive Application for GaN Semiconductors,,,,noauthor_brightloop_2024,159
+IM85GF8T,,VITESCO TECHNOLOGIES | Automotive Application for GaN Semiconductors,Industry Vitesco Technologies,"Vin=400-800V, Vo=12-48V","Power=4kW, PD=4.5kW/L",noauthor_vitesco_nodate-2,160
+IBVBCEV8,,HELLA | Automotive Application for GaN Semiconductors,,,,noauthor_hella_nodate,161
+PE86SFTA,2024.0,DCDC MP Converters,Industry BrightLoop,"Vin=200-950V, Vo=9-56V","Power=4.8 kW, PD=2.38kW/L, Eff_pk=0.96, Eff_avg=0.94",noauthor_dcdc_2024,162
+KGKHRV8S,2024.0,DCDC SP Converters,Industry BrightLoop,"Vin=200-950V, Vo=9-56V","Power=1.9kW, PD=3.366kW/L, Eff_pk=0.96, Eff_avg=0.94",noauthor_dcdc_2024-1,163
+EDX6ZEHS,2023.0,A Control Strategy for the Bidirectional LLC-L Converter to Extend the Gain Range Based on the Time Domain Analytical Model,,,,jia_control_2023,164
+5BLF6DI5,2024.0,An Ultra-Wide Range Pulse Width Modulated LLC Converter with Voltage Multiplier Rectifiers,,,,hou_ultra-wide_2024,165
+2VUH78KD,2025.0,Dual Floating Based Three Port DC-DC Converter for EV-APM,,,,kieu_dual_2025,166
+UQC4CB3D,2024.0,A Variable Tertiary DC-Link Voltage Control for Integrated APM in EV Charger Systems Featuring Full ZVS Range,,,,jiang_variable_2024,167
+TD87NBCF,2023.0,Bi-directional Operation Mode of LLC/CLLC DC/DC Converter for On Board Charger of 800V Battery Systems,,,,jung_bi-directional_2023,168
+F5RJYQPT,2022.0,Bidirectional Resonant Converter With Minimized Switching Loss Over Wide Operating Voltage Range,,,,bai_bidirectional_2022,169
+JGT6HYHI,2022.0,Bidirectional Resonant Converter With Minimized Switching Loss Over Wide Operating Voltage Range,,,,bai_bidirectional_2022-1,170
+AAJAU8V4,,Highly Integrated Ultra-Compact Three-Port Converter Systems for Automotive Applications,ETH,"Vin=250-500V, Vo=10.5-15V, fs = 100kHz","Power=3kW, PD=16.4kW/L, Eff_pk=0.966, Eff_avg = 0.95",schafer_highly_nodate,171
+5FYRFHES,,The Path Towards 10kW 3-Phase On-Board Chargers,,,,coolgan_path_nodate,172

@@ -10,6 +10,7 @@ data_fbps = pd.read_csv('data/fbps.csv', dtype=str)
 data_dab = pd.read_csv('data/dab.csv', dtype=str)
 data_llc = pd.read_csv('data/llc.csv', dtype=str)
 data_cfdab = pd.read_csv('data/cfdab.csv', dtype=str)
+data_dabsrc = pd.read_csv('data/dabsrc.csv', dtype=str)
 
 # 提取数据
 year = data['Year']
@@ -24,7 +25,7 @@ eff_pk = pd.to_numeric(data['Eff_pk'], errors='coerce')
 mainVec = data['RealKey']
 
 # 定义子列向量
-subVecs = [data_fbps['Key'], data_dab['Key'], data_llc['Key'], data_cfdab['Key']]
+subVecs = [data_fbps['Key'], data_dab['Key'], data_llc['Key'], data_cfdab['Key'], data_dabsrc['Key']]
 
 # 创建用于存储来源子列的索引
 sourceIdx = np.zeros(len(mainVec), dtype=int)
@@ -36,16 +37,19 @@ for i, subVec in enumerate(subVecs, 1):  # 从 1 开始索引
 topology_labels = np.array(sourceIdx, dtype=str)
 
 # 定义拓扑名称和颜色列表
-topologyNames = ['FBPS', 'DAB', 'Resoannt', 'Current-Fed']  # 拓扑名称
+topologyNames = ['FBPS', 'DAB', 'LLC', 'Current-Fed', 'DABsrc']  # 拓扑名称
 topologyColors = ['#D32F2F',  # 红色
                   '#CC9900',  # 金色
                   '#6633FF', # 紫色
-                  '#006633']   # 深绿色
+                  '#006633', # 深绿色
+                  '#024CAA' # 蓝色
+                  ]   
 
 topologyMarkers = ['o',  # 圆形
                   'D',  # 菱形
                   '^', # 上三角形
-                  's']   # 方形
+                  's', # 方形
+                  'D']  # 菱形
 
 # 设置 Times New Roman 字体
 # font_prop = fm.FontProperties(family='Times New Roman')
@@ -53,23 +57,23 @@ font_prop = fm.FontProperties(family='Cambria')
 alpha_dots = 0.4
 alpha_text = 0.9
 
-# 创建图形
-# plt.figure(figsize=(10, 6))
+# 设置图像的输出比例为16:9
+fig, ax = plt.subplots(figsize=(10, 8))
 plt.figure
 texts = []  # 用于存储注释对象，便于后面调整位置
 
 # 遍历所有的 topologyNames 并绘制各类散点
 for g in range(len(topologyNames)):
     idx = topology_labels == str(g + 1)  # 将拓扑索引转换为字符串
-    x_data = fs_min[idx]
-    y_data = eff_pk[idx]
+    x_data = density[idx]
+    y_data = eff_avg[idx]
     inst_data = institution[idx]
     year_data = year[idx]
     ref_data = refnumber[idx]
     
     # 去除 NaN 值以确保 x_data 和 y_data 大小一致
     valid_data = pd.concat([x_data, y_data, inst_data, year_data, ref_data], axis=1).dropna()
-    x_data, y_data = valid_data['fs_min'], valid_data['Eff_pk']
+    x_data, y_data = valid_data['Density'], valid_data['Eff_avg']
     inst_data = valid_data['Institution']
     year_data = valid_data['Year']
     ref_data = valid_data['Refnumber']
@@ -98,22 +102,24 @@ for g in range(len(topologyNames)):
     # 添加注释，设置透明度
     for xi, yi, inst, yr, ref in zip(x_data, y_data, cleaned_institution, cleaned_year_data, ref_data):
         annotation_text = f"{inst}\n{yr} [{int(ref)}]"
-        texts.append(plt.text(xi, yi, annotation_text, fontsize=9, ha='center', alpha=alpha_text, fontproperties=font_prop))
+        texts.append(plt.text(xi, yi, annotation_text, fontsize=12, ha='center', alpha=alpha_text, fontproperties=font_prop))
 
 # 调整文本以避免重叠
-adjust_text(texts, arrowprops=dict(arrowstyle='<-', color='grey', lw=0.5))
+adjust_text(texts, arrowprops=dict(arrowstyle='->', color='grey', lw=0.5))
+# adjust_text(texts, arrowprops=dict(arrowstyle='->', color='grey', lw=0.5, shrinkA=2, shrinkB=2))
+
 
 # 设置标签、标题和网格
-plt.xscale('log')  # X 轴为对数刻度
-plt.xlabel('Nominal Switching Frequency (kHz)', fontproperties=font_prop, fontsize=12)
-plt.ylabel('Peak Efficiency (%)', fontproperties=font_prop, fontsize=12)
-plt.legend(prop=font_prop, fontsize=10)
-plt.grid(visible=True, linestyle='--',linewidth=0.5 )  # 设置虚线网格
+ax.set_xscale('log')  # X 轴为对数刻度
+ax.set_ylabel('Average Efficiency (%)', fontproperties=font_prop, fontsize=12)
+ax.set_xlabel('Power Density (kW/L)', fontproperties=font_prop, fontsize=12)
+ax.legend(prop=font_prop, fontsize=10, loc='upper left')
+ax.grid(visible=True, linestyle='--', linewidth=0.5)  # 设置虚线网格
 
 # 设置轴刻度字体
-plt.xticks(fontproperties=font_prop, fontsize=10)
-plt.yticks(fontproperties=font_prop, fontsize=10)
+ax.tick_params(axis='x', labelsize=10, labelrotation=0)
+ax.tick_params(axis='y', labelsize=10, labelrotation=0)
 
 # 保存图像为高清 PNG 文件
-plt.savefig('outputs/Fs2Eff_pk.png', dpi=300, bbox_inches='tight')
+plt.savefig('outputs/PD2Eff_avg_topo.png', dpi=1200, bbox_inches='tight')
 plt.show()

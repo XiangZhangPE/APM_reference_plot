@@ -11,6 +11,7 @@ data_fbps = pd.read_csv('data/fbps.csv', dtype=str)
 data_dab = pd.read_csv('data/dab.csv', dtype=str)
 data_llc = pd.read_csv('data/llc.csv', dtype=str)
 data_cfdab = pd.read_csv('data/cfdab.csv', dtype=str)
+data_dabsrc = pd.read_csv('data/dabsrc.csv', dtype=str)
 
 # 提取数据
 year = data['Year']
@@ -24,7 +25,7 @@ eff_avg = pd.to_numeric(data['Eff_avg'], errors='coerce')
 mainVec = data['RealKey']
 
 # 定义子列向量
-subVecs = [data_fbps['Key'], data_dab['Key'], data_llc['Key'], data_cfdab['Key']]
+subVecs = [data_fbps['Key'], data_dab['Key'], data_llc['Key'], data_cfdab['Key'], data_dabsrc['Key']]
 
 # 创建用于存储来源子列的索引
 sourceIdx = np.zeros(len(mainVec), dtype=int)
@@ -36,16 +37,19 @@ for i, subVec in enumerate(subVecs, 1):  # 从 1 开始索引
 topology_labels = np.array(sourceIdx, dtype=str)
 
 # 定义拓扑名称和颜色列表
-topologyNames = ['FBPS', 'DAB', 'Resoannt', 'Current-Fed']  # 拓扑名称
+topologyNames = ['FBPS', 'DAB', 'LLC', 'Current-Fed', 'DABsrc']  # 拓扑名称
 topologyColors = ['#D32F2F',  # 红色
                   '#CC9900',  # 金色
                   '#6633FF', # 紫色
-                  '#006633']   # 深绿色
+                  '#006633', # 深绿色
+                  '#024CAA' # 蓝色
+                  ]   
 
 topologyMarkers = ['o',  # 圆形
                   'D',  # 菱形
                   '^', # 上三角形
-                  's']   # 方形
+                  's', # 方形
+                  'D']  # 菱形
 
 # 设置 Times New Roman 字体
 # font_prop = fm.FontProperties(family='Times New Roman')
@@ -53,8 +57,8 @@ font_prop = fm.FontProperties(family='Cambria')
 alpha_dots = 0.4
 alpha_text = 0.9
 
-# 创建图形
-# plt.figure(figsize=(10, 6))
+# 设置图像的输出比例为16:9
+fig, ax = plt.subplots(figsize=(10, 8))
 plt.figure
 texts = []  # 用于存储注释对象，便于后面调整位置
 
@@ -98,10 +102,10 @@ for g in range(len(topologyNames)):
     # 添加注释，设置透明度
     for xi, yi, inst, yr, ref in zip(x_data, y_data, cleaned_institution, cleaned_year_data, ref_data):
         annotation_text = f"{inst}\n{yr} [{int(ref)}]"
-        texts.append(plt.text(xi, yi, annotation_text, fontsize=9, ha='center', alpha=alpha_text, fontproperties=font_prop))
+        texts.append(plt.text(xi, yi, annotation_text, fontsize=12, ha='center', alpha=alpha_text, fontproperties=font_prop))
 
-# 绘制回归线 regression analysis
-sns.regplot(x=fs_min, y=density, ci=80, scatter_kws={"s": 20, "color": "blue", "alpha": 0}, line_kws={"color": "red", "linestyle": "--", "linewidth": 1})
+# # 绘制回归线 regression analysis
+# sns.regplot(x=fs_min, y=density, ci=80, scatter_kws={"s": 20, "color": "blue", "alpha": 0}, line_kws={"color": "red", "linestyle": "--", "linewidth": 1})
 
 # 调整文本以避免重叠
 adjust_text(texts, arrowprops=dict(arrowstyle='->', color='grey', lw=0.5))
@@ -114,12 +118,12 @@ plt.grid(visible=True, linestyle='--',linewidth=0.5 )  # 设置虚线网格
 
 # 设置 x 轴和 y 轴的范围
 plt.xlim(40, 740)  # 替换 x_min 和 x_max 为你希望的范围
-plt.ylim(0, 8.5)  # 替换 y_min 和 y_max 为你希望的范围
+plt.ylim(0, 17.5)  # 替换 y_min 和 y_max 为你希望的范围
 
 # 设置轴刻度字体
 plt.xticks(fontproperties=font_prop, fontsize=10)
 plt.yticks(fontproperties=font_prop, fontsize=10)
 
 # 保存图像为高清 PNG 文件
-plt.savefig('outputs/Fs2PD_regression.png', dpi=300, bbox_inches='tight')
+plt.savefig('outputs/Fs2PD.png', dpi=300, bbox_inches='tight')
 plt.show()

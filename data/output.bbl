@@ -23,6 +23,15 @@
 \bibitem{yu_high_2020}
 S.-Y. Yu, C.~Hsiao, and J.~Weng, ``A high frequency {{CLLLC}} bi-directional series resonant converter {{DAB}} using an integrated {{PCB}} winding transformer,'' in \emph{2020 {{IEEE Applied Power Electronics Conference}} and {{Exposition}} ({{APEC}})}, Mar. 2020, pp. 1074--1080.
 
+\bibitem{zhang_novel_2021}
+C.~Zhang, P.~Barbosa, Z.~Shen, and R.~Wang, ``A {{Novel Three-level Phase-Shift Modulation}} for {{Serial Half Bridge LLC Resonant Converter}},'' in \emph{2021 {{IEEE Applied Power Electronics Conference}} and {{Exposition}} ({{APEC}})}, Jun. 2021, pp. 355--362.
+
+\bibitem{knabben_new_2018}
+G.~C. Knabben, J.~Schafer, L.~Peluso, J.~W. Kolar, M.~J. Kasper, and G.~Deboy, ``New {{PCB Winding}} ''{{Snake-Core}}'' {{Matrix Transformer}} for {{Ultra-Compact Wide DC Input Voltage Range Hybrid B}}+{{DCM Resonant Server Power Supply}},'' in \emph{2018 {{IEEE International Power Electronics}} and {{Application Conference}} and {{Exposition}} ({{PEAC}})}.\hskip 1em plus 0.5em minus 0.4em\relax Shenzhen: IEEE, Nov. 2018, pp. 1--6.
+
+\bibitem{mustafa_dual_2021}
+A.~Mustafa and S.~Mekhilef, ``Dual {{Phase LLC Resonant Converter With Variable Frequency Zero Circulating Current Phase-Shift Modulation}} for {{Wide Input Voltage Range Applications}},'' \emph{IEEE Transactions on Power Electronics}, vol.~36, no.~3, pp. 2793--2807, Mar. 2021.
+
 \bibitem{zhou_high-efficiency_2021}
 X.~Zhou, B.~Sheng, W.~Liu, Y.~Chen, L.~Wang, Y.-F. Liu, and P.~C. Sen, ``A high-efficiency high-power-density on-board low-voltage {{DC}}--{{DC}} converter for electric vehicles application,'' \emph{IEEE Transactions on Power Electronics}, vol.~36, no.~11, pp. 12\,781--12\,794, Nov. 2021.
 
@@ -46,6 +55,12 @@ I.~Kim and J.-W. Park, ``New integrated {{DC}}--{{DC}} conversion system for ele
 
 \bibitem{gu_fixed-frequency_2023}
 R.~Gu, D.~Zhang, J.~Duan, R.~Qu, and A.~Li, ``Fixed-frequency circulant phase-shift controlled current-fed resonant converter with wide voltage gain range,'' \emph{IEEE Transactions on Industrial Electronics}, pp. 1--11, 2023.
+
+\bibitem{sun_generalized_2023}
+C.~Sun, J.~Liu, X.~Jiang, L.~Cao, Y.-C. Wang, J.-X. Shen, and K.-H. Loo, ``Generalized {{Multiphase-Shift Transient Modulation}} for {{Dual-Active-Bridge Series-Resonant Converter}},'' \emph{IEEE Transactions on Power Electronics}, vol.~38, no.~7, pp. 8291--8309, Jul. 2023.
+
+\bibitem{zhang_modulation_2022}
+C.~Zhang and P.~Barbosa, ``Modulation {{Transition Methods Based}} on {{Trajectory Control}} for {{LLC Resonant Converters Operating}} in {{Wide Input-}} and/or {{Output-Voltage Range}},'' \emph{IEEE Transactions on Power Electronics}, vol.~37, no.~12, pp. 14\,103--14\,114, Dec. 2022.
 
 \bibitem{zhu_model_2024}
 L.~Zhu, H.~Bai, and A.~Brown, ``Model and control of a current-fed dual active bridge based ultrawide-voltage-range auxiliary power module for 400 {{V}}/800 {{V}} electric vehicles,'' \emph{IEEE Transactions on Power Electronics}, vol.~39, no.~3, pp. 3263--3276, Mar. 2024.
@@ -388,17 +403,116 @@ L.~D. James, C.~A. Teixeira, R.~H. Wilkinson, B.~P. McGrath, D.~G. Holmes, and J
 \bibitem{zou_gan_2023}
 H.~Zou, R.~Yu, R.~Anand, J.~Tong, and A.~Q. Huang, ``A {{GaN Variable-Frequency Series Resonant Dual-Active-Bridge Bidirectional AC-DC Converter}} for {{Battery Energy Storage System}},'' in \emph{2023 {{IEEE Applied Power Electronics Conference}} and {{Exposition}} ({{APEC}})}, Mar. 2023, pp. 150--157.
 
+\bibitem{apte_design_2021}
+P.~Apte, S.~Lin, L.~Fr{\"a}ger, and J.~Friebe, ``Design {{Considerations}} for a 50 {{kW Dual Bridge Series Resonant DC}}/{{DC Converter}} with {{Wide-Input Voltage Range}} for {{Solid-State Transformers}},'' in \emph{2021 {{IEEE Energy Conversion Congress}} and {{Exposition}} ({{ECCE}})}, Oct. 2021, pp. 1164--1170.
+
+\bibitem{sun_total_2022}
+C.~Sun, X.~Jiang, L.~Cao, and K.~H. Loo, ``Total {{Suppression}} of {{High-Frequency Transient Oscillations}} in {{Dual-Active-Bridge Series-Resonant Converter}} by {{Trajectory-Switching Modulation}},'' \emph{IEEE Transactions on Power Electronics}, vol.~37, no.~6, pp. 6511--6529, Jun. 2022.
+
+\bibitem{minli_gan-based_2022}
+J.~Minli and S.~Hao, ``{{GaN-based High Frequency}} 6.{{6kW Bi-directional DC}}/{{DC Converter}} for {{OBC Application}},'' in \emph{2022 {{IEEE International Power Electronics}} and {{Application Conference}} and {{Exposition}} ({{PEAC}})}, Nov. 2022, pp. 1330--1335.
+
+\bibitem{jia_gan-based_2023}
+M.~Jia and H.~Sun, ``{{GaN-based High-Frequency}}, {{High-Power-Density}}, 2-in-1 {{Bi-directional OBC Design}} for {{EV Applications}},'' in \emph{{{PCIM Europe}} 2023; {{International Exhibition}} and {{Conference}} for {{Power Electronics}}, {{Intelligent Motion}}, {{Renewable Energy}} and {{Energy Management}}}, May 2023, pp. 1--10.
+
+\bibitem{jia_gan_2024}
+M.~Jia, H.~Sun, J.~Cai, H.~Zhang, Z.~Zhou, and J.~Chen, ``{{GaN}} and {{SiC Based 500kHz Resonant Bidirectional DC}}/{{DC Design}} for {{800V OBCM Application}},'' in \emph{2024 {{IEEE Applied Power Electronics Conference}} and {{Exposition}} ({{APEC}})}, Feb. 2024, pp. 2425--2432.
+
+\bibitem{carvalho_comparative_2024}
+E.~L. Carvalho, A.~Chub, A.~Blinov, S.~N. Banavath, and D.~Vinnikov, ``Comparative {{Evaluation}} of a {{DAB Converter}} and {{SRC}} for {{DC Buildings Application}},'' in \emph{2024 {{IEEE}} 21st {{International Power Electronics}} and {{Motion Control Conference}} ({{PEMC}})}, Sep. 2024, pp. 1--6.
+
+\bibitem{hu_operation_2019}
+S.~Hu, X.~Li, and A.~K.~S. Bhat, ``Operation of a {{Bidirectional Series-Resonant Converter With Minimized Tank Current}} and {{Wide ZVS Range}},'' \emph{IEEE Transactions on Power Electronics}, vol.~34, no.~1, pp. 904--915, Jan. 2019.
+
+\bibitem{xu_family_2023}
+J.~Xu, G.~Xu, Y.~Sun, and M.~Su, ``A {{Family}} of {{Bidirectional Series Resonant Converter With Sine-Wave Modulation}} in {{Wide Voltage Range}},'' \emph{IEEE Transactions on Power Electronics}, vol.~38, no.~4, pp. 5013--5023, Apr. 2023.
+
 \bibitem{gu_hybrid-pwm-controlled_2021}
 L.~Gu, X.~Zhang, and P.~Li, ``Hybrid-{{PWM-Controlled Current-Fed Bidirectional Series Resonant Converter With Low Current Ripple}} and {{Wide Voltage Gain}},'' \emph{IEEE Transactions on Industrial Electronics}, vol.~68, no.~8, pp. 7125--7136, Aug. 2021.
 
+\bibitem{park_investigation_2019}
+H.-P. Park, M.~Kim, and J.-H. Jung, ``Investigation of {{Zero Voltage Switching Capability}} for {{Bidirectional Series Resonant Converter Using Phase-Shift Modulation}},'' \emph{IEEE Transactions on Power Electronics}, vol.~34, no.~9, pp. 8842--8858, Sep. 2019.
+
+\bibitem{xiaodong_li_analysis_2010}
+{Xiaodong Li} and A.~K.~S. Bhat, ``Analysis and {{Design}} of {{High-Frequency Isolated Dual-Bridge Series Resonant DC}}/{{DC Converter}},'' \emph{IEEE Transactions on Power Electronics}, vol.~25, no.~4, pp. 850--862, Apr. 2010.
+
+\bibitem{wu_llc_2016}
+H.~Wu, Y.~Li, and Y.~Xing, ``{{LLC Resonant Converter With Semiactive Variable-Structure Rectifier}} ({{SA-VSR}}) for {{Wide Output Voltage Range Application}},'' \emph{IEEE Transactions on Power Electronics}, vol.~31, no.~5, pp. 3389--3394, May 2016.
+
+\bibitem{jia_simple_2024}
+P.~Jia, K.~Qiu, M.~Liang, T.~Shao, and Y.~Zhang, ``A {{Simple Variable Frequency}} and {{Single Phase Shifted Control}} for the {{Dual Active Bridge Series Resonant Converter}},'' \emph{IEEE Journal of Emerging and Selected Topics in Industrial Electronics}, pp. 1--20, 2024.
+
+\bibitem{sebastian_nonlinear_2022}
+E.~Sebasti{\'a}n, E.~Montijano, E.~Oyarbide, C.~Bernal, and R.~G{\'a}lvez, ``Nonlinear {{Implementable Control}} of a {{Dual Active Bridge Series Resonant Converter}},'' \emph{IEEE Transactions on Industrial Electronics}, vol.~69, no.~5, pp. 5111--5121, May 2022.
+
+\bibitem{chen_bidirectional_2023-1}
+T.~Chen, R.~Yu, and A.~Q. Huang, ``A {{Bidirectional Isolated Dual-Phase-Shift Variable-Frequency Series Resonant Dual-Active-Bridge GaN AC}}--{{DC Converter}},'' \emph{IEEE Transactions on Industrial Electronics}, vol.~70, no.~4, pp. 3315--3325, Apr. 2023.
+
 \bibitem{pei_phase-shift_2024}
 Z.~Pei, D.~Guo, T.~Cui, C.~Liu, D.~Kong, D.~Zhu, Y.~Jiang, and N.~Chen, ``Phase-{{Shift Full-Bridge}} ({{PSFB}}) {{Converter Integrated Double-Inductor Rectifier With Separated Resonant Circuits}} ({{SRCs}}) for 800-{{V High-Power Electric Vehicles}},'' \emph{IEEE Journal of Emerging and Selected Topics in Power Electronics}, vol.~12, no.~1, pp. 269--282, Feb. 2024.
+
+\bibitem{qiu_dynamic_2023}
+K.~Qiu, P.~Jia, and Y.~Zhang, ``Dynamic {{Response Optimization}} of a {{DABSRC Based}} on {{Feedforward Control}},'' in \emph{2023 {{IEEE}} 2nd {{International Power Electronics}} and {{Application Symposium}} ({{PEAS}})}, Nov. 2023, pp. 1635--1639.
+
+\bibitem{bai_highly_2020}
+C.~Bai, B.~Han, B.-H. Kwon, and M.~Kim, ``Highly {{Efficient Bidirectional Series-Resonant DC}}/{{DC Converter Over Wide Range}} of {{Battery Voltages}},'' \emph{IEEE Transactions on Power Electronics}, vol.~35, no.~4, pp. 3636--3650, Apr. 2020.
+
+\bibitem{shakib_frequency_2017}
+S.~M. S.~I. Shakib and S.~Mekhilef, ``A {{Frequency Adaptive Phase Shift Modulation Control Based LLC Series Resonant Converter}} for {{Wide Input Voltage Applications}},'' \emph{IEEE Transactions on Power Electronics}, vol.~32, no.~11, pp. 8360--8370, Nov. 2017.
 
 \bibitem{zanatta_design_2022}
 N.~Zanatta, T.~Caldognetto, D.~Biadene, G.~Spiazzi, and P.~Mattavelli, ``Design and {{Implementation}} of a {{Two-Stage Resonant Converter}} for {{Wide Output Range Operation}},'' \emph{IEEE Transactions on Industry Applications}, vol.~58, no.~6, pp. 7457--7468, Nov. 2022.
 
 \bibitem{gu_interleaved_2024}
 R.~Gu, D.~Zhang, J.~Duan, and A.~Li, ``An {{Interleaved Current-Fed Integrated LLC Resonant Converter With Input Current Ripple Cancellation}},'' \emph{IEEE Transactions on Industrial Electronics}, pp. 1--11, 2024.
+
+\bibitem{shi_burst-mode_2020}
+L.~Shi, B.~Liu, and S.~Duan, ``Burst-{{Mode}} and {{Phase-Shift Hybrid Control Method}} of {{LLC Converters}} for {{Wide Output Range Applications}},'' \emph{IEEE Transactions on Industrial Electronics}, vol.~67, no.~2, pp. 1013--1023, Feb. 2020.
+
+\bibitem{hu_dual-bridge_2021-1}
+S.~Hu, X.~Li, and Q.-F. Zheng, ``A {{Dual-Bridge DC}}--{{DC Resonant Converter Using Extended PWM}} and {{Phase-Shift Control}},'' \emph{IEEE Transactions on Industry Applications}, vol.~57, no.~4, pp. 4009--4020, Jul. 2021.
+
+\bibitem{riedel_zvs_2017}
+J.~Riedel, D.~G. Holmes, B.~P. McGrath, and C.~Teixeira, ``{{ZVS Soft Switching Boundaries}} for {{Dual Active Bridge DC}}--{{DC Converters Using Frequency Domain Analysis}},'' \emph{IEEE Transactions on Power Electronics}, vol.~32, no.~4, pp. 3166--3179, Apr. 2017.
+
+\bibitem{han_general_2019}
+W.~Han and L.~Corradini, ``General {{Closed-Form ZVS Analysis}} of {{Dual-Bridge Series Resonant DC}}--{{DC Converters}},'' \emph{IEEE Transactions on Power Electronics}, vol.~34, no.~9, pp. 9289--9302, Sep. 2019.
+
+\bibitem{han_wide-range_2019}
+------, ``Wide-{{Range ZVS Control Technique}} for {{Bidirectional Dual-Bridge Series-Resonant DC}}--{{DC Converters}},'' \emph{IEEE Transactions on Power Electronics}, vol.~34, no.~10, pp. 10\,256--10\,269, Oct. 2019.
+
+\bibitem{mahdavifard_asymmetrical_2022}
+M.~Mahdavifard, N.~Mazloum, F.~Zahin, A.~KhakparvarYazdi, A.~Abasian, and S.~A. Khajehoddin, ``An {{Asymmetrical DAB Converter Modulation}} and {{Control Systems}} to {{Extend}} the {{ZVS Range}} and {{Improve Efficiency}},'' \emph{IEEE Transactions on Power Electronics}, vol.~37, no.~10, pp. 12\,774--12\,792, Oct. 2022.
+
+\bibitem{gurudiwan_zvs_2024}
+S.~Gurudiwan, A.~Zade, R.~Hatch, H.~Wang, and R.~Zane, ``{{ZVS Boundary Assessment}} for {{T-type-based Dual Active Bridge Series Resonant Converters}} using {{State-Plane Analysis}},'' in \emph{2024 {{IEEE Applied Power Electronics Conference}} and {{Exposition}} ({{APEC}})}, Feb. 2024, pp. 2098--2105.
+
+\bibitem{yang_time-domain_2020}
+L.~Yang, Y.~Zhang, Y.~Hu, Q.~Guan, Q.~Chen, and R.~Liu, ``Time-{{Domain Efficiency Optimization Evaluation}} for {{Series Resonant Converter}} with {{Variable Frequency}} plus {{Shift Phase Control}},'' in \emph{2020 {{IEEE}} 9th {{International Power Electronics}} and {{Motion Control Conference}} ({{IPEMC2020-ECCE Asia}})}, Nov. 2020, pp. 558--565.
+
+\bibitem{han_control_2018}
+W.~Han and L.~Corradini, ``Control {{Technique}} for {{Wide-Range ZVS}} of {{Bidirectional Dual-bridge Series Resonant}} dc-dc {{Converters}},'' in \emph{2018 {{IEEE}} 19th {{Workshop}} on {{Control}} and {{Modeling}} for {{Power Electronics}} ({{COMPEL}})}, Jun. 2018, pp. 1--8.
+
+\bibitem{bez_low-complexity_2018}
+F.~Bez, W.~Han, and L.~Corradini, ``A {{Low-Complexity Trajectory Controller}} for {{Reduced Conduction Losses}} in {{Series-Resonant Dual Half-Bridge Converters}},'' \emph{IEEE Transactions on Power Electronics}, vol.~33, no.~11, pp. 9963--9974, Nov. 2018.
+
+\bibitem{han_accurate_2017}
+W.~Han and L.~Corradini, ``Accurate {{ZVS}} boundary analysis for bidirectional dual-bridge series resonant dc-dc converters,'' in \emph{2017 {{IEEE}} 18th {{Workshop}} on {{Control}} and {{Modeling}} for {{Power Electronics}} ({{COMPEL}})}, Jul. 2017, pp. 1--8.
+
+\bibitem{corradini_minimum_2012}
+L.~Corradini, D.~Seltzer, D.~Bloomquist, R.~Zane, D.~Maksimovi{\'c}, and B.~Jacobson, ``Minimum {{Current Operation}} of {{Bidirectional Dual-Bridge Series Resonant DC}}/{{DC Converters}},'' \emph{IEEE Transactions on Power Electronics}, vol.~27, no.~7, pp. 3266--3276, Jul. 2012.
+
+\bibitem{gao_low-side-extended-phase-shift-under-resonant_2024}
+Y.~Gao, L.~Zhou, Z.~Zhou, Q.~Ding, X.~Zhang, and H.~Ma, ``Low-{{Side-Extended-Phase-Shift-Under-Resonant Modulation Scheme}} for {{Dual-Bridge-Series-Resonant Converter}},'' \emph{IEEE Transactions on Industrial Electronics}, vol.~71, no.~12, pp. 15\,554--15\,567, Dec. 2024.
+
+\bibitem{gao_underresonant_2024}
+Y.~Gao, L.~Zhou, X.~Han, Q.~Ding, X.~Zhang, and H.~Ma, ``Underresonant {{Modulation Scheme}} for {{Dual-Bridge Series-Resonant Converter}},'' \emph{IEEE Transactions on Industrial Electronics}, vol.~71, no.~9, pp. 10\,556--10\,567, Sep. 2024.
+
+\bibitem{gao_hybrid-level_2023}
+Y.~Gao, L.~Zhou, Q.~Ding, X.~Shen, M.~Dong, X.~Zhang, and H.~Ma, ``Hybrid-{{Level Modulation Scheme}} for {{Dual-Bridge Series-Resonant Converter}},'' \emph{IEEE Transactions on Industrial Electronics}, vol.~70, no.~11, pp. 11\,205--11\,215, Nov. 2023.
+
+\bibitem{yaqoob_four-degrees--freedom_2019}
+M.~Yaqoob, K.~H. Loo, and Y.~M. Lai, ``A {{Four-Degrees-of-Freedom Modulation Strategy}} for {{Dual-Active-Bridge Series-Resonant Converter Designed}} for {{Total Loss Minimization}},'' \emph{IEEE Transactions on Power Electronics}, vol.~34, no.~2, pp. 1065--1081, Feb. 2019.
 
 \bibitem{hou_dynamic_nodate-1}
 N.~Hou, ``Dynamic {{Optimization}} for {{Dual-Active-Bridge-Based DC-DC Converter Systems}} by.''
@@ -408,6 +522,9 @@ G.~Spiazzi, ``Analysis and design of a {{Series Resonant Current-Fed Dual Half-B
 
 \bibitem{kim_highly_2021}
 N.-G. Kim, S.-W. Jo, B.~Han, H.-H. Choi, and M.~Kim, ``Highly {{Efficient Bidirectional Current-Fed Resonant Converter Over}} a {{Wide Voltage Gain Range}},'' \emph{IEEE Transactions on Industrial Electronics}, vol.~68, no.~11, pp. 10\,913--10\,927, Nov. 2021.
+
+\bibitem{chen_bidirectional_2023}
+T.~Chen, R.~Yu, and A.~Q. Huang, ``A {{Bidirectional Isolated Dual-Phase-Shift Variable-Frequency Series Resonant Dual-Active-Bridge GaN AC}}--{{DC Converter}},'' \emph{IEEE Transactions on Industrial Electronics}, vol.~70, no.~4, pp. 3315--3325, Apr. 2023.
 
 \bibitem{kim_pwm-controlled_2021}
 J.-W. Kim and P.~Barbosa, ``{{PWM-Controlled Series Resonant Converter}} for {{Universal Electric Vehicle Charger}},'' \emph{IEEE Transactions on Power Electronics}, vol.~36, no.~12, pp. 13\,578--13\,588, Dec. 2021.
@@ -463,5 +580,32 @@ H.-P. Park, M.~Kim, and J.-H. Jung, ``Bidirectional {{Current-Fed CLLC Resonant 
 \BIBentryALTinterwordspacing
 ``{{DCDC SP Converters}},'' 2024. [Online]. Available: \url{https://brightloop.fr/products/hv-lv-dc-dc-converters/dcdc-sp/}
 \BIBentrySTDinterwordspacing
+
+\bibitem{jia_control_2023}
+P.~Jia, T.~Guo, X.~Zhu, and T.~Shao, ``A {{Control Strategy}} for the {{Bidirectional LLC-L Converter}} to {{Extend}} the {{Gain Range Based}} on the {{Time Domain Analytical Model}},'' \emph{IEEE Transactions on Power Electronics}, vol.~38, no.~4, pp. 4876--4893, Apr. 2023.
+
+\bibitem{hou_ultra-wide_2024}
+Z.~Hou, D.~Jiao, and J.-S. Lai, ``An {{Ultra-Wide Range Pulse Width Modulated LLC Converter}} with {{Voltage Multiplier Rectifiers}},'' \emph{IEEE Transactions on Power Electronics}, pp. 1--14, 2024.
+
+\bibitem{kieu_dual_2025}
+H.-P. Kieu, N.-Q. Do, and S.~Choi, ``Dual {{Floating Based Three Port DC-DC Converter}} for {{EV-APM}},'' \emph{IEEE Transactions on Power Electronics}, vol.~40, no.~3, pp. 4268--4278, Mar. 2025.
+
+\bibitem{jiang_variable_2024}
+L.~Jiang, L.~Gong, J.~Xu, J.~Chen, H.~Tang, M.~Nie, and Y.~Wang, ``A {{Variable Tertiary DC-Link Voltage Control}} for {{Integrated APM}} in {{EV Charger Systems Featuring Full ZVS Range}},'' \emph{IEEE Transactions on Transportation Electrification}, vol.~10, no.~4, pp. 8962--8977, Dec. 2024.
+
+\bibitem{jung_bi-directional_2023}
+A.~Jung, D.~Moon, C.~Bai, J.~Jang, M.~Oh, S.~Lee, S.~Hwang, and H.~Moon, ``Bi-directional {{Operation Mode}} of {{LLC}}/{{CLLC DC}}/{{DC Converter}} for {{On Board Charger}} of {{800V Battery Systems}},'' in \emph{2023 11th {{International Conference}} on {{Power Electronics}} and {{ECCE Asia}} ({{ICPE}} 2023 - {{ECCE Asia}})}, May 2023, pp. 2814--2819.
+
+\bibitem{bai_bidirectional_2022}
+C.~Bai and M.~Kim, ``Bidirectional {{Resonant Converter With Minimized Switching Loss Over Wide Operating Voltage Range}},'' \emph{IEEE Journal of Emerging and Selected Topics in Power Electronics}, vol.~10, no.~3, pp. 2975--2988, Jun. 2022.
+
+\bibitem{bai_bidirectional_2022-1}
+------, ``Bidirectional {{Resonant Converter With Minimized Switching Loss Over Wide Operating Voltage Range}},'' \emph{IEEE Journal of Emerging and Selected Topics in Power Electronics}, vol.~10, no.~3, pp. 2975--2988, Jun. 2022.
+
+\bibitem{schafer_highly_nodate}
+J.~Schafer, ``Highly {{Integrated Ultra-Compact Three-Port Converter Systems}} for {{Automotive Applications}}.''
+
+\bibitem{coolgan_path_nodate}
+V.~CoolGaN, ``The {{Path Towards 10kW}} 3-{{Phase On-Board Chargers}}.''
 
 \end{thebibliography}

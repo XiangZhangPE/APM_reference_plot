@@ -30,6 +30,7 @@ font_prop = fm.FontProperties(family='Cambria')
 # Define colors for different groups
 groupColors = {'industrial': '#d81159', 'oem': '#79902e', 'academia': '#30517c'}
 groupMarkers = {'industrial': '^', 'oem': 'D', 'academia': 'o'}
+
 alpha_dots = 0.3
 alpha_text = 0.9
 
@@ -54,8 +55,8 @@ for i in range(len(data)):
     eff_avg_value = eff_avg.iloc[i]
 
     # Assign what to plot as x and y value
-    y_value = density_value
-    x_value = eff_avg_value
+    x_value = power_value
+    y_value = eff_pk_value
 
     # Classify the institution into a group
     if pd.notna(institution_value) and 'industry' in str(institution_value).lower():
@@ -112,8 +113,8 @@ plt.scatter(oem_x, oem_y, color='#79902e', alpha=alpha_dots, marker='D', label='
 plt.scatter(academia_x, academia_y, color='#30517c', alpha=alpha_dots, marker='o', label='Academia')
 
 # Set title, labels, and legend with Times New Roman font
-plt.xlabel('Average Efficiency (%)', fontproperties=font_prop, fontsize=12)
-plt.ylabel('Power Density (kW/L)', fontproperties=font_prop, fontsize=12)
+plt.ylabel('Peak Efficiency (%)', fontproperties=font_prop, fontsize=12)
+plt.xlabel('Power (kW)', fontproperties=font_prop, fontsize=12)
 plt.legend(prop=font_prop, fontsize=10)  # Removed title='Institution Group'
 plt.grid(visible=True, linestyle='--',linewidth=0.5 )  # 设置虚线网格
 
@@ -121,16 +122,10 @@ plt.grid(visible=True, linestyle='--',linewidth=0.5 )  # 设置虚线网格
 plt.xticks(fontproperties=font_prop, fontsize=10)
 plt.yticks(fontproperties=font_prop, fontsize=10)
 
-# 设置 x 轴和 y 轴的范围
-plt.xlim(0.895, 0.97)  # 替换 x_min 和 x_max 为你希望的范围
-plt.ylim(0, 9)  # 替换 y_min 和 y_max 为你希望的范围
-
 # Adjust annotations to avoid overlap
 if texts:
-    # adjust_text(texts,arrowprops=dict(arrowstyle='->',color='grey',lw=1))
     adjust_text(texts,arrowprops=dict(arrowstyle='->',color='grey',lw=0.5))
 
-plt.savefig('outputs/Eff_avg2PD.png', dpi=300, bbox_inches='tight')
+plt.savefig('outputs/P2Eff_pk_field.png', dpi=300, bbox_inches='tight')
 
 plt.show()
-

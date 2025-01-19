@@ -100,8 +100,8 @@ for g in range(len(topologyNames)):
         annotation_text = f"{inst}\n{yr} [{int(ref)}]"
         texts.append(plt.text(xi, yi, annotation_text, fontsize=9, ha='center', alpha=alpha_text, fontproperties=font_prop))
 
-# 绘制回归线 regression analysis
-sns.regplot(x=fs_min, y=eff_avg, ci=80, scatter_kws={"s": 20, "color": "blue", "alpha": 0}, line_kws={"color": "red", "linestyle": "--", "linewidth": 1})
+# # 绘制回归线 regression analysis
+# sns.regplot(x=fs_min, y=eff_avg, ci=80, scatter_kws={"s": 20, "color": "blue", "alpha": 0}, line_kws={"color": "red", "linestyle": "--", "linewidth": 1})
 
 # 调整文本以避免重叠
 adjust_text(texts, arrowprops=dict(arrowstyle='->', color='grey', lw=0.5))
@@ -121,5 +121,5 @@ plt.xticks(fontproperties=font_prop, fontsize=10)
 plt.yticks(fontproperties=font_prop, fontsize=10)
 
 # 保存图像为高清 PNG 文件
-plt.savefig('outputs/Fs2Eff_avg_regression.png', dpi=300, bbox_inches='tight')
+plt.savefig('outputs/Fs2Eff_avg.png', dpi=300, bbox_inches='tight')
 plt.show()
