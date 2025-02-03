@@ -38,8 +38,11 @@ industrial_x, industrial_y = [], []
 oem_x, oem_y = [], []
 academia_x, academia_y = [], []
 
-# List to store annotation texts
-texts = []
+# 设置图像的输出比例为16:9
+fig, ax = plt.subplots(figsize=(10, 8))
+# fig, ax = plt.subplots()
+plt.figure
+texts = []  # 用于存储注释对象，便于后面调整位置
 
 # Assume data is your DataFrame
 # Loop through data and classify points

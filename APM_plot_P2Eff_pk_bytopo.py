@@ -61,6 +61,7 @@ alpha_text = 0.9
 
 # 设置图像的输出比例为16:9
 fig, ax = plt.subplots(figsize=(10, 8))
+# fig, ax = plt.subplots()  # 不指定 figsize，使用默认尺寸
 plt.figure
 texts = []  # 用于存储注释对象，便于后面调整位置
 

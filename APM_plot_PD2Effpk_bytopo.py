@@ -58,7 +58,8 @@ alpha_dots = 0.4
 alpha_text = 0.9
 
 # 设置图像的输出比例为16:9
-fig, ax = plt.subplots(figsize=(10, 8))
+fig, ax = plt.subplots(figsize=(16, 9))
+# fig, ax = plt.subplots()  # 不指定 figsize，使用默认尺寸
 plt.figure
 texts = []  # 用于存储注释对象，便于后面调整位置
 
@@ -66,14 +67,14 @@ texts = []  # 用于存储注释对象，便于后面调整位置
 for g in range(len(topologyNames)):
     idx = topology_labels == str(g + 1)  # 将拓扑索引转换为字符串
     x_data = density[idx]
-    y_data = eff_avg[idx]
+    y_data = eff_pk[idx]
     inst_data = institution[idx]
     year_data = year[idx]
     ref_data = refnumber[idx]
     
     # 去除 NaN 值以确保 x_data 和 y_data 大小一致
     valid_data = pd.concat([x_data, y_data, inst_data, year_data, ref_data], axis=1).dropna()
-    x_data, y_data = valid_data['Density'], valid_data['Eff_avg']
+    x_data, y_data = valid_data['Density'], valid_data['Eff_pk']
     inst_data = valid_data['Institution']
     year_data = valid_data['Year']
     ref_data = valid_data['Refnumber']
@@ -105,13 +106,17 @@ for g in range(len(topologyNames)):
         texts.append(plt.text(xi, yi, annotation_text, fontsize=12, ha='center', alpha=alpha_text, fontproperties=font_prop))
 
 # 调整文本以避免重叠
-adjust_text(texts, arrowprops=dict(arrowstyle='->', color='grey', lw=0.5))
-# adjust_text(texts, arrowprops=dict(arrowstyle='->', color='grey', lw=0.5, shrinkA=2, shrinkB=2))
+# adjust_text(texts, arrowprops=dict(arrowstyle='->', color='grey', lw=0.5))
+adjust_text(texts, 
+            arrowprops=dict(arrowstyle='->', color='grey', lw=0.5, shrinkA=0, shrinkB=0),
+            expand_text=(0.5, 0.5), 
+            expand_points=(0.5, 0.5))
+
 
 
 # 设置标签、标题和网格
 ax.set_xscale('log')  # X 轴为对数刻度
-ax.set_ylabel('Average Efficiency (%)', fontproperties=font_prop, fontsize=12)
+ax.set_ylabel('Peak Efficiency (%)', fontproperties=font_prop, fontsize=12)
 ax.set_xlabel('Power Density (kW/L)', fontproperties=font_prop, fontsize=12)
 ax.legend(prop=font_prop, fontsize=10, loc='upper left')
 ax.grid(visible=True, linestyle='--', linewidth=0.5)  # 设置虚线网格
@@ -121,5 +126,5 @@ ax.tick_params(axis='x', labelsize=10, labelrotation=0)
 ax.tick_params(axis='y', labelsize=10, labelrotation=0)
 
 # 保存图像为高清 PNG 文件
-plt.savefig('outputs/PD2Eff_avg_topo.png', dpi=1200, bbox_inches='tight')
+plt.savefig('outputs/PD2Eff_pk_topo.png', dpi=1200, bbox_inches='tight')
 plt.show()
