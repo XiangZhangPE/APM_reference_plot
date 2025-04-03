@@ -20,9 +20,6 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{yu_high_2020}
-S.-Y. Yu, C.~Hsiao, and J.~Weng, ``A high frequency {{CLLLC}} bi-directional series resonant converter {{DAB}} using an integrated {{PCB}} winding transformer,'' in \emph{2020 {{IEEE Applied Power Electronics Conference}} and {{Exposition}} ({{APEC}})}, Mar. 2020, pp. 1074--1080.
-
 \bibitem{knabben_new_2018}
 G.~C. Knabben, J.~Schafer, L.~Peluso, J.~W. Kolar, M.~J. Kasper, and G.~Deboy, ``New {{PCB Winding}} ''{{Snake-Core}}'' {{Matrix Transformer}} for {{Ultra-Compact Wide DC Input Voltage Range Hybrid B}}+{{DCM Resonant Server Power Supply}},'' in \emph{2018 {{IEEE International Power Electronics}} and {{Application Conference}} and {{Exposition}} ({{PEAC}})}.\hskip 1em plus 0.5em minus 0.4em\relax Shenzhen: IEEE, Nov. 2018, pp. 1--6.
 
@@ -610,5 +607,14 @@ C.-Y. Chen, T.-J. Liang, K.-F. Liao, K.-H. Chen, and Y.-H. Yeoh, ``Design and {{
 
 \bibitem{zhu_two-stage_2020-1}
 L.~Zhu, H.~Bai, A.~Brown, and M.~McAmmond, ``Two-stage vs {{One-stage Design}} for {{A Bidirectional 400V}}/{{12V 6kW Auxiliary Power Module}} in {{Electric Vehicles}},'' in \emph{2020 {{IEEE Transportation Electrification Conference}} \& {{Expo}} ({{ITEC}})}, Jun. 2020, pp. 1222--1226.
+
+\bibitem{wang_pcb_2023}
+S.~Wang, P.~H. Pham, Q.~Li, A.~Nabih, and P.~R. Prakash, ``{{PCB Winding-Based Coupled Inductor}} for a {{High-Frequency DC}}/{{DC Converter}} with 99\% {{Efficiency}},'' in \emph{2023 {{IEEE Applied Power Electronics Conference}} and {{Exposition}} ({{APEC}})}, Mar. 2023, pp. 420--425.
+
+\bibitem{prakash_gan-based_2023}
+P.~R. Prakash, A.~Nabih, S.~Wang, P.~P. Hieu, Y.~Ruan, and Q.~Li, ``{{GaN-Based 400V}}/{{48V DC-DC Converter}} with 97\% {{Efficiency}} and {{PCB Magnetics}} for {{Automotive Applications}},'' in \emph{2023 {{IEEE Applied Power Electronics Conference}} and {{Exposition}} ({{APEC}})}, Mar. 2023, pp. 3201--3208.
+
+\bibitem{noauthor_35kw_2025}
+``3.{{5kW}}, {{800V}} to {{14V DC-DC Converter Reference Design}},'' 2025.
 
 \end{thebibliography}

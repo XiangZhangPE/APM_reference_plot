@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 from adjustText import adjust_text
 import matplotlib.font_manager as fm
 
@@ -11,6 +12,7 @@ data_dab = pd.read_csv('data/dab.csv', dtype=str)
 data_llc = pd.read_csv('data/llc.csv', dtype=str)
 data_cfdab = pd.read_csv('data/cfdab.csv', dtype=str)
 data_dabsrc = pd.read_csv('data/dabsrc.csv', dtype=str)
+data_2stage = pd.read_csv('data/2stage.csv', dtype=str)
 
 # 提取数据
 year = data['Year']
@@ -25,7 +27,7 @@ eff_pk = pd.to_numeric(data['Eff_pk'], errors='coerce')
 mainVec = data['RealKey']
 
 # 定义子列向量
-subVecs = [data_fbps['Key'], data_dab['Key'], data_llc['Key'], data_cfdab['Key'], data_dabsrc['Key']]
+subVecs = [data_fbps['Key'], data_dab['Key'], data_llc['Key'], data_cfdab['Key'], data_dabsrc['Key'], data_2stage['Key']]
 
 # 创建用于存储来源子列的索引
 sourceIdx = np.zeros(len(mainVec), dtype=int)
@@ -37,19 +39,22 @@ for i, subVec in enumerate(subVecs, 1):  # 从 1 开始索引
 topology_labels = np.array(sourceIdx, dtype=str)
 
 # 定义拓扑名称和颜色列表
-topologyNames = ['FBPS', 'DAB', 'LLC', 'Current-Fed', 'DABsrc']  # 拓扑名称
+topologyNames = ['FBPS', 'DAB', 'LLC', 'Current-Fed', 'DAB-src', '2-Stage']  # 拓扑名称
 topologyColors = ['#D32F2F',  # 红色
                   '#CC9900',  # 金色
                   '#6633FF', # 紫色
                   '#006633', # 深绿色
-                  '#024CAA' # 蓝色
+                  '#024CAA', # 蓝色
+                  '#32E0C4' # 
                   ]   
 
 topologyMarkers = ['o',  # 圆形
                   'D',  # 菱形
                   '^', # 上三角形
                   's', # 方形
-                  'D']  # 菱形
+                  'D', # 菱形
+                  'v', ]  # 下三角形
+
 
 # 设置 Times New Roman 字体
 # font_prop = fm.FontProperties(family='Times New Roman')
@@ -58,23 +63,23 @@ alpha_dots = 0.4
 alpha_text = 0.9
 
 # 设置图像的输出比例为16:9
-fig, ax = plt.subplots(figsize=(16, 9))
-# fig, ax = plt.subplots()  # 不指定 figsize，使用默认尺寸
+fig, ax = plt.subplots(figsize=(10, 8))
+# fig, ax = plt.subplots()
 plt.figure
 texts = []  # 用于存储注释对象，便于后面调整位置
 
 # 遍历所有的 topologyNames 并绘制各类散点
 for g in range(len(topologyNames)):
     idx = topology_labels == str(g + 1)  # 将拓扑索引转换为字符串
-    x_data = density[idx]
-    y_data = eff_pk[idx]
+    x_data = fs_min[idx]
+    y_data = density[idx]
     inst_data = institution[idx]
     year_data = year[idx]
     ref_data = refnumber[idx]
     
     # 去除 NaN 值以确保 x_data 和 y_data 大小一致
     valid_data = pd.concat([x_data, y_data, inst_data, year_data, ref_data], axis=1).dropna()
-    x_data, y_data = valid_data['Density'], valid_data['Eff_pk']
+    x_data, y_data = valid_data['fs_min'], valid_data['Density']
     inst_data = valid_data['Institution']
     year_data = valid_data['Year']
     ref_data = valid_data['Refnumber']
@@ -105,26 +110,27 @@ for g in range(len(topologyNames)):
         annotation_text = f"{inst}\n{yr} [{int(ref)}]"
         texts.append(plt.text(xi, yi, annotation_text, fontsize=12, ha='center', alpha=alpha_text, fontproperties=font_prop))
 
+# # 绘制回归线 regression analysis
+# sns.regplot(x=fs_min, y=density, ci=80, scatter_kws={"s": 20, "color": "blue", "alpha": 0}, line_kws={"color": "red", "linestyle": "--", "linewidth": 1})
+
 # 调整文本以避免重叠
-# adjust_text(texts, arrowprops=dict(arrowstyle='->', color='grey', lw=0.5))
-adjust_text(texts, 
-            arrowprops=dict(arrowstyle='->', color='grey', lw=0.5, shrinkA=0, shrinkB=0),
-            expand_text=(0.5, 0.5), 
-            expand_points=(0.5, 0.5))
-
-
+adjust_text(texts, arrowprops=dict(arrowstyle='->', color='grey', lw=0.5))
 
 # 设置标签、标题和网格
-ax.set_xscale('log')  # X 轴为对数刻度
-ax.set_ylabel('Peak Efficiency (%)', fontproperties=font_prop, fontsize=12)
-ax.set_xlabel('Power Density (kW/L)', fontproperties=font_prop, fontsize=12)
-ax.legend(prop=font_prop, fontsize=10, loc='upper left')
-ax.grid(visible=True, linestyle='--', linewidth=0.5)  # 设置虚线网格
+# plt.yscale('log')  # y 轴为对数刻度
+plt.xlabel('Nominal Switching Frequency (kHz)', fontproperties=font_prop, fontsize=12)
+plt.ylabel('Power Density (kW/L)', fontproperties=font_prop, fontsize=12)
+plt.legend(prop=font_prop, fontsize=10, loc='best')
+plt.grid(visible=True, linestyle='--',linewidth=0.5 )  # 设置虚线网格
+
+# 设置 x 轴和 y 轴的范围
+plt.xlim(0, 740)  # 替换 x_min 和 x_max 为你希望的范围
+plt.ylim(-1, 9)  # 替换 y_min 和 y_max 为你希望的范围
 
 # 设置轴刻度字体
-ax.tick_params(axis='x', labelsize=10, labelrotation=0)
-ax.tick_params(axis='y', labelsize=10, labelrotation=0)
+plt.xticks(fontproperties=font_prop, fontsize=10)
+plt.yticks(fontproperties=font_prop, fontsize=10)
 
 # 保存图像为高清 PNG 文件
-plt.savefig('outputs/PD2Eff_pk_topo.png', dpi=1200, bbox_inches='tight')
+plt.savefig('outputs/Fs2PD.png', dpi=300, bbox_inches='tight')
 plt.show()

@@ -12,4 +12,5 @@
 "S8NBI4WD","2021","Self-adaptive synchronous rectifier control algorithm of phase-shifted full bridge current double rectifier converter","ZJU","Vin=280-400V, Vo=14V, fs=100kHz","Power=1.5kW, Eff_pk=0.93, Eff_avg = 0.913"
 "WALCI7AK","2023","Two-transformer phase-shift full-bridge converter with a new rectifier for reducing conduction loss","Inha Univ.","Vin=300-400V, Vo=12V, fs=100kHz","Power=0.4kW, Eff_pk=0.937, Eff_avg = 0.91"
 "WGEPS8VF","2014","Efficiency optimized single-stage reconfigurable DC/DC converter for hybrid and electric vehicles","Industry Infineon","Vin=180-420V, Vo=10.6-16V, fs=100kHz","Power=1.05kW, Eff_pk=0.9"
-"QSETZB6W","2023","GaN-based High-Frequency, High-Power-Density, 2-in-1 Bi-directional OBC Design for EV Applications","Industry Navitas","Vin=280-460V, Vo=9-16V, fs = 60kHz","Power=3kW, PD=3.9kW/L, Eff_pk=0.966,  Eff_avg=0.93"
+"QSETZB6W","2023","GaN-based High-Frequency, High-Power-Density, 2-in-1 Bi-directional OBC Design for EV Applications","Industry Navitas","Vin=280-460V, Vo=9-16V, fs = 400kHz","Power=3kW, PD=3.9kW/L, Eff_pk=0.966,  Eff_avg=0.93"
+"IFDWGHPC","2025","3.5kW, 800V to 14V DC-DC Converter Reference Design","Industry Texas Instrument","Vin=900-400V, Vo=9-16V, fs = 200kHz","Power=3.5kW, PD=1.698kW/L, Eff_pk=0.96734, Eff_avg = 0.95"

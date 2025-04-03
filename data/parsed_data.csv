@@ -1,161 +1,163 @@
 Year,Institution,RealKey,Citationkey,Refnumber,Vo_min,Vo_max,Vin_min,Vin_max,fs_min,fs_max,Power,Density,Eff_pk,Eff_avg
-2018,ETH,UV25BGEU,knabben_new_2018,2,12,,300,430,300,,3,21.35,0.94,0.93
-2016,,DFKIQ9EP,jiang_bidirectional_2016,3,,,,,,,,,,
-2021,Queen's,B3426XEB,zhou_high-efficiency_2021,4,9,16,250,430,260,400,3,3,0.969,0.95
-2012,Queen's,4CXST3VN,pahlevaninezhad_novel_2012,5,11.5,15,235,431,220,,3,,0.975,0.955
-2023,,JT9KULZ9,yu_time-domain_2023,6,,,,,,,,,,
-2022,,3R7JF6MT,lin_three-port_2022,7,,,,,,,,,,
-2013,RWTH,4WBEVQ6M,van_hoek_enhanced_2013,8,10,16,100,170,100,,2,1,0.943,0.928
-2012,FSU,BYM6A8VT,wang_soft_2012,9,288,,24,48,40,,6,6.89,0.964,0.94
-2021,,DSLA4AD5,purgat_zero_2021,10,,,,,,,,,,
-2015,,Q4JUGPLB,moon_new_2015,11,12,,200,400,66,,2,,0.959,0.94
-2023,,6DHK6GK9,yu_impedance_2023,12,,,,,,,,,,
-2023,Yonsei Univ.,EXGB9V22,kim_new_2023,13,12,,135,170,90,,1.2,,0.98,0.96
-2021,,DUIHYTLW,tang_three-port_2021,14,,,,,,,,,,
-2017,,JJ6JL2TL,andrade_modified_2017,15,,,,,,,,,,
-2022,,LRYTFD6T,wang_topology-level_2022,16,,,,,,,,,,
-2023,,AFHZAAB6,wu_modeling_2023,17,,,,,,,,,,
-2020,,CTCZ6XEF,dao_high-efficiency_2020,18,,,,,,,,,,
-2019,,MAE2MLR7,wang_hardware_2019,19,,,,,,,,,,
-2019,,NNZGKVR9,tran_open-loop_2019,20,,,,,,,,,,
-2022,,MRXWYHSZ,wu_series_2022,21,,,,,,,,,,
-2023,,HLRKA33L,zhang_research_2023,22,,,,,,,,,,
-2023,,BQ7TWZXF,chakraborty_design_2023,23,,,,,,,,,,
-2008,,TDF6N7DS,tao_transformer-coupled_2008,24,,,,,,,,,,
-2022,,RIDI4FK9,cao_novel_2022,25,,,,,,,,,,
-2012,,4N6IIMKP,wang_asymmetrical_2012,26,,,,,,,,,,
-2023,,Z75U2ZTZ,cai_dynamic_2023,27,,,,,,,,,,
-2024,https://creativecommons.org/licenses/by-nc-nd/4.0/,5Z8JUTZ8,goudarzitaemeh_bidirectional_2024,28,,,,,,,,,,
-2024,UTK,MFEBJ7W7,zhu_model_2024,29,6,16,180,900,80,,3.2,1.38,0.97,0.95
-2012,Industry Vicor,J6ZTSTD5,salato_double-clamp_2012,30,12.5,15.5,160,420,,,0.45,54,0.934,0.94
-2021,Seoul Tech,DQGIR86L,naradhipa_power_2021,31,12.8,15.1,200,310,700,,1.8,8.1,0.9187,0.9
-2022,U of T,EM88JF8J,viana_auxiliary_2022,32,,,,,,,,,,
-2015,McMaster,Y9XYILBK,hou_evaluation_2015,33,,,,,,,,,,
-2017,McMaster,8EJKU7WA,hou_applied_2017,34,,,,,,,,,,
-2023,Inha Univ.,R3HTMEH3,lee_development_2023,35,13,15,400,800,200,,2.1,5.2,0.954,0.935
-2015,Sup??lec,D58RNFFM,yang_double-phase_2015,36,14,,330,410,250,,2.5,1,0.95,0.94
-2023,UTK,CQXKLCRV,zhu_ultra-high_2023,37,,,,,,,,,,
-2017,McMaster,ZDEUF5YT,hou_primary_2017,38,12,,100,320,100,,0.72,0.363,0.935,0.9
-2010,ETH,K2PCKAIJ,krismer_accurate_2010,39,11,16,240,450,100,,2,1.535,0.956,0.92
-2012,Queen's,V3CSN6NF,pahlevaninezhad_load_2012,40,,,,,,,,,,
-2009,ETH,NP642NW3,krismer_accurate_2009,41,,,,,,,,,,
-2021,UTK,CTWMB26L,zhu_design_2021,42,10,16,250,450,200,,6,2.22,0.962,0.94
-2024,,F9S52GIS,stolt_spurious-free_2024,43,,,,,,,,,,
-2017,RWTH,XVMBM6K6,hoek_design_2017,44,10,16,260,450,100,,3,1,0.956,0.921
-2014,OSU,HF7QYUBU,zhang_wide_2014,45,12,,300,,500,600,1,0.957,0.96,0.91
-2021,Inha Univ.,V7Z7Q83H,lee_two-mode_2021,46,13.9,,350,800,70,,0.6,,0.926,0.91
-2015,Kettering Univ.,V8CX2XVU,duan_design_2015,47,6,16,220,450,90,200,2.5,,0.932,0.92
-2014,Seoul Tech,9DHSZ965,park_design_2014,48,24,28,380,400,48,,5,,0.9513,0.934
-2013,Queen's,ZRTG4E9A,hamza_implementation_2013,49,11.5,15,235,431,200,,2,,0.932,0.92
-2017,SKKU,3ZWI3EBS,kim_topology_2017,50,,,,,,,,,,
-2017,https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html,CDDHE4IB,kim_integrated_2017,51,,,,,,,,,,
-2020,ETH,CEX76RM7,knabben_wide-input-voltage-range_2020,52,12,,300,430,300,,3,21.35,0.94,0.93
-2020,National Ilan Univ.,PQYQ4RN5,liu_integrated_2020,53,12,,400,,80,,1.7,2.28,0.967,0.955
-2012,KAIST,IPJK8ESY,cho_transformer_2012,54,12,,320,400,86,,1.2,,0.957,0.945
-2009,KAIST,3LPAZP55,young-do_kim_zvs_2009,55,12,,329,400,86,,1.2,,0.956,0.945
-2022,Inha Univ.,EKQTKXEX,lee_new_2022,56,,,,,,,,,,
-2024,Industry Wolfspeed,JK7FYUB3,gandluru_identifying_2024,57,,,,,,,,,,
-2021,ZJU,S8NBI4WD,ding_self-adaptive_2021,58,14,,280,400,100,,1.5,,0.93,0.913
-2024,ORNL,W5I2SP4V,mukherjee_multiport_2024,59,,,,,,,,,,
-2021,Seoul Tech,V4B9BFMH,yu_effective_2021,60,,,,,,,,,,
-2023,Inha Univ.,WALCI7AK,jeong_two-transformer_2023,61,12,,300,400,100,,0.4,,0.937,0.91
-2012,ETH,S93ZWP5S,krismer_efficiency-optimized_2012,62,11,16,240,450,100,,2,,0.95,0.935
-2014,Industry Infineon,WGEPS8VF,zeljkovic_efficiency_2014,63,10.6,16,180,420,100,,1.05,,0.9,
-2008,ORNL,WXGLWHQ9,su_three-phase_2008,64,42,,250,400,40,,6,,0.959,0.948
-2016,NUAA,UMSK6GHW,pang_high-frequency_2016,65,12,,250,450,300,1000,2.5,1.9,0.951,0.92
-2024,,5LRWRN5C,wouters_interleaved_2024,66,,,,,,,,,,
-2012,ETH,4Y7UEVDT,hillers_design_2012,67,17,56,450,,140,,1.65,,0.976,0.96
-,Industry Vitesco Technologies,XPFQFC7Y,noauthor_vitesco_nodate-3,68,8,16,245,450,,,3.6,1.5,,
-,,TIUSW488,noauthor_vitesco_nodate-2,69,,,,,,,,,,
-,Industry Inovance Auomotive,SQ9DMVJA,noauthor_pc32_power_nodate,70,,,,,,,,,,
-,Industry Inovance Auomotive,7YZ6IBGD,noauthor_pc41_power_nodate,71,,,,,,,,,,
-2018,Industry Inovance Auomotive,JD6ZEGEX,noauthor_pp30_power_2018,72,9,16,180,480,,,3,,0.975,0.955
-,Industry Inovance Auomotive,9GHGB9V5,noauthor_pc36_power_nodate,73,,,,,,,,,,
-,,J6B93Z94,noauthor_charger-converter_nodate,74,,,,,,,,,,
-2021,Industry BOSCH,TW9UHIWR,noauthor_high-voltage_2021,75,10.5,15.5,240,475,,,3.6,,0.95,0.922
-,,TJUGTU74,noauthor_integrate_nodate,76,,,,,,,,,,
-,,QTTL4IRQ,noauthor_crd-60dd12n-k_nodate,77,,,,,,,,,,
-,Industry ev mobility,PT3PV3TK,noauthor_dc_nodate,78,6,18,200,420,,,1.5,0.251,0.951,0.92
-,,7HDK2J6R,noauthor_ev_nodate,79,,,,,,,,,,
-2021,Industry Delta,GVWAASJU,noauthor_400v_2021,80,9,16,200,480,,,2.5,1.785,0.953,0.921
-,,D4ARSWJP,noauthor_48v_nodate,81,,,,,,,,,,
-2023,Industry Eaton,MAKMQZP3,noauthor_high-voltage_2023,82,12,16,225,455,,,3,0.645,0.941,0.927
-2022,Industry Delta,ELZN8M3R,noauthor_800v_2022,83,9,16,390,935,,,3,,,0.955
-,,BWUL3IEC,noauthor_learn_nodate,84,,,,,,,,,,
-2024,Industry Vicor,B6AIILXE,greg_unprecedented_2024,85,,,,,,,,,,
-2024,Industry Vicor,P2FHZBZ2,noauthor_power_2024,86,13.8,,800,,1300,,4,5.22,0.95,0.95
-,,GN3Q6FPI,noauthor_automotive_nodate,87,,,,,,,,,,
-,,QJZ8VFCI,choi_optimize_nodate,88,,,,,,,,,,
-,Industry AstrodyneTDI,FE8YUYXZ,noauthor_lsm4k0-400-2_nodate,89,22,30,290,430,,,4,1.16,0.94,0.95
-,Industry Bel Fuse Inc,LSG4VF7S,noauthor_350dnc40-12_nodate,90,9,16,240,430,,,4,0.632,0.93,0.91
-2023,Industry Bel Fuse Inc,CEGEGETG,noauthor_700dng40-24-8_2023,91,20,30,450,900,,,4,0.776,0.95,0.91
-2023,Industry BRUSA HyPower,IX2DTSW5,noauthor_bsc6xx_2023,92,8,16,220,450,,,2.8,0.889,0.944,0.92
-,,GYZNK83S,noauthor_bsc7xx_nodate,93,,,,,,,,,,
-,Industry BRUSA HyPower,GE2Z6K5P,noauthor_dcdc_nodate-2,94,,,,,,,,,,
-,Industry BorgWarner,XSEV2QY2,noauthor_gen5_nodate,95,12,,220,800,,,1.2,0.242,0.93,0.92
-2015,,UI27D7B2,xuewei_naturally_2015,96,,,,,,,,,,
-2019,,TQHUQYIR,lim_phase-shifted_2019,97,,,,,,,,,,
-2023,,FEMNLBC3,zou_gan_2023,98,,,,,,,,,,
-2022,,CNENCE9U,sun_total_2022,99,,,,,,,,,,
-2022,Industry Navitas,82Z6T75S,minli_gan-based_2022,100,,,,,,,,,,
-2023,Industry Navitas,QSETZB6W,jia_gan-based_2023,101,9,16,280,460,60,,3,3.9,0.966,0.93
-2024,,MDG46CGQ,carvalho_comparative_2024,102,,,,,,,,,,
-2023,,EEMPKKQ3,xu_family_2023,103,,,,,,,,,,
-2021,,GWQ2UJFG,gu_hybrid-pwm-controlled_2021,104,,,,,,,,,,
-2024,,UKW2V2W6,pei_phase-shift_2024,105,,,,,,,,,,
-2023,,RFBW2VFB,qiu_dynamic_2023,106,,,,,,,,,,
-2020,POSTECH,Q3R9ISTP,bai_highly_2020,107,400,,250,415,50,,3.3,,0.978,0.955
-2017,https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html,MUK93ATQ,liu_implementation_2017,108,,,,,,,,,,
-2024,,7YRU3PER,gu_interleaved_2024,109,,,,,,,,,,
-2019,,P2LUIBFV,han_general_2019,110,,,,,,,,,,
-2019,,74E3N7FG,han_wide-range_2019,111,,,,,,,,,,
-2024,,ZVD3CMH8,gurudiwan_zvs_2024,112,,,,,,,,,,
-2012,,NJE4Q6JC,corradini_minimum_2012,113,,,,,,,,,,
-2024,,H9NBVZ42,gao_low-side-extended-phase-shift-under-resonant_2024,114,,,,,,,,,,
-2021,,ATET4KMW,kim_highly_2021,115,48,72,380,,50,,1,,0.97,0.959
-2021,Industry Delta,92MV2RPZ,kim_pwm-controlled_2021,116,200,950,800,,60,,3,,0.9854,0.95
-2012,,J2H9K8GY,lee_analysis_2012,117,,,,,,,,,,
-2024,Industry BrightLoop,T86NNX25,noauthor_dcdc_2024-2,118,9,56,200,950,,,9.6,3.2,0.96,0.94
-2024,,4WDLXTQF,noauthor_brightloop_2024,119,,,,,,,,,,
-,Industry Vitesco Technologies,IM85GF8T,noauthor_vitesco_nodate,120,12,48,400,800,,,4,4.5,,
-,,IBVBCEV8,noauthor_hella_nodate,121,,,,,,,,,,
-2024,Industry BrightLoop,PE86SFTA,noauthor_dcdc_2024-1,122,9,56,200,950,,,4.8,2.38,0.96,0.94
-2024,Industry BrightLoop,KGKHRV8S,noauthor_dcdc_2024,123,9,56,200,950,,,1.9,3.366,0.96,0.94
-2024,,UMTK9M7T,chandwani_steady-state_2024,124,,,,,,,,,,
-2024,,UQC4CB3D,jiang_variable_2024,125,,,,,,,,,,
-2023,,TD87NBCF,jung_bi-directional_2023,126,,,,,,,,,,
-2022,,JGT6HYHI,bai_bidirectional_2022,127,,,,,,,,,,
-2022,ETH,RWTE5UH8,schaefer_highly_2022,128,10.5,15,250,500,430,,1.5,16.4,0.966,0.95
-2019,Industry Delta,P9F42T2W,jang_isolated_2019,129,9.5,15.5,250,450,300,400,1,,0.961,0.95
-2019,NITech,I3X9R3T7,matsumori_isolated_2019,130,10,15,140,260,300,,1.8,7.5,0.92,0.91
-2016,Industry Toyota Central R&D Labs,RLTNRSCI,itoh_design_2016,131,10,15,140,260,300,,1,5.34,0.939,0.92
-2015,,YGJRVSK7,jang_resonant_2015,132,,,,,,,,,,
-2020,,P9IK439R,wei_resonant_2020,133,,,,,,,,,,
-2005,,CBDRX4MT,jang_contactless_2005,134,,,,,,,,,,
-2010,,TT7N6B8G,seong_synchronous_2010,135,,,,,,,,,,
-2016,,G2PJRW6A,ye_resonant_2016,136,,,,,,,,,,
-2021,,GD3XQT54,hu_dcdc_2021,137,,,,,,,,,,
-2023,,F795X37K,jia_three-level_2023,138,,,,,,,,,,
-2024,,AA6NSUPQ,liu_resonant_2024,139,,,,,,,,,,
-2023,,YNMZM8IB,kumar_multiple-port_2023,140,,,,,,,,,,
-2022,,T6XK9DEC,wang_power_2022,141,,,,,,,,,,
-2019,,BJCGVFCQ,kim_power_2019,142,,,,,,,,,,
-2021,,C2MGEB4S,sun_control_2021,143,,,,,,,,,,
-2022,,VNDXIPRW,fromme_bidirektionaler_2022,144,,,,,,,,,,
-2022,,HD7KS7VZ,rehlaender_power_2022,145,,,,,,,,,,
-2021,,3IGW8YE7,zhang_isolated_2021,146,,,,,,,,,,
-2024,,GEHIM5YQ,ausseresse_hybrid_2024,147,,,,,,,,,,
-2024,,KM9IET27,zhang_isolated_2024,148,,,,,,,,,,
-2022,,ZDQ5TIRL,yang_llc_2022,149,,,,,,,,,,
-2012,,538ZBUQM,ngo_pulse_2012,150,,,,,,,,,,
-2020,Paderborn Univ.,ZBZDX5W3,rehlaender_36_2020,151,10,16,240,420,80,,3.6,2.1,0.965,
-2023,,N96TJ9C4,chandwani_fabrication_2023,152,,,,,,,,,,
-2024,,BMNHS8HE,goudarzitaemeh_multilevel_2024,153,,,,,,,,,,
-2024,Queen's,TFIPAVXE,goudarzitaemeh_extended_2024,154,45,60,350,450,200,,1.5,2.1,0.981,0.97
-2017,,XUVEGWQL,sha_unequal_2017,155,,,,,,,,,,
-2017,,59NUFKF4,sha_current-fed_2017,156,,,,,,,,,,
-2022,,CKCQMXQY,yu_high_2022,157,,,,,,,,,,
-2022,,2WD24EI4,wu_online_2022,158,10,16,220,360,31.7,100,1,,0.9215,
-2021,,BEQJNSTJ,wu_online_2021,159,,,,,,,,,,
-2021,,EMVEXHMX,chen_design_2021,160,9,16,250,450,20,150,2.5,,0.974,
-2020,,HC82XFAY,zhu_two-stage_2020-1,161,,,,,,,,,,
+2018,ETH,UV25BGEU,knabben_new_2018,1,12,,300,430,300,,3,21.35,0.94,0.93
+2016,,DFKIQ9EP,jiang_bidirectional_2016,2,,,,,,,,,,
+2021,Queen's,B3426XEB,zhou_high-efficiency_2021,3,9,16,250,430,260,400,3,3,0.969,0.95
+2012,Queen's,4CXST3VN,pahlevaninezhad_novel_2012,4,11.5,15,235,431,220,,3,,0.975,0.955
+2023,,JT9KULZ9,yu_time-domain_2023,5,,,,,,,,,,
+2022,,3R7JF6MT,lin_three-port_2022,6,,,,,,,,,,
+2013,RWTH,4WBEVQ6M,van_hoek_enhanced_2013,7,10,16,100,170,100,,2,1,0.943,0.928
+2012,FSU,BYM6A8VT,wang_soft_2012,8,288,,24,48,40,,6,6.89,0.964,0.94
+2021,,DSLA4AD5,purgat_zero_2021,9,,,,,,,,,,
+2015,,Q4JUGPLB,moon_new_2015,10,12,,200,400,66,,2,,0.959,0.94
+2023,,6DHK6GK9,yu_impedance_2023,11,,,,,,,,,,
+2023,Yonsei Univ.,EXGB9V22,kim_new_2023,12,12,,135,170,90,,1.2,,0.98,0.96
+2021,,DUIHYTLW,tang_three-port_2021,13,,,,,,,,,,
+2017,,JJ6JL2TL,andrade_modified_2017,14,,,,,,,,,,
+2022,,LRYTFD6T,wang_topology-level_2022,15,,,,,,,,,,
+2023,,AFHZAAB6,wu_modeling_2023,16,,,,,,,,,,
+2020,,CTCZ6XEF,dao_high-efficiency_2020,17,,,,,,,,,,
+2019,,MAE2MLR7,wang_hardware_2019,18,,,,,,,,,,
+2019,,NNZGKVR9,tran_open-loop_2019,19,,,,,,,,,,
+2022,,MRXWYHSZ,wu_series_2022,20,,,,,,,,,,
+2023,,HLRKA33L,zhang_research_2023,21,,,,,,,,,,
+2023,,BQ7TWZXF,chakraborty_design_2023,22,,,,,,,,,,
+2008,,TDF6N7DS,tao_transformer-coupled_2008,23,,,,,,,,,,
+2022,,RIDI4FK9,cao_novel_2022,24,,,,,,,,,,
+2012,,4N6IIMKP,wang_asymmetrical_2012,25,,,,,,,,,,
+2023,,Z75U2ZTZ,cai_dynamic_2023,26,,,,,,,,,,
+2024,https://creativecommons.org/licenses/by-nc-nd/4.0/,5Z8JUTZ8,goudarzitaemeh_bidirectional_2024,27,,,,,,,,,,
+2024,UTK,MFEBJ7W7,zhu_model_2024,28,6,16,180,900,80,,3.2,1.38,0.97,0.95
+2021,Seoul Tech,DQGIR86L,naradhipa_power_2021,30,12.8,15.1,200,310,700,,1.8,8.1,0.9187,0.9
+2022,U of T,EM88JF8J,viana_auxiliary_2022,31,,,,,,,,,,
+2015,McMaster,Y9XYILBK,hou_evaluation_2015,32,,,,,,,,,,
+2017,McMaster,8EJKU7WA,hou_applied_2017,33,,,,,,,,,,
+2023,Inha Univ.,R3HTMEH3,lee_development_2023,34,13,15,400,800,200,,2.1,5.2,0.954,0.935
+2015,Supelec,D58RNFFM,yang_double-phase_2015,35,14,,330,410,250,,2.5,1,0.95,0.94
+2023,UTK,CQXKLCRV,zhu_ultra-high_2023,36,,,,,,,,,,
+2017,McMaster,ZDEUF5YT,hou_primary_2017,37,12,,100,320,100,,0.72,0.363,0.935,0.9
+2010,ETH,K2PCKAIJ,krismer_accurate_2010,38,11,16,240,450,100,,2,1.535,0.956,0.92
+2012,Queen's,V3CSN6NF,pahlevaninezhad_load_2012,39,,,,,,,,,,
+2009,ETH,NP642NW3,krismer_accurate_2009,40,,,,,,,,,,
+2021,UTK,CTWMB26L,zhu_design_2021,41,10,16,250,450,200,,6,2.22,0.962,0.94
+2024,,F9S52GIS,stolt_spurious-free_2024,42,,,,,,,,,,
+2017,RWTH,XVMBM6K6,hoek_design_2017,43,10,16,260,450,100,,3,1,0.956,0.921
+2014,OSU,HF7QYUBU,zhang_wide_2014,44,12,,300,,500,600,1,0.957,0.96,0.91
+2021,Inha Univ.,V7Z7Q83H,lee_two-mode_2021,45,13.9,,350,800,70,,0.6,,0.926,0.91
+2015,Kettering Univ.,V8CX2XVU,duan_design_2015,46,6,16,220,450,90,200,2.5,,0.932,0.92
+2014,Seoul Tech,9DHSZ965,park_design_2014,47,24,28,380,400,48,,5,,0.9513,0.934
+2013,Queen's,ZRTG4E9A,hamza_implementation_2013,48,11.5,15,235,431,200,,2,,0.932,0.92
+2017,SKKU,3ZWI3EBS,kim_topology_2017,49,,,,,,,,,,
+2017,https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html,CDDHE4IB,kim_integrated_2017,50,,,,,,,,,,
+2020,ETH,CEX76RM7,knabben_wide-input-voltage-range_2020,51,12,,300,430,300,,3,21.35,0.94,0.93
+2020,National Ilan Univ.,PQYQ4RN5,liu_integrated_2020,52,12,,400,,80,,1.7,2.28,0.967,0.955
+2012,KAIST,IPJK8ESY,cho_transformer_2012,53,12,,320,400,86,,1.2,,0.957,0.945
+2009,KAIST,3LPAZP55,young-do_kim_zvs_2009,54,12,,329,400,86,,1.2,,0.956,0.945
+2022,Inha Univ.,EKQTKXEX,lee_new_2022,55,,,,,,,,,,
+2024,Industry Wolfspeed,JK7FYUB3,gandluru_identifying_2024,56,,,,,,,,,,
+2021,ZJU,S8NBI4WD,ding_self-adaptive_2021,57,14,,280,400,100,,1.5,,0.93,0.913
+2024,ORNL,W5I2SP4V,mukherjee_multiport_2024,58,,,,,,,,,,
+2021,Seoul Tech,V4B9BFMH,yu_effective_2021,59,,,,,,,,,,
+2023,Inha Univ.,WALCI7AK,jeong_two-transformer_2023,60,12,,300,400,100,,0.4,,0.937,0.91
+2012,ETH,S93ZWP5S,krismer_efficiency-optimized_2012,61,11,16,240,450,100,,2,,0.95,0.935
+2014,Industry Infineon,WGEPS8VF,zeljkovic_efficiency_2014,62,10.6,16,180,420,100,,1.05,,0.9,
+2008,ORNL,WXGLWHQ9,su_three-phase_2008,63,42,,250,400,40,,6,,0.959,0.948
+2016,NUAA,UMSK6GHW,pang_high-frequency_2016,64,12,,250,450,300,1000,2.5,1.9,0.951,0.92
+2024,,5LRWRN5C,wouters_interleaved_2024,65,,,,,,,,,,
+2012,ETH,4Y7UEVDT,hillers_design_2012,66,17,56,450,,140,,1.65,,0.976,0.96
+,Industry Vitesco Technologies,XPFQFC7Y,noauthor_vitesco_nodate-3,67,8,16,245,450,,,3.6,1.5,,
+,,TIUSW488,noauthor_vitesco_nodate-2,68,,,,,,,,,,
+,Industry Inovance Auomotive,SQ9DMVJA,noauthor_pc32_power_nodate,69,,,,,,,,,,
+,Industry Inovance Auomotive,7YZ6IBGD,noauthor_pc41_power_nodate,70,,,,,,,,,,
+2018,Industry Inovance Auomotive,JD6ZEGEX,noauthor_pp30_power_2018,71,9,16,180,480,,,3,,0.975,0.955
+,Industry Inovance Auomotive,9GHGB9V5,noauthor_pc36_power_nodate,72,,,,,,,,,,
+,,J6B93Z94,noauthor_charger-converter_nodate,73,,,,,,,,,,
+2021,Industry BOSCH,TW9UHIWR,noauthor_high-voltage_2021,74,10.5,15.5,240,475,,,3.6,,0.95,0.922
+,,TJUGTU74,noauthor_integrate_nodate,75,,,,,,,,,,
+,,QTTL4IRQ,noauthor_crd-60dd12n-k_nodate,76,,,,,,,,,,
+,Industry ev mobility,PT3PV3TK,noauthor_dc_nodate,77,6,18,200,420,,,1.5,0.251,0.951,0.92
+,,7HDK2J6R,noauthor_ev_nodate,78,,,,,,,,,,
+2021,Industry Delta,GVWAASJU,noauthor_400v_2021,79,9,16,200,480,,,2.5,1.785,0.953,0.921
+,,D4ARSWJP,noauthor_48v_nodate,80,,,,,,,,,,
+2023,Industry Eaton,MAKMQZP3,noauthor_high-voltage_2023,81,12,16,225,455,,,3,0.645,0.941,0.927
+2022,Industry Delta,ELZN8M3R,noauthor_800v_2022,82,9,16,390,935,,,3,,,0.955
+,,BWUL3IEC,noauthor_learn_nodate,83,,,,,,,,,,
+2024,Industry Vicor,B6AIILXE,greg_unprecedented_2024,84,,,,,,,,,,
+2024,Industry Vicor,P2FHZBZ2,noauthor_power_2024,85,13.8,,800,,,,4,5.22,0.95,0.95
+,,GN3Q6FPI,noauthor_automotive_nodate,86,,,,,,,,,,
+,,QJZ8VFCI,choi_optimize_nodate,87,,,,,,,,,,
+,Industry AstrodyneTDI,FE8YUYXZ,noauthor_lsm4k0-400-2_nodate,88,22,30,290,430,,,4,1.16,0.94,0.95
+,Industry Bel Fuse Inc,LSG4VF7S,noauthor_350dnc40-12_nodate,89,9,16,240,430,,,4,0.632,0.93,0.91
+2023,Industry Bel Fuse Inc,CEGEGETG,noauthor_700dng40-24-8_2023,90,20,30,450,900,,,4,0.776,0.95,0.91
+2023,Industry BRUSA HyPower,IX2DTSW5,noauthor_bsc6xx_2023,91,8,16,220,450,,,2.8,0.889,0.944,0.92
+,,GYZNK83S,noauthor_bsc7xx_nodate,92,,,,,,,,,,
+,Industry BRUSA HyPower,GE2Z6K5P,noauthor_dcdc_nodate-2,93,,,,,,,,,,
+,Industry BorgWarner,XSEV2QY2,noauthor_gen5_nodate,94,12,,220,800,,,1.2,0.242,0.93,0.92
+2015,,UI27D7B2,xuewei_naturally_2015,95,,,,,,,,,,
+2019,,TQHUQYIR,lim_phase-shifted_2019,96,,,,,,,,,,
+2023,,FEMNLBC3,zou_gan_2023,97,,,,,,,,,,
+2022,,CNENCE9U,sun_total_2022,98,,,,,,,,,,
+2022,Industry Navitas,82Z6T75S,minli_gan-based_2022,99,,,,,,,,,,
+2023,Industry Navitas,QSETZB6W,jia_gan-based_2023,100,9,16,280,460,400,,3,3.9,0.966,0.93
+2024,,MDG46CGQ,carvalho_comparative_2024,101,,,,,,,,,,
+2023,,EEMPKKQ3,xu_family_2023,102,,,,,,,,,,
+2021,,GWQ2UJFG,gu_hybrid-pwm-controlled_2021,103,,,,,,,,,,
+2024,,UKW2V2W6,pei_phase-shift_2024,104,,,,,,,,,,
+2023,,RFBW2VFB,qiu_dynamic_2023,105,,,,,,,,,,
+2020,POSTECH,Q3R9ISTP,bai_highly_2020,106,400,,250,415,50,,3.3,,0.978,0.955
+2017,https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html,MUK93ATQ,liu_implementation_2017,107,,,,,,,,,,
+2024,,7YRU3PER,gu_interleaved_2024,108,,,,,,,,,,
+2019,,P2LUIBFV,han_general_2019,109,,,,,,,,,,
+2019,,74E3N7FG,han_wide-range_2019,110,,,,,,,,,,
+2024,,ZVD3CMH8,gurudiwan_zvs_2024,111,,,,,,,,,,
+2012,,NJE4Q6JC,corradini_minimum_2012,112,,,,,,,,,,
+2024,,H9NBVZ42,gao_low-side-extended-phase-shift-under-resonant_2024,113,,,,,,,,,,
+2021,,ATET4KMW,kim_highly_2021,114,48,72,380,,50,,1,,0.97,0.959
+2021,Industry Delta,92MV2RPZ,kim_pwm-controlled_2021,115,200,950,800,,60,,3,,0.9854,0.95
+2012,,J2H9K8GY,lee_analysis_2012,116,,,,,,,,,,
+2024,Industry BrightLoop,T86NNX25,noauthor_dcdc_2024-2,117,9,56,200,950,,,9.6,3.2,0.96,0.94
+2024,,4WDLXTQF,noauthor_brightloop_2024,118,,,,,,,,,,
+,Industry Vitesco Technologies,IM85GF8T,noauthor_vitesco_nodate,119,12,48,400,800,,,4,4.5,,
+,,IBVBCEV8,noauthor_hella_nodate,120,,,,,,,,,,
+2024,Industry BrightLoop,PE86SFTA,noauthor_dcdc_2024-1,121,9,56,200,950,,,4.8,2.38,0.96,0.94
+2024,Industry BrightLoop,KGKHRV8S,noauthor_dcdc_2024,122,9,56,200,950,,,1.9,3.366,0.96,0.94
+2024,,UMTK9M7T,chandwani_steady-state_2024,123,,,,,,,,,,
+2024,,UQC4CB3D,jiang_variable_2024,124,,,,,,,,,,
+2023,,TD87NBCF,jung_bi-directional_2023,125,,,,,,,,,,
+2022,,JGT6HYHI,bai_bidirectional_2022,126,,,,,,,,,,
+2022,ETH,RWTE5UH8,schaefer_highly_2022,127,10.5,15,250,500,430,,1.5,16.4,0.966,0.95
+2019,Industry Delta,P9F42T2W,jang_isolated_2019,128,9.5,15.5,250,450,300,400,1,,0.961,0.95
+2019,NITech,I3X9R3T7,matsumori_isolated_2019,129,10,15,140,260,300,,1.8,7.5,0.92,0.91
+2016,Industry Toyota Central R&D Labs,RLTNRSCI,itoh_design_2016,130,10,15,140,260,300,,1,5.34,0.939,0.92
+2015,,YGJRVSK7,jang_resonant_2015,131,,,,,,,,,,
+2020,,P9IK439R,wei_resonant_2020,132,,,,,,,,,,
+2005,,CBDRX4MT,jang_contactless_2005,133,,,,,,,,,,
+2010,,TT7N6B8G,seong_synchronous_2010,134,,,,,,,,,,
+2016,,G2PJRW6A,ye_resonant_2016,135,,,,,,,,,,
+2021,,GD3XQT54,hu_dcdc_2021,136,,,,,,,,,,
+2023,,F795X37K,jia_three-level_2023,137,,,,,,,,,,
+2024,,AA6NSUPQ,liu_resonant_2024,138,,,,,,,,,,
+2023,,YNMZM8IB,kumar_multiple-port_2023,139,,,,,,,,,,
+2022,,T6XK9DEC,wang_power_2022,140,,,,,,,,,,
+2019,,BJCGVFCQ,kim_power_2019,141,,,,,,,,,,
+2021,,C2MGEB4S,sun_control_2021,142,,,,,,,,,,
+2022,,VNDXIPRW,fromme_bidirektionaler_2022,143,,,,,,,,,,
+2022,,HD7KS7VZ,rehlaender_power_2022,144,,,,,,,,,,
+2021,,3IGW8YE7,zhang_isolated_2021,145,,,,,,,,,,
+2024,,GEHIM5YQ,ausseresse_hybrid_2024,146,,,,,,,,,,
+2024,,KM9IET27,zhang_isolated_2024,147,,,,,,,,,,
+2022,,ZDQ5TIRL,yang_llc_2022,148,,,,,,,,,,
+2012,,538ZBUQM,ngo_pulse_2012,149,,,,,,,,,,
+2020,Paderborn Univ.,ZBZDX5W3,rehlaender_36_2020,150,10,16,240,420,80,,3.6,2.1,0.965,
+2023,,N96TJ9C4,chandwani_fabrication_2023,151,,,,,,,,,,
+2024,,BMNHS8HE,goudarzitaemeh_multilevel_2024,152,,,,,,,,,,
+2024,Queen's,TFIPAVXE,goudarzitaemeh_extended_2024,153,45,60,350,450,200,,1.5,2.1,0.981,0.97
+2017,,XUVEGWQL,sha_unequal_2017,154,,,,,,,,,,
+2017,,59NUFKF4,sha_current-fed_2017,155,,,,,,,,,,
+2022,,CKCQMXQY,yu_high_2022,156,,,,,,,,,,
+2022,Tongji U,2WD24EI4,wu_online_2022,157,10,16,220,360,31.7,100,1,,0.9215,
+2021,,BEQJNSTJ,wu_online_2021,158,,,,,,,,,,
+2021,NCKU,EMVEXHMX,chen_design_2021,159,9,16,250,450,20,150,2.5,,0.974,
+2020,,HC82XFAY,zhu_two-stage_2020-1,160,,,,,,,,,,
+2023,,FY9PSM5Q,wang_pcb_2023,161,,,,,,,,,,
+2023,CPES,9QA82KSR,prakash_gan-based_2023,162,36,48,200,470,500,,2,5,0.966,0.95
+2025,Industry Texas Instrument,IFDWGHPC,noauthor_35kw_2025,163,9,16,900,400,200,,3.5,1.698,0.96734,0.95

@@ -11,12 +11,12 @@ data_dab = pd.read_csv('data/dab.csv', dtype=str)
 data_llc = pd.read_csv('data/llc.csv', dtype=str)
 data_cfdab = pd.read_csv('data/cfdab.csv', dtype=str)
 data_dabsrc = pd.read_csv('data/dabsrc.csv', dtype=str)
+data_2stage = pd.read_csv('data/2stage.csv', dtype=str)
 
 # 提取数据
 year = data['Year']
 institution = data['Institution']
 refnumber = data['Refnumber']
-fs_min = pd.to_numeric(data['fs_min'], errors='coerce')
 density = pd.to_numeric(data['Density'], errors='coerce')
 eff_avg = pd.to_numeric(data['Eff_avg'], errors='coerce')
 eff_pk = pd.to_numeric(data['Eff_pk'], errors='coerce')
@@ -25,7 +25,7 @@ eff_pk = pd.to_numeric(data['Eff_pk'], errors='coerce')
 mainVec = data['RealKey']
 
 # 定义子列向量
-subVecs = [data_fbps['Key'], data_dab['Key'], data_llc['Key'], data_cfdab['Key'], data_dabsrc['Key']]
+subVecs = [data_fbps['Key'], data_dab['Key'], data_llc['Key'], data_cfdab['Key'], data_dabsrc['Key'], data_2stage['Key']]
 
 # 创建用于存储来源子列的索引
 sourceIdx = np.zeros(len(mainVec), dtype=int)
@@ -37,19 +37,21 @@ for i, subVec in enumerate(subVecs, 1):  # 从 1 开始索引
 topology_labels = np.array(sourceIdx, dtype=str)
 
 # 定义拓扑名称和颜色列表
-topologyNames = ['FBPS', 'DAB', 'LLC', 'Current-Fed', 'DABsrc']  # 拓扑名称
+topologyNames = ['FBPS', 'DAB', 'LLC', 'Current-Fed', 'DAB-src', '2-Stage']  # 拓扑名称
 topologyColors = ['#D32F2F',  # 红色
                   '#CC9900',  # 金色
                   '#6633FF', # 紫色
                   '#006633', # 深绿色
-                  '#024CAA' # 蓝色
+                  '#024CAA', # 蓝色
+                  '#32E0C4' # 
                   ]   
 
 topologyMarkers = ['o',  # 圆形
                   'D',  # 菱形
                   '^', # 上三角形
                   's', # 方形
-                  'D']  # 菱形
+                  'D', # 菱形
+                  'v', ]  # 下三角形
 
 # 设置 Times New Roman 字体
 # font_prop = fm.FontProperties(family='Times New Roman')
@@ -57,24 +59,23 @@ font_prop = fm.FontProperties(family='Cambria')
 alpha_dots = 0.4
 alpha_text = 0.9
 
-# 设置图像的输出比例为16:9
-fig, ax = plt.subplots(figsize=(10, 8))
-# fig, ax = plt.subplots()
+# 设置图像的输出比例
+fig, ax = plt.subplots(figsize=(5, 9))
+# fig, ax = plt.subplots()  # 不指定 figsize，使用默认尺寸
 plt.figure
 texts = []  # 用于存储注释对象，便于后面调整位置
 
 # 遍历所有的 topologyNames 并绘制各类散点
 for g in range(len(topologyNames)):
     idx = topology_labels == str(g + 1)  # 将拓扑索引转换为字符串
-    x_data = density[idx]
-    y_data = eff_avg[idx]
+    y_data = eff_pk[idx]
     inst_data = institution[idx]
     year_data = year[idx]
     ref_data = refnumber[idx]
     
-    # 去除 NaN 值以确保 x_data 和 y_data 大小一致
-    valid_data = pd.concat([x_data, y_data, inst_data, year_data, ref_data], axis=1).dropna()
-    x_data, y_data = valid_data['Density'], valid_data['Eff_avg']
+    # 去除 NaN 值以确保 y_data 大小一致
+    valid_data = pd.concat([y_data, inst_data, year_data, ref_data], axis=1).dropna()
+    y_data = valid_data['Eff_pk']
     inst_data = valid_data['Institution']
     year_data = valid_data['Year']
     ref_data = valid_data['Refnumber']
@@ -90,37 +91,32 @@ for g in range(len(topologyNames)):
             inst_cleaned = inst_cleaned.replace('industry', '').replace('Industry', '').strip()
         cleaned_institution.append(inst_cleaned)
 
-        # 提取 year 的后两位
-        if pd.notna(yr):
-            yr_str = str(int(yr))[-2:]  # 仅取后两位
-            cleaned_year_data.append(yr_str)
-        else:
-            cleaned_year_data.append("")
-
     # 绘制散点图，设置标记透明度
-    plt.scatter(x_data, y_data, s=40, c=topologyColors[g], marker=topologyMarkers[g], alpha=alpha_dots, label=f"{topologyNames[g]}")
+    plt.scatter([g] * len(y_data), y_data, s=40, c=topologyColors[g], marker=topologyMarkers[g], alpha=alpha_dots, label=f"{topologyNames[g]}")
     
     # 添加注释，设置透明度
-    for xi, yi, inst, yr, ref in zip(x_data, y_data, cleaned_institution, cleaned_year_data, ref_data):
-        annotation_text = f"{inst}\n{yr} [{int(ref)}]"
-        texts.append(plt.text(xi, yi, annotation_text, fontsize=12, ha='center', alpha=alpha_text, fontproperties=font_prop))
+    for xi, yi, inst, ref in zip([g] * len(y_data), y_data, cleaned_institution, ref_data):
+        annotation_text = f"{inst}\n[{int(ref)}]"
+        texts.append(plt.text(xi, yi, annotation_text, fontsize=10, ha='center', alpha=alpha_text, fontproperties=font_prop))
 
 # 调整文本以避免重叠
-adjust_text(texts, arrowprops=dict(arrowstyle='->', color='grey', lw=0.5))
-# adjust_text(texts, arrowprops=dict(arrowstyle='->', color='grey', lw=0.5, shrinkA=2, shrinkB=2))
+adjust_text(texts, arrowprops=dict(arrowstyle='->', color='grey', lw=0.6))
 
+# ...existing code...
 
 # 设置标签、标题和网格
-ax.set_xscale('log')  # X 轴为对数刻度
-ax.set_ylabel('Average Efficiency (%)', fontproperties=font_prop, fontsize=12)
-ax.set_xlabel('Power Density (kW/L)', fontproperties=font_prop, fontsize=12)
-ax.legend(prop=font_prop, fontsize=10, loc='best')
+ax.set_ylabel('Peak Efficiency (%)', fontproperties=font_prop, fontsize=12)
+ax.set_xlabel('Topologies', fontproperties=font_prop, fontsize=12)
 ax.grid(visible=True, linestyle='--', linewidth=0.5)  # 设置虚线网格
 
 # 设置轴刻度字体
 ax.tick_params(axis='x', labelsize=10, labelrotation=0)
 ax.tick_params(axis='y', labelsize=10, labelrotation=0)
 
+# 设置 x 轴刻度和标签
+ax.set_xticks(range(len(topologyNames)))
+ax.set_xticklabels(topologyNames, fontproperties=font_prop, fontsize=10)
+
 # 保存图像为高清 PNG 文件
-plt.savefig('outputs/PD2Eff_avg_topo.png', dpi=1200, bbox_inches='tight')
+plt.savefig('outputs/topo2Eff_pk.png', dpi=1200, bbox_inches='tight')
 plt.show()

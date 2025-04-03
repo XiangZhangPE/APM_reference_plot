@@ -104,135 +104,11 @@
     }
   },
   "version": {
-    "zotero": "7.0.11",
+    "zotero": "7.0.13",
     "bbt": "7.0.5"
   },
   "collections": {},
   "items": [
-    {
-      "key": "QRAE92S3",
-      "version": 39781,
-      "itemType": "conferencePaper",
-      "title": "A high frequency CLLLC bi-directional series resonant converter DAB using an integrated PCB winding transformer",
-      "abstractNote": "A unique integrated printed circuit board winding transformer has been proposed in this paper to be used in a high efficiency, high power density capacitor-inductor-inductor-inductor-capacitor series resonant dual active bridge converter (CLLLC-SRes-DAB) and key design considerations for CLLLC-SRes-DAB are addressed. Winding structure, core arrangement of the series inductor and transformer, and the shape of heatsink are carefully designed in order to minimize core volume, transformer intra-winding capacitance (CTX), and eddy current losses caused by fringing flux near air gaps. A 6.6kW CLLLC-SRes-DAB prototype with a 500kHz series resonant frequency has been built to evaluate the performance of the proposed transformer. 98% peak efficiency is achieved in this 6.6kW CLLLC-SRes-DAB design.",
-      "date": "2020-03",
-      "language": "en-US",
-      "archive": "Vin=380-600V, Vo=300-420V, fs=500kHz",
-      "archiveLocation": "Power=6.6kW, PD=4.64kW/L, Eff_pk=0.98, Eff_avg=0.965",
-      "libraryCatalog": "IEEE Xplore",
-      "rights": "Industry Texas Instrument",
-      "extra": "GSCC: 0000024 \nISSN: 2470-6647",
-      "pages": "1074-1080",
-      "proceedingsTitle": "2020 IEEE Applied Power Electronics Conference and Exposition (APEC)",
-      "conferenceName": "2020 IEEE Applied Power Electronics Conference and Exposition (APEC)",
-      "DOI": "10.1109/APEC39645.2020.9124521",
-      "creators": [
-        {
-          "firstName": "Sheng-Yang",
-          "lastName": "Yu",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Chris",
-          "lastName": "Hsiao",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Jack",
-          "lastName": "Weng",
-          "creatorType": "author"
-        }
-      ],
-      "tags": [
-        {
-          "tag": "Power system measurements",
-          "type": 1
-        },
-        {
-          "tag": "Windings",
-          "type": 1
-        },
-        {
-          "tag": "Density measurement",
-          "type": 1
-        },
-        {
-          "tag": "resonant converter",
-          "type": 1
-        },
-        {
-          "tag": "Simulation",
-          "type": 1
-        },
-        {
-          "tag": "bi-directional",
-          "type": 1
-        },
-        {
-          "tag": "DAB",
-          "type": 1
-        },
-        {
-          "tag": "Heating systems",
-          "type": 1
-        },
-        {
-          "tag": "on board charger",
-          "type": 1
-        },
-        {
-          "tag": "PCB winding transformer",
-          "type": 1
-        },
-        {
-          "tag": "Shape",
-          "type": 1
-        },
-        {
-          "tag": "SiC FET.",
-          "type": 1
-        },
-        {
-          "tag": "Three-dimensional displays",
-          "type": 1
-        }
-      ],
-      "relations": {},
-      "dateAdded": "2022-06-29T05:30:01Z",
-      "dateModified": "2024-11-12T06:36:22Z",
-      "uri": "http://zotero.org/users/6632170/items/QRAE92S3",
-      "itemID": 35,
-      "attachments": [
-        {
-          "itemType": "attachment",
-          "title": "IEEE Xplore Abstract Record",
-          "tags": [],
-          "relations": {},
-          "dateAdded": "2022-06-29T05:30:13Z",
-          "dateModified": "2022-06-29T05:30:13Z",
-          "uri": "http://zotero.org/users/6632170/items/UXND35PJ",
-          "path": "C:\\Users\\xiang\\Zotero\\storage\\UXND35PJ\\9124521.html",
-          "select": "zotero://select/library/items/UXND35PJ"
-        },
-        {
-          "itemType": "attachment",
-          "title": "IEEE Xplore Full Text PDF",
-          "tags": [],
-          "relations": {},
-          "dateAdded": "2022-06-29T05:30:03Z",
-          "dateModified": "2022-06-29T05:30:03Z",
-          "uri": "http://zotero.org/users/6632170/items/KSMT43WU",
-          "path": "C:\\Users\\xiang\\Zotero\\storage\\KSMT43WU\\Yu et al. - 2020 - A High Frequency CLLLC Bi-directional Series Reson.pdf",
-          "select": "zotero://select/library/items/KSMT43WU"
-        }
-      ],
-      "notes": [],
-      "citationKey": "yu_high_2020",
-      "autoJournalAbbreviation": "2020 IEEE Appl. Power Electron. Conf. Expo. APEC",
-      "itemKey": "QRAE92S3",
-      "libraryID": 1,
-      "select": "zotero://select/library/items/QRAE92S3"
-    },
     {
       "key": "UV25BGEU",
       "version": 39872,
@@ -778,7 +654,31 @@
       ],
       "tags": [
         {
+          "tag": "Topology",
+          "type": 1
+        },
+        {
+          "tag": "Switches",
+          "type": 1
+        },
+        {
+          "tag": "Zero voltage switching",
+          "type": 1
+        },
+        {
           "tag": "Bridge circuits",
+          "type": 1
+        },
+        {
+          "tag": "Stress",
+          "type": 1
+        },
+        {
+          "tag": "Time-domain analysis",
+          "type": 1
+        },
+        {
+          "tag": "Optimization",
           "type": 1
         },
         {
@@ -798,31 +698,7 @@
           "type": 1
         },
         {
-          "tag": "Optimization",
-          "type": 1
-        },
-        {
           "tag": "phase modulation",
-          "type": 1
-        },
-        {
-          "tag": "Stress",
-          "type": 1
-        },
-        {
-          "tag": "Switches",
-          "type": 1
-        },
-        {
-          "tag": "Time-domain analysis",
-          "type": 1
-        },
-        {
-          "tag": "Topology",
-          "type": 1
-        },
-        {
-          "tag": "Zero voltage switching",
           "type": 1
         }
       ],
@@ -917,35 +793,7 @@
       ],
       "tags": [
         {
-          "tag": "380-V/48-V hybrid dc system",
-          "type": 1
-        },
-        {
-          "tag": "Batteries",
-          "type": 1
-        },
-        {
-          "tag": "battery charging",
-          "type": 1
-        },
-        {
-          "tag": "Data centers",
-          "type": 1
-        },
-        {
-          "tag": "Reliability",
-          "type": 1
-        },
-        {
-          "tag": "soft switching",
-          "type": 1
-        },
-        {
-          "tag": "Standards",
-          "type": 1
-        },
-        {
-          "tag": "three-port LCC converter",
+          "tag": "Zero voltage switching",
           "type": 1
         },
         {
@@ -957,7 +805,35 @@
           "type": 1
         },
         {
-          "tag": "Zero voltage switching",
+          "tag": "soft switching",
+          "type": 1
+        },
+        {
+          "tag": "Reliability",
+          "type": 1
+        },
+        {
+          "tag": "Batteries",
+          "type": 1
+        },
+        {
+          "tag": "Data centers",
+          "type": 1
+        },
+        {
+          "tag": "battery charging",
+          "type": 1
+        },
+        {
+          "tag": "Standards",
+          "type": 1
+        },
+        {
+          "tag": "380-V/48-V hybrid dc system",
+          "type": 1
+        },
+        {
+          "tag": "three-port LCC converter",
           "type": 1
         }
       ],
@@ -1272,6 +1148,22 @@
       ],
       "tags": [
         {
+          "tag": "Switching frequency",
+          "type": 1
+        },
+        {
+          "tag": "Switches",
+          "type": 1
+        },
+        {
+          "tag": "Zero voltage switching",
+          "type": 1
+        },
+        {
+          "tag": "Inductors",
+          "type": 1
+        },
+        {
           "tag": "Bidirectional power flow",
           "type": 1
         },
@@ -1280,7 +1172,11 @@
           "type": 1
         },
         {
-          "tag": "Closed-form solutions",
+          "tag": "Harmonic analysis",
+          "type": 1
+        },
+        {
+          "tag": "zero voltage switching (ZVS)",
           "type": 1
         },
         {
@@ -1288,35 +1184,15 @@
           "type": 1
         },
         {
-          "tag": "Harmonic analysis",
-          "type": 1
-        },
-        {
-          "tag": "Inductors",
-          "type": 1
-        },
-        {
           "tag": "smart grids",
           "type": 1
         },
         {
-          "tag": "Switches",
-          "type": 1
-        },
-        {
-          "tag": "Switching frequency",
+          "tag": "Closed-form solutions",
           "type": 1
         },
         {
           "tag": "triple active bridge (TAB)",
-          "type": 1
-        },
-        {
-          "tag": "Zero voltage switching",
-          "type": 1
-        },
-        {
-          "tag": "zero voltage switching (ZVS)",
           "type": 1
         }
       ],
@@ -1532,6 +1408,18 @@
           "type": 1
         },
         {
+          "tag": "Impedance",
+          "type": 1
+        },
+        {
+          "tag": "stability",
+          "type": 1
+        },
+        {
+          "tag": "Power system stability",
+          "type": 1
+        },
+        {
           "tag": "Circuit stability",
           "type": 1
         },
@@ -1548,10 +1436,6 @@
           "type": 1
         },
         {
-          "tag": "Impedance",
-          "type": 1
-        },
-        {
           "tag": "impedance modeling",
           "type": 1
         },
@@ -1561,14 +1445,6 @@
         },
         {
           "tag": "multiport metro energy router (MMER)",
-          "type": 1
-        },
-        {
-          "tag": "Power system stability",
-          "type": 1
-        },
-        {
-          "tag": "stability",
           "type": 1
         },
         {
@@ -1746,7 +1622,7 @@
     },
     {
       "key": "JJ6JL2TL",
-      "version": 41782,
+      "version": 44372,
       "itemType": "conferencePaper",
       "title": "Modified triple active bridge DC/AC three-phase converter with a series-resonant LC circuit on the AC-side",
       "abstractNote": "A novel three-port, isolated, and single-stage DC/AC three-phase converter is proposed. This converter aims at interfacing a renewable energy source, a battery pack, and the three-phase electric grid. The battery and grid ports have bidirectional power flow capability. It is comprised of three active bridges, a HF AC-link three-winding transformer, and a series-resonant LC circuit in the AC-port. In contrast to the conventional three-port series-resonant converter, this structure only includes one LC tank, which makes it more reliable and less complex. The proposed modulation consists in phase shift control under a high and fixed switching frequency. Duty ratio depending of the grid phase is introduced on the AC-side. An extra phase angle is added to control real and reactive power transfer. This topology can be considered as the superposition of a DAB DC/DC and a series-resonant DC/AC three-phase converter. As a result, the currents flowing through the transformer’s windings are quasi-sinusoidal and trapezoidal waves, which permits low rms and peak current magnitudes. Steady-state analysis, design procedure, and simulation results are presented for a 1kW converter.",
@@ -1755,6 +1631,7 @@
       "libraryCatalog": "DOI.org (Crossref)",
       "url": "http://ieeexplore.ieee.org/document/8333612/",
       "accessDate": "2023-11-13T20:54:57Z",
+      "extra": "GSCC: 0000015",
       "place": "Puerto Varas, Chile",
       "publisher": "IEEE",
       "ISBN": "978-1-5090-6425-0",
@@ -1787,7 +1664,7 @@
       "tags": [],
       "relations": {},
       "dateAdded": "2023-11-13T20:54:57Z",
-      "dateModified": "2023-11-13T20:54:58Z",
+      "dateModified": "2025-02-20T02:21:33Z",
       "uri": "http://zotero.org/users/6632170/items/JJ6JL2TL",
       "itemID": 3935,
       "attachments": [
@@ -4361,7 +4238,7 @@
     },
     {
       "key": "CTWMB26L",
-      "version": 41723,
+      "version": 41886,
       "itemType": "journalArticle",
       "title": "Design a 400 V–12 V 6 kW bidirectional auxiliary power module for electric or autonomous vehicles with fast precharge dynamics and zero DC-bias current",
       "abstractNote": "An auxiliary power module in electric vehicles is a dc/dc converter bridging the high-voltage propulsion battery with a low-voltage auxiliary system. In the coming era of connected and autonomous vehicles, the power rating of such dc/dc converters is expected to surge from 2.5 to 6 kW. In addition, there is the challenge of a wide operating voltage range, e.g., 250-450 V required by the high-voltage propulsion battery and 10-16 V at the low-voltage auxiliary battery. To meet these voltage and power challenges, this article proposes a two-stage bidirectional design, i.e., interleaved buck + dc transformer (DCX) that offers full voltage range coverage, 3.5 kW rated power, and peak power of >6 kW. Experimental results indicated >96% efficiency, owing to the zero-switching loss of DCX. Furthermore, the precharge mode that charges the input dc-bus capacitor with the low-voltage battery is accomplished using the inner phase shift control of the DCX stage. DC-bias blocking capacitors on the low-voltage side are replaced with a simple, unique dc-bias detection circuit that samples and eliminates the dc-current offset of the transformer. Simulation and test results confirm that the proposed method effectively detects and eliminates the dc-bias current.",
@@ -5095,7 +4972,7 @@
     },
     {
       "key": "9DHSZ965",
-      "version": 41672,
+      "version": 41884,
       "itemType": "journalArticle",
       "title": "Design and control of a bidirectional resonant DC–DC converter for automotive engine/battery hybrid power generators",
       "abstractNote": "In this paper, a bidirectional dc-dc converter is proposed for the automotive engine/battery hybrid power generators. The two-stage bidirectional converter employing a fixed-frequency series loaded resonant converter is designed to be capable of operating under zero-current-switching turn-on and turn-off regardless of voltage and load variation, and hence its magnetic components and EMI filters can be optimized. Also, a new autonomous and seamless bidirectional voltage control method that combines two individual controllers for low-voltage side control and high-voltage side control by introducing a variable current limiter is proposed to provide uninterrupted power to critical ac loads and reduce the size of the dc bus capacitor and the transition time. Experimental results from a 5-kW prototype are provided to validate the proposed concept.",
@@ -6608,15 +6485,15 @@
       ],
       "tags": [
         {
-          "tag": "Automotive applications",
+          "tag": "Topology",
           "type": 1
         },
         {
-          "tag": "Batteries",
+          "tag": "Windings",
           "type": 1
         },
         {
-          "tag": "dc-dc power converters",
+          "tag": "Switches",
           "type": 1
         },
         {
@@ -6625,6 +6502,26 @@
         },
         {
           "tag": "Discharges (electric)",
+          "type": 1
+        },
+        {
+          "tag": "zero voltage switching",
+          "type": 1
+        },
+        {
+          "tag": "Batteries",
+          "type": 1
+        },
+        {
+          "tag": "wide input voltage range",
+          "type": 1
+        },
+        {
+          "tag": "dc-dc power converters",
+          "type": 1
+        },
+        {
+          "tag": "Automotive applications",
           "type": 1
         },
         {
@@ -6649,26 +6546,6 @@
         },
         {
           "tag": "reconfigurable topology",
-          "type": 1
-        },
-        {
-          "tag": "Switches",
-          "type": 1
-        },
-        {
-          "tag": "Topology",
-          "type": 1
-        },
-        {
-          "tag": "wide input voltage range",
-          "type": 1
-        },
-        {
-          "tag": "Windings",
-          "type": 1
-        },
-        {
-          "tag": "zero voltage switching",
           "type": 1
         }
       ],
@@ -7813,7 +7690,6 @@
       "itemType": "presentation",
       "title": "Unprecedented levels of  miniaturization in automotive  electronics",
       "date": "2024-05-24",
-      "language": "en-US",
       "url": "https://www.vicorpower.com/documents/event-presentation/ICPE-2023-Impact-miniaturized-power-modules-electrification-Green.pdf",
       "rights": "Industry Vicor",
       "creators": [
@@ -7862,13 +7738,13 @@
     },
     {
       "key": "P2FHZBZ2",
-      "version": 41775,
+      "version": 42018,
       "itemType": "document",
       "title": "Power modules meet EV power demands that have increased by 20x",
       "abstractNote": "Economically, there is a lot hanging in the balance with automotive electrification. It may be the most important power challenge of our time.",
       "date": "2024-05-24",
       "language": "en_US",
-      "archive": "Vin=800V, Vo=13.8V, fs=1300kHz",
+      "archive": "Vin=800V, Vo=13.8V",
       "archiveLocation": "Power=4kW, PD=5.22kW/L, Eff_pk=0.95,  Eff_avg=0.95",
       "url": "https://www.vicorpower.com/resource-library/articles/automotive/power-modules-for-uncharted-ev-power-challenges",
       "accessDate": "2024-11-07T04:28:45Z",
@@ -7877,7 +7753,7 @@
       "tags": [],
       "relations": {},
       "dateAdded": "2024-11-07T04:28:45Z",
-      "dateModified": "2025-02-03T01:42:38Z",
+      "dateModified": "2025-02-04T21:44:43Z",
       "uri": "http://zotero.org/users/6632170/items/P2FHZBZ2",
       "itemID": 5627,
       "attachments": [
@@ -8177,8 +8053,8 @@
     },
     {
       "key": "GE2Z6K5P",
-      "version": 39805,
-      "itemType": "webpage",
+      "version": 42189,
+      "itemType": "document",
       "title": "DC/DC Converter - 3×400 VAC / 32 A, 700 VDC, 22 kW",
       "abstractNote": "While the galvanic isolation guarantees electrical safety, the clever electronics ensure high efficiency and quiet operation.",
       "language": "en-US",
@@ -8189,7 +8065,7 @@
       "tags": [],
       "relations": {},
       "dateAdded": "2024-11-07T05:15:00Z",
-      "dateModified": "2024-11-07T05:17:46Z",
+      "dateModified": "2025-02-05T02:01:10Z",
       "uri": "http://zotero.org/users/6632170/items/GE2Z6K5P",
       "itemID": 5642,
       "attachments": [
@@ -8906,13 +8782,13 @@
     },
     {
       "key": "QSETZB6W",
-      "version": 41763,
+      "version": 42142,
       "itemType": "conferencePaper",
       "title": "GaN-based High-Frequency, High-Power-Density, 2-in-1 Bi-directional OBC Design for EV Applications",
       "abstractNote": "Product design based on GaN power ICs can improve the switching frequency, reduce the volume of passive devices, and further optimize the product power density and cost. However, due to the small die size and fast switching characteristics of GaN devices, a new series of challenges to heat dissipation design, drive design and magnetic component design may occur. Based on an integrated \"2-in-1\" design of bi-directional 6.6 kW on-board charger (OBC) with 3.0 kW low-voltage (LV) DC-DC converter, this paper proposes an efficient heat-dissipation technology using Navitas integrated-drive GaN power ICs. The switching frequency of CCM-PFC is set as 100 kHz, and the switching frequency of soft-switched bi-directional boost series-resonant converter (boost-SRC) is above 400 kHz, with maximum operating frequency of 800 kHz. The volumes of PFC inductance and transformer are reduced significantly, with overall power density up to 3.9 kW/L.",
       "date": "2023-05",
       "language": "en-US",
-      "archive": "Vin=280-460V, Vo=9-16V, fs = 60kHz",
+      "archive": "Vin=280-460V, Vo=9-16V, fs = 400kHz",
       "archiveLocation": "Power=3kW, PD=3.9kW/L, Eff_pk=0.966,  Eff_avg=0.93",
       "libraryCatalog": "IEEE Xplore",
       "url": "https://ieeexplore.ieee.org/document/10173246/?arnumber=10173246",
@@ -8938,7 +8814,7 @@
       "tags": [],
       "relations": {},
       "dateAdded": "2024-11-11T21:18:04Z",
-      "dateModified": "2025-02-02T02:48:35Z",
+      "dateModified": "2025-02-05T01:22:37Z",
       "uri": "http://zotero.org/users/6632170/items/QSETZB6W",
       "itemID": 5723,
       "attachments": [
@@ -10322,34 +10198,7 @@
       ],
       "tags": [
         {
-          "tag": "_star⭐"
-        },
-        {
-          "tag": "Bidirectional control",
-          "type": 1
-        },
-        {
-          "tag": "Bidirectional converters",
-          "type": 1
-        },
-        {
-          "tag": "Bridge circuits",
-          "type": 1
-        },
-        {
-          "tag": "control and modeling of resonant converters",
-          "type": 1
-        },
-        {
-          "tag": "dc–dc converters",
-          "type": 1
-        },
-        {
-          "tag": "Load flow",
-          "type": 1
-        },
-        {
-          "tag": "Phase modulation",
+          "tag": "Topology",
           "type": 1
         },
         {
@@ -10357,11 +10206,38 @@
           "type": 1
         },
         {
-          "tag": "Topology",
+          "tag": "Zero voltage switching",
           "type": 1
         },
         {
-          "tag": "Zero voltage switching",
+          "tag": "Bridge circuits",
+          "type": 1
+        },
+        {
+          "tag": "Bidirectional control",
+          "type": 1
+        },
+        {
+          "tag": "Phase modulation",
+          "type": 1
+        },
+        {
+          "tag": "dc–dc converters",
+          "type": 1
+        },
+        {
+          "tag": "Bidirectional converters",
+          "type": 1
+        },
+        {
+          "tag": "Load flow",
+          "type": 1
+        },
+        {
+          "tag": "_star⭐"
+        },
+        {
+          "tag": "control and modeling of resonant converters",
           "type": 1
         }
       ],
@@ -14031,6 +13907,46 @@
       ],
       "tags": [
         {
+          "tag": "Topology",
+          "type": 1
+        },
+        {
+          "tag": "Control systems",
+          "type": 1
+        },
+        {
+          "tag": "Switches",
+          "type": 1
+        },
+        {
+          "tag": "Zero voltage switching",
+          "type": 1
+        },
+        {
+          "tag": "Inductors",
+          "type": 1
+        },
+        {
+          "tag": "dual active bridge (DAB)",
+          "type": 1
+        },
+        {
+          "tag": "Stress",
+          "type": 1
+        },
+        {
+          "tag": "zero voltage switching (ZVS)",
+          "type": 1
+        },
+        {
+          "tag": "Pulse width modulation",
+          "type": 1
+        },
+        {
+          "tag": "direct power transfer (DPT)",
+          "type": 1
+        },
+        {
           "tag": "Backflow power (BFP)",
           "type": 1
         },
@@ -14039,51 +13955,11 @@
           "type": 1
         },
         {
-          "tag": "Control systems",
-          "type": 1
-        },
-        {
-          "tag": "direct power transfer (DPT)",
-          "type": 1
-        },
-        {
-          "tag": "dual active bridge (DAB)",
-          "type": 1
-        },
-        {
           "tag": "extended phase shift (EPS) control",
           "type": 1
         },
         {
-          "tag": "Inductors",
-          "type": 1
-        },
-        {
           "tag": "peak current stress",
-          "type": 1
-        },
-        {
-          "tag": "Pulse width modulation",
-          "type": 1
-        },
-        {
-          "tag": "Stress",
-          "type": 1
-        },
-        {
-          "tag": "Switches",
-          "type": 1
-        },
-        {
-          "tag": "Topology",
-          "type": 1
-        },
-        {
-          "tag": "Zero voltage switching",
-          "type": 1
-        },
-        {
-          "tag": "zero voltage switching (ZVS)",
           "type": 1
         }
       ],
@@ -14157,27 +14033,7 @@
       ],
       "tags": [
         {
-          "tag": "Batteries",
-          "type": 1
-        },
-        {
-          "tag": "battery charging/discharging",
-          "type": 1
-        },
-        {
-          "tag": "bidirectional DC-DC converter",
-          "type": 1
-        },
-        {
-          "tag": "circulation loss",
-          "type": 1
-        },
-        {
           "tag": "Control systems",
-          "type": 1
-        },
-        {
-          "tag": "DC-DC power converters",
           "type": 1
         },
         {
@@ -14185,11 +14041,7 @@
           "type": 1
         },
         {
-          "tag": "Pulse width modulation",
-          "type": 1
-        },
-        {
-          "tag": "PWM Control",
+          "tag": "Zero voltage switching",
           "type": 1
         },
         {
@@ -14197,11 +14049,35 @@
           "type": 1
         },
         {
-          "tag": "Zero voltage switching",
+          "tag": "DC-DC power converters",
+          "type": 1
+        },
+        {
+          "tag": "Pulse width modulation",
+          "type": 1
+        },
+        {
+          "tag": "Batteries",
           "type": 1
         },
         {
           "tag": "ZVS",
+          "type": 1
+        },
+        {
+          "tag": "bidirectional DC-DC converter",
+          "type": 1
+        },
+        {
+          "tag": "battery charging/discharging",
+          "type": 1
+        },
+        {
+          "tag": "circulation loss",
+          "type": 1
+        },
+        {
+          "tag": "PWM Control",
           "type": 1
         }
       ],
@@ -14282,19 +14158,31 @@
       ],
       "tags": [
         {
-          "tag": "Bridge circuits",
-          "type": 1
-        },
-        {
           "tag": "Capacitors",
           "type": 1
         },
         {
-          "tag": "Current ripple",
+          "tag": "Switches",
+          "type": 1
+        },
+        {
+          "tag": "Zero voltage switching",
+          "type": 1
+        },
+        {
+          "tag": "Voltage control",
+          "type": 1
+        },
+        {
+          "tag": "Bridge circuits",
           "type": 1
         },
         {
           "tag": "DC-DC power converters",
+          "type": 1
+        },
+        {
+          "tag": "zero-voltage switching (ZVS)",
           "type": 1
         },
         {
@@ -14310,19 +14198,7 @@
           "type": 1
         },
         {
-          "tag": "Switches",
-          "type": 1
-        },
-        {
-          "tag": "Voltage control",
-          "type": 1
-        },
-        {
-          "tag": "Zero voltage switching",
-          "type": 1
-        },
-        {
-          "tag": "zero-voltage switching (ZVS)",
+          "tag": "Current ripple",
           "type": 1
         }
       ],
@@ -14423,19 +14299,27 @@
       ],
       "tags": [
         {
-          "tag": "Bidirectional operation",
+          "tag": "Inductance",
           "type": 1
         },
         {
-          "tag": "boost-up function",
-          "type": 1
-        },
-        {
-          "tag": "capacitor adding",
+          "tag": "Transformers",
           "type": 1
         },
         {
           "tag": "Capacitors",
+          "type": 1
+        },
+        {
+          "tag": "Switches",
+          "type": 1
+        },
+        {
+          "tag": "Voltage",
+          "type": 1
+        },
+        {
+          "tag": "Power generation",
           "type": 1
         },
         {
@@ -14447,23 +14331,15 @@
           "type": 1
         },
         {
-          "tag": "Inductance",
+          "tag": "Bidirectional operation",
           "type": 1
         },
         {
-          "tag": "Power generation",
+          "tag": "boost-up function",
           "type": 1
         },
         {
-          "tag": "Switches",
-          "type": 1
-        },
-        {
-          "tag": "Transformers",
-          "type": 1
-        },
-        {
-          "tag": "Voltage",
+          "tag": "capacitor adding",
           "type": 1
         }
       ],
@@ -14505,7 +14381,7 @@
     },
     {
       "key": "2WD24EI4",
-      "version": 41787,
+      "version": 41892,
       "itemType": "journalArticle",
       "title": "An Online Proactive Health Monitoring Method for Output Capacitors of Vehicular Auxiliary Converter",
       "abstractNote": "The auxiliary converter is the power source of the vehicular electronic system, the failure of which may cause inestimable economic loss. As the most age-affected component in the converter, the online health monitoring for output aluminum electrolytic capacitor (AEC) is of great significance. Throughout the full-life period of AEC, the capacitance ( C ) will fall and the equivalent series resistance (ESR) will rise. This article proposes an online proactive health monitoring method for output capacitors of a 1-kW vehicular auxiliary converter. The operating mechanism of the two-level Boost-LLC converter is analyzed and the ESR calculation model is derived in detail. A novel ripple measurement approach and a peak current calculation method are proposed. Both ripple measurement and current approximation are confirmed to be practical and applicable. Finally, the online health monitoring platform is built. The experimental results can show the effectiveness of this method. The monitored ESR can indicate the healthy degree for the output capacitors in the auxiliary converter. The influences of switching frequency and ambient temperature are verified to express the superiority of the online monitoring scheme.",
@@ -14516,6 +14392,7 @@
       "libraryCatalog": "IEEE Xplore",
       "url": "https://ieeexplore.ieee.org/document/9474342/?arnumber=9474342",
       "accessDate": "2025-02-03T00:51:16Z",
+      "rights": "Tongji U",
       "extra": "Conference Name: IEEE Journal of Emerging and Selected Topics in Power Electronics",
       "volume": "10",
       "pages": "1219-1231",
@@ -14547,19 +14424,7 @@
       ],
       "tags": [
         {
-          "tag": "Aluminum electrolytic capacitor (AEC)",
-          "type": 1
-        },
-        {
-          "tag": "Batteries",
-          "type": 1
-        },
-        {
-          "tag": "Boost-LLC converter",
-          "type": 1
-        },
-        {
-          "tag": "Bridge circuits",
+          "tag": "Resonant converters",
           "type": 1
         },
         {
@@ -14567,15 +14432,11 @@
           "type": 1
         },
         {
-          "tag": "equivalent series resistance (ESR)",
+          "tag": "Switches",
           "type": 1
         },
         {
-          "tag": "Monitoring",
-          "type": 1
-        },
-        {
-          "tag": "online health monitoring",
+          "tag": "Bridge circuits",
           "type": 1
         },
         {
@@ -14583,11 +14444,27 @@
           "type": 1
         },
         {
-          "tag": "Resonant converters",
+          "tag": "Batteries",
           "type": 1
         },
         {
-          "tag": "Switches",
+          "tag": "Monitoring",
+          "type": 1
+        },
+        {
+          "tag": "Aluminum electrolytic capacitor (AEC)",
+          "type": 1
+        },
+        {
+          "tag": "Boost-LLC converter",
+          "type": 1
+        },
+        {
+          "tag": "equivalent series resistance (ESR)",
+          "type": 1
+        },
+        {
+          "tag": "online health monitoring",
           "type": 1
         },
         {
@@ -14597,7 +14474,7 @@
       ],
       "relations": {},
       "dateAdded": "2025-02-03T00:51:16Z",
-      "dateModified": "2025-02-03T02:05:59Z",
+      "dateModified": "2025-02-04T19:32:11Z",
       "uri": "http://zotero.org/users/6632170/items/2WD24EI4",
       "itemID": 6592,
       "attachments": [
@@ -14763,7 +14640,7 @@
     },
     {
       "key": "EMVEXHMX",
-      "version": 41752,
+      "version": 41893,
       "itemType": "conferencePaper",
       "title": "Design and Implementation of Two-Stage Boost and Full-Bridge Resonant Converter for Wide-Range APMs",
       "abstractNote": "In the application of electric vehicle battery systems, an auxiliary power module with wide range is required to convert the high-voltage battery pack to the low-voltage auxiliary battery. A two-stage converter with wide-range is implemented with silicon carbide power devices in this paper. The first stage is a boost converter and the second stage is a full-bridge resonant converter. According to the output voltage range of the system, the corresponding output voltage range through pulse width modulation control is designed for the first-stage converter. In this way, the second-stage converter can be operated through near series resonant frequency control, the magnetizing inductance can be designed to be large to reduce circulating current, and with the synchronous rectification technology of the secondary side, the overall system efficiency can be improved. In this paper, a prototype with input voltage (VH) 220-450 V, output voltage (VL) 9-16 V, and rated power 2.5 kW is built with a digital signal processor TMS320F28335. As the experimental results shown, the maximum efficiency of the system is 97.74% with VH = 450 V and VL = 9 V at 20% load condition.",
@@ -14774,6 +14651,7 @@
       "libraryCatalog": "IEEE Xplore",
       "url": "https://ieeexplore.ieee.org/document/9662017/?arnumber=9662017",
       "accessDate": "2025-02-03T00:53:14Z",
+      "rights": "NCKU",
       "pages": "1-6",
       "proceedingsTitle": "2021 IEEE International Future Energy Electronics Conference (IFEEC)",
       "conferenceName": "2021 IEEE International Future Energy Electronics Conference (IFEEC)",
@@ -14857,7 +14735,7 @@
       ],
       "relations": {},
       "dateAdded": "2025-02-03T00:53:14Z",
-      "dateModified": "2025-02-03T01:00:07Z",
+      "dateModified": "2025-02-04T19:32:47Z",
       "uri": "http://zotero.org/users/6632170/items/EMVEXHMX",
       "itemID": 6596,
       "attachments": [
@@ -14931,15 +14809,7 @@
       ],
       "tags": [
         {
-          "tag": "Batteries",
-          "type": 1
-        },
-        {
-          "tag": "DC/DC converter",
-          "type": 1
-        },
-        {
-          "tag": "Electric Vehicles",
+          "tag": "Prototypes",
           "type": 1
         },
         {
@@ -14947,23 +14817,7 @@
           "type": 1
         },
         {
-          "tag": "Prototypes",
-          "type": 1
-        },
-        {
           "tag": "Resonant frequency",
-          "type": 1
-        },
-        {
-          "tag": "Silicon Carbide",
-          "type": 1
-        },
-        {
-          "tag": "Soft Switching",
-          "type": 1
-        },
-        {
-          "tag": "Stress",
           "type": 1
         },
         {
@@ -14972,6 +14826,30 @@
         },
         {
           "tag": "Zero voltage switching",
+          "type": 1
+        },
+        {
+          "tag": "Stress",
+          "type": 1
+        },
+        {
+          "tag": "DC/DC converter",
+          "type": 1
+        },
+        {
+          "tag": "Batteries",
+          "type": 1
+        },
+        {
+          "tag": "Soft Switching",
+          "type": 1
+        },
+        {
+          "tag": "Electric Vehicles",
+          "type": 1
+        },
+        {
+          "tag": "Silicon Carbide",
           "type": 1
         }
       ],
@@ -15010,6 +14888,318 @@
       "itemKey": "HC82XFAY",
       "libraryID": 1,
       "select": "zotero://select/library/items/HC82XFAY"
+    },
+    {
+      "key": "FY9PSM5Q",
+      "version": 42040,
+      "itemType": "conferencePaper",
+      "title": "PCB Winding-Based Coupled Inductor for a High-Frequency DC/DC Converter with 99% Efficiency",
+      "abstractNote": "For wide band-gap device based non-isolated DC/DC converters, operating in critical conduction mode (CRM) is deemed desirable for realizing soft-switching and enabling a high frequency operation. With a significant higher switching frequency compared to the current practice using silicon counterparts, integration of inductors with embedded windings in printed-circuit board (PCB) is feasible. However, for applications with wide input and output voltage ranges, switching frequency of a CRM DC/DC converter varies in a large range, which is undesirable in terms of efficiency and electromagnetic interference. Moreover, the large current ripple associated with CRM operation increases inductor loss compared to continuous conduction mode operation. This issue is more severe for a PCB winding-based planar inductor due to the strong accumulation of magnetomotive force in windings and the non-uniform flux distribution in magnetic cores. In this paper, the large frequency range of a CRM DC/DC converter is minimized by taking advantage of the non-linear inductance for a positively coupled inductor. Furthermore, a high efficiency integrated PCB winding-based planar inductor structure is proposed. Its winding loss is minimized by interleaving windings of different phases. Core loss is reduced by a proposed double-PQ core structure that has less flux crowding compared to the conventional EI-shape core. A 1.8 kW buck converter with input voltage 220–450 V, output voltage 80–140 V, and a peak efficiency of 99% is presented as an example.",
+      "date": "2023-03",
+      "language": "en-US",
+      "libraryCatalog": "IEEE Xplore",
+      "url": "https://ieeexplore.ieee.org/document/10131439/?arnumber=10131439",
+      "accessDate": "2025-02-04T22:13:09Z",
+      "extra": "ISSN: 2470-6647",
+      "pages": "420-425",
+      "proceedingsTitle": "2023 IEEE Applied Power Electronics Conference and Exposition (APEC)",
+      "conferenceName": "2023 IEEE Applied Power Electronics Conference and Exposition (APEC)",
+      "DOI": "10.1109/APEC43580.2023.10131439",
+      "creators": [
+        {
+          "firstName": "Shuo",
+          "lastName": "Wang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Phu Hieu",
+          "lastName": "Pham",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Qiana",
+          "lastName": "Li",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ahmed",
+          "lastName": "Nabih",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Pranav Raj",
+          "lastName": "Prakash",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Inductance",
+          "type": 1
+        },
+        {
+          "tag": "Magnetic cores",
+          "type": 1
+        },
+        {
+          "tag": "Switching frequency",
+          "type": 1
+        },
+        {
+          "tag": "Windings",
+          "type": 1
+        },
+        {
+          "tag": "Buck converters",
+          "type": 1
+        },
+        {
+          "tag": "Core loss",
+          "type": 1
+        },
+        {
+          "tag": "coupled inductor",
+          "type": 1
+        },
+        {
+          "tag": "Switching loss",
+          "type": 1
+        },
+        {
+          "tag": "DC/DC converter",
+          "type": 1
+        },
+        {
+          "tag": "PCB winding",
+          "type": 1
+        },
+        {
+          "tag": "wide bandgap",
+          "type": 1
+        },
+        {
+          "tag": "wide input/output voltage range",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-02-04T22:13:09Z",
+      "dateModified": "2025-02-04T22:13:09Z",
+      "uri": "http://zotero.org/users/6632170/items/FY9PSM5Q",
+      "itemID": 6689,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-02-04T22:13:16Z",
+          "dateModified": "2025-02-04T22:13:16Z",
+          "uri": "http://zotero.org/users/6632170/items/GZ6YRV94",
+          "path": "C:\\Users\\xiang\\Zotero\\storage\\GZ6YRV94\\Wang et al. - 2023 - PCB Winding-Based Coupled Inductor for a High-Frequency DCDC Converter with 99% Efficiency.pdf",
+          "select": "zotero://select/library/items/GZ6YRV94"
+        },
+        {
+          "itemType": "attachment",
+          "title": "IEEE Xplore Abstract Record",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-02-04T22:13:15Z",
+          "dateModified": "2025-02-04T22:13:15Z",
+          "uri": "http://zotero.org/users/6632170/items/ZFU6SXU5",
+          "path": "C:\\Users\\xiang\\Zotero\\storage\\ZFU6SXU5\\10131439.html",
+          "select": "zotero://select/library/items/ZFU6SXU5"
+        }
+      ],
+      "notes": [],
+      "citationKey": "wang_pcb_2023",
+      "autoJournalAbbreviation": "2023 IEEE Appl. Power Electron. Conf. Expo. APEC",
+      "itemKey": "FY9PSM5Q",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/FY9PSM5Q"
+    },
+    {
+      "key": "9QA82KSR",
+      "version": 42040,
+      "itemType": "conferencePaper",
+      "title": "GaN-Based 400V/48V DC-DC Converter with 97% Efficiency and PCB Magnetics for Automotive Applications",
+      "abstractNote": "Electric vehicles are attracting great attention with their 48V electrification system. In this paper, the design of a two-stage 400V/48V automotive DC-DC converter based on PCB magnetics is presented. A two-phase buck converter with a coupled inductor is used as the first stage to perform voltage regulation and guarantee good load transient performance. The second stage is an LLC resonant converter with a matrix transformer which provides isolation and behaves as a step-down DC transformer (DCX). The switching frequency is pushed to 500kHz to help reduce converter size and weight. By pushing the operation to high frequencies, the windings of the transformer of the LLC converter and those of the coupled inductor of the buck converter are integrated and built into the PCB. This not only improves the power density, but also minimizes the use of labor-intensive components/processes to enable truly automated manufacture. The thermal management for such converters is especially challenging due to the harsh environments it is situated in. This is accomplished using a custom-engraved aluminum baseplate to provide low thermal resistivity and increase converter reliability. The converter can achieve an efficiency of 97% and a power density of 5 kW/L.",
+      "date": "2023-03",
+      "language": "en-US",
+      "archive": "Vin=200-470V, Vo=36-48V, fs=500kHz",
+      "archiveLocation": "Power=2kW, PD=5kW/L, Eff_pk=0.966, Eff_avg = 0.95",
+      "libraryCatalog": "IEEE Xplore",
+      "url": "https://ieeexplore.ieee.org/document/10131189/?arnumber=10131189",
+      "accessDate": "2025-02-04T22:14:38Z",
+      "rights": "CPES",
+      "extra": "ISSN: 2470-6647",
+      "pages": "3201-3208",
+      "proceedingsTitle": "2023 IEEE Applied Power Electronics Conference and Exposition (APEC)",
+      "conferenceName": "2023 IEEE Applied Power Electronics Conference and Exposition (APEC)",
+      "DOI": "10.1109/APEC43580.2023.10131189",
+      "creators": [
+        {
+          "firstName": "Pranav Raj",
+          "lastName": "Prakash",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ahmed",
+          "lastName": "Nabih",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Shuo",
+          "lastName": "Wang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Pham Phu",
+          "lastName": "Hieu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yizhi",
+          "lastName": "Ruan",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Qiang",
+          "lastName": "Li",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Power system measurements",
+          "type": 1
+        },
+        {
+          "tag": "Transmission line matrix methods",
+          "type": 1
+        },
+        {
+          "tag": "Transformers",
+          "type": 1
+        },
+        {
+          "tag": "Windings",
+          "type": 1
+        },
+        {
+          "tag": "Density measurement",
+          "type": 1
+        },
+        {
+          "tag": "Buck converters",
+          "type": 1
+        },
+        {
+          "tag": "LLC converter",
+          "type": 1
+        },
+        {
+          "tag": "Transient response",
+          "type": 1
+        },
+        {
+          "tag": "Gallium nitride",
+          "type": 1
+        },
+        {
+          "tag": "thermal management",
+          "type": 1
+        },
+        {
+          "tag": "High-frequency DC-DC",
+          "type": 1
+        },
+        {
+          "tag": "PCB magnetics",
+          "type": 1
+        },
+        {
+          "tag": "Automotive",
+          "type": 1
+        },
+        {
+          "tag": "multi-phase buck",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-02-04T22:14:38Z",
+      "dateModified": "2025-02-04T22:19:57Z",
+      "uri": "http://zotero.org/users/6632170/items/9QA82KSR",
+      "itemID": 6692,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-02-04T22:14:44Z",
+          "dateModified": "2025-02-04T22:14:44Z",
+          "uri": "http://zotero.org/users/6632170/items/3GMJX5K3",
+          "path": "C:\\Users\\xiang\\Zotero\\storage\\3GMJX5K3\\Prakash et al. - 2023 - GaN-Based 400V48V DC-DC Converter with 97% Efficiency and PCB Magnetics for Automotive Applications.pdf",
+          "select": "zotero://select/library/items/3GMJX5K3"
+        },
+        {
+          "itemType": "attachment",
+          "title": "IEEE Xplore Abstract Record",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-02-04T22:14:43Z",
+          "dateModified": "2025-02-04T22:14:43Z",
+          "uri": "http://zotero.org/users/6632170/items/6HTL2CGV",
+          "path": "C:\\Users\\xiang\\Zotero\\storage\\6HTL2CGV\\10131189.html",
+          "select": "zotero://select/library/items/6HTL2CGV"
+        }
+      ],
+      "notes": [],
+      "citationKey": "prakash_gan-based_2023",
+      "autoJournalAbbreviation": "2023 IEEE Appl. Power Electron. Conf. Expo. APEC",
+      "itemKey": "9QA82KSR",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/9QA82KSR"
+    },
+    {
+      "key": "IFDWGHPC",
+      "version": 45939,
+      "itemType": "journalArticle",
+      "title": "3.5kW, 800V to 14V DC-DC Converter Reference Design",
+      "date": "2025",
+      "language": "en",
+      "archive": "Vin=900-400V, Vo=9-16V, fs = 200kHz",
+      "archiveLocation": "Power=3.5kW, PD=1.698kW/L, Eff_pk=0.96734, Eff_avg = 0.95",
+      "libraryCatalog": "Zotero",
+      "rights": "Industry Texas Instrument",
+      "creators": [],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-03-09T02:37:51Z",
+      "dateModified": "2025-03-09T02:43:14Z",
+      "uri": "http://zotero.org/users/6632170/items/IFDWGHPC",
+      "itemID": 7230,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-03-09T02:37:49Z",
+          "dateModified": "2025-03-09T02:37:51Z",
+          "uri": "http://zotero.org/users/6632170/items/7T38Y5FD",
+          "path": "C:\\Users\\xiang\\Zotero\\storage\\7T38Y5FD\\2025 - 3.5kW, 800V to 14V DC-DC Converter Reference Design.pdf",
+          "select": "zotero://select/library/items/7T38Y5FD"
+        }
+      ],
+      "notes": [],
+      "citationKey": "noauthor_35kw_2025",
+      "autoJournalAbbreviation": "",
+      "itemKey": "IFDWGHPC",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/IFDWGHPC"
     }
   ]
 }

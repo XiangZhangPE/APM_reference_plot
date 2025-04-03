@@ -1,17 +1,3 @@
-@inproceedings{yu_high_2020,
-  title = {A High Frequency {{CLLLC}} Bi-Directional Series Resonant Converter {{DAB}} Using an Integrated {{PCB}} Winding Transformer},
-  booktitle = {2020 {{IEEE Applied Power Electronics Conference}} and {{Exposition}} ({{APEC}})},
-  author = {Yu, Sheng-Yang and Hsiao, Chris and Weng, Jack},
-  year = {2020},
-  month = mar,
-  pages = {1074--1080},
-  issn = {2470-6647},
-  doi = {10.1109/APEC39645.2020.9124521},
-  abstract = {A unique integrated printed circuit board winding transformer has been proposed in this paper to be used in a high efficiency, high power density capacitor-inductor-inductor-inductor-capacitor series resonant dual active bridge converter (CLLLC-SRes-DAB) and key design considerations for CLLLC-SRes-DAB are addressed. Winding structure, core arrangement of the series inductor and transformer, and the shape of heatsink are carefully designed in order to minimize core volume, transformer intra-winding capacitance (CTX), and eddy current losses caused by fringing flux near air gaps. A 6.6kW CLLLC-SRes-DAB prototype with a 500kHz series resonant frequency has been built to evaluate the performance of the proposed transformer. 98\% peak efficiency is achieved in this 6.6kW CLLLC-SRes-DAB design.},
-  keywords = {bi-directional,DAB,Density measurement,Heating systems,on board charger,PCB winding transformer,Power system measurements,resonant converter,Shape,SiC FET.,Simulation,Three-dimensional displays,Windings},
-  annotation = {GSCC: 0000024}
-}
-
 @inproceedings{knabben_new_2018,
   title = {New {{PCB Winding}} ''{{Snake-Core}}'' {{Matrix Transformer}} for {{Ultra-Compact Wide DC Input Voltage Range Hybrid B}}+{{DCM Resonant Server Power Supply}}},
   booktitle = {2018 {{IEEE International Power Electronics}} and {{Application Conference}} and {{Exposition}} ({{PEAC}})},
@@ -216,7 +202,8 @@
   address = {Puerto Varas, Chile},
   doi = {10.1109/SPEC.2017.8333612},
   abstract = {A novel three-port, isolated, and single-stage DC/AC three-phase converter is proposed. This converter aims at interfacing a renewable energy source, a battery pack, and the three-phase electric grid. The battery and grid ports have bidirectional power flow capability. It is comprised of three active bridges, a HF AC-link three-winding transformer, and a series-resonant LC circuit in the AC-port. In contrast to the conventional three-port series-resonant converter, this structure only includes one LC tank, which makes it more reliable and less complex. The proposed modulation consists in phase shift control under a high and fixed switching frequency. Duty ratio depending of the grid phase is introduced on the AC-side. An extra phase angle is added to control real and reactive power transfer. This topology can be considered as the superposition of a DAB DC/DC and a series-resonant DC/AC three-phase converter. As a result, the currents flowing through the transformer's windings are quasi-sinusoidal and trapezoidal waves, which permits low rms and peak current magnitudes. Steady-state analysis, design procedure, and simulation results are presented for a 1kW converter.},
-  isbn = {978-1-5090-6425-0}
+  isbn = {978-1-5090-6425-0},
+  annotation = {GSCC: 0000015}
 }
 
 @article{wang_topology-level_2022,
@@ -2027,4 +2014,35 @@
   doi = {10.1109/ITEC48692.2020.9161459},
   abstract = {A 250V 450V/10 16V auxiliary power module (APM) is needed for electric vehicles to power the 12V load, such as on-board PbA battery, GPS and steering motor. With the era of connected and autonomous vehicles starting, the load of the 12V system is even higher given numbers of sensors and radars being equipped. In some cases, the 12V system needs to be able to provide 6kW instantaneous power, yielding {$>$}500A output current. This paper compared two design candidates, i.e., single-stage LLC design with a two-stage interleaved Buck + DCX design, aiming at 3.5kW rated power and 6kW peak power. Simulation results show the two-stage design is a more qualified candidate for this highpower application. Then a two-stage prototype was built and tested. Experimental results show 96\% efficiency with a power density of {$>$}2kW/L, thanks to the excellent switching performance of SiC MOSFETs and low switching stress by DCX.},
   keywords = {Batteries,DC/DC converter,Electric Vehicles,Inductance,Prototypes,Resonant frequency,Silicon Carbide,Soft Switching,Stress,Switches,Zero voltage switching}
+}
+
+@inproceedings{wang_pcb_2023,
+  title = {{{PCB Winding-Based Coupled Inductor}} for a {{High-Frequency DC}}/{{DC Converter}} with 99\% {{Efficiency}}},
+  booktitle = {2023 {{IEEE Applied Power Electronics Conference}} and {{Exposition}} ({{APEC}})},
+  author = {Wang, Shuo and Pham, Phu Hieu and Li, Qiana and Nabih, Ahmed and Prakash, Pranav Raj},
+  year = {2023},
+  month = mar,
+  pages = {420--425},
+  issn = {2470-6647},
+  doi = {10.1109/APEC43580.2023.10131439},
+  abstract = {For wide band-gap device based non-isolated DC/DC converters, operating in critical conduction mode (CRM) is deemed desirable for realizing soft-switching and enabling a high frequency operation. With a significant higher switching frequency compared to the current practice using silicon counterparts, integration of inductors with embedded windings in printed-circuit board (PCB) is feasible. However, for applications with wide input and output voltage ranges, switching frequency of a CRM DC/DC converter varies in a large range, which is undesirable in terms of efficiency and electromagnetic interference. Moreover, the large current ripple associated with CRM operation increases inductor loss compared to continuous conduction mode operation. This issue is more severe for a PCB winding-based planar inductor due to the strong accumulation of magnetomotive force in windings and the non-uniform flux distribution in magnetic cores. In this paper, the large frequency range of a CRM DC/DC converter is minimized by taking advantage of the non-linear inductance for a positively coupled inductor. Furthermore, a high efficiency integrated PCB winding-based planar inductor structure is proposed. Its winding loss is minimized by interleaving windings of different phases. Core loss is reduced by a proposed double-PQ core structure that has less flux crowding compared to the conventional EI-shape core. A 1.8 kW buck converter with input voltage 220--450 V, output voltage 80--140 V, and a peak efficiency of 99\% is presented as an example.},
+  keywords = {Buck converters,Core loss,coupled inductor,DC/DC converter,Inductance,Magnetic cores,PCB winding,Switching frequency,Switching loss,wide bandgap,wide input/output voltage range,Windings}
+}
+
+@inproceedings{prakash_gan-based_2023,
+  title = {{{GaN-Based 400V}}/{{48V DC-DC Converter}} with 97\% {{Efficiency}} and {{PCB Magnetics}} for {{Automotive Applications}}},
+  booktitle = {2023 {{IEEE Applied Power Electronics Conference}} and {{Exposition}} ({{APEC}})},
+  author = {Prakash, Pranav Raj and Nabih, Ahmed and Wang, Shuo and Hieu, Pham Phu and Ruan, Yizhi and Li, Qiang},
+  year = {2023},
+  month = mar,
+  pages = {3201--3208},
+  issn = {2470-6647},
+  doi = {10.1109/APEC43580.2023.10131189},
+  abstract = {Electric vehicles are attracting great attention with their 48V electrification system. In this paper, the design of a two-stage 400V/48V automotive DC-DC converter based on PCB magnetics is presented. A two-phase buck converter with a coupled inductor is used as the first stage to perform voltage regulation and guarantee good load transient performance. The second stage is an LLC resonant converter with a matrix transformer which provides isolation and behaves as a step-down DC transformer (DCX). The switching frequency is pushed to 500kHz to help reduce converter size and weight. By pushing the operation to high frequencies, the windings of the transformer of the LLC converter and those of the coupled inductor of the buck converter are integrated and built into the PCB. This not only improves the power density, but also minimizes the use of labor-intensive components/processes to enable truly automated manufacture. The thermal management for such converters is especially challenging due to the harsh environments it is situated in. This is accomplished using a custom-engraved aluminum baseplate to provide low thermal resistivity and increase converter reliability. The converter can achieve an efficiency of 97\% and a power density of 5 kW/L.},
+  keywords = {Automotive,Buck converters,Density measurement,Gallium nitride,High-frequency DC-DC,LLC converter,multi-phase buck,PCB magnetics,Power system measurements,thermal management,Transformers,Transient response,Transmission line matrix methods,Windings}
+}
+
+@article{noauthor_35kw_2025,
+  title = {3.{{5kW}}, {{800V}} to {{14V DC-DC Converter Reference Design}}},
+  year = {2025}
 }
